@@ -17,27 +17,27 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha256-HtsXJanqjKTc8vVQjO4YMhiqFoXkfBsjBWcX91T1jr8=" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
 
-<script class="next-config" data-name="main" type="application/json">{"hostname":"stream-ljw.github.io","root":"/","images":"/images","scheme":"Gemini","darkmode":false,"version":"8.16.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":{"enable":false,"style":null},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"Searching...","empty":"We didn't find any results for the search: ${query}","hits_time":"${hits} results found in ${time} ms","hits":"${hits} results found"}}</script><script src="/js/config.js"></script>
+<script class="next-config" data-name="main" type="application/json">{"hostname":"stream-ljw.github.io","root":"/","images":"/images","scheme":"Gemini","darkmode":false,"version":"8.16.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":{"enable":false,"style":null},"bookmark":{"enable":true,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"Searching...","empty":"We didn't find any results for the search: ${query}","hits_time":"${hits} results found in ${time} ms","hits":"${hits} results found"}}</script><script src="/js/config.js"></script>
 
-    <meta name="description" content="1. nodejs + npm2. git3. github repo4. npm + hexo5. modifiy _config.yml6. push">
+    <meta name="description" content="集中力量办大事无法调动积极性，只会滋生投机份子 采用hexo这种静态页面的博客是无奈之举，因为云服务器+jupyter方式确实方便，最终云服务器到期了。看了教程也是头疼，做下来感觉就是”难不会，会不难“。简单来说就是hexo+ github pages，hexo需要用到nodejs+npm，github pages需要用到git。先无脑跟着教程做一遍，再去体会 hexo + github page">
 <meta property="og:type" content="article">
 <meta property="og:title" content="how to build with hexo">
-<meta property="og:url" content="http://stream-ljw.github.io/stream-ljw.github.io/2023/05/05/how-to-build-with-hexo/index.html">
+<meta property="og:url" content="https://stream-ljw.github.io/stream-ljw.github.io/2023/05/05/how-to-build-with-hexo/index.html">
 <meta property="og:site_name" content="stream&#39;s blog">
-<meta property="og:description" content="1. nodejs + npm2. git3. github repo4. npm + hexo5. modifiy _config.yml6. push">
+<meta property="og:description" content="集中力量办大事无法调动积极性，只会滋生投机份子 采用hexo这种静态页面的博客是无奈之举，因为云服务器+jupyter方式确实方便，最终云服务器到期了。看了教程也是头疼，做下来感觉就是”难不会，会不难“。简单来说就是hexo+ github pages，hexo需要用到nodejs+npm，github pages需要用到git。先无脑跟着教程做一遍，再去体会 hexo + github page">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2023-05-05T09:48:39.000Z">
-<meta property="article:modified_time" content="2023-05-05T09:51:59.101Z">
+<meta property="article:modified_time" content="2023-05-08T10:38:47.109Z">
 <meta property="article:author" content="stream">
 <meta property="article:tag" content="hexo">
 <meta name="twitter:card" content="summary">
 
 
-<link rel="canonical" href="http://stream-ljw.github.io/stream-ljw.github.io/2023/05/05/how-to-build-with-hexo/">
+<link rel="canonical" href="https://stream-ljw.github.io/stream-ljw.github.io/2023/05/05/how-to-build-with-hexo/">
 
 
 
-<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"en","comments":true,"permalink":"http://stream-ljw.github.io/stream-ljw.github.io/2023/05/05/how-to-build-with-hexo/","path":"2023/05/05/how-to-build-with-hexo/","title":"how to build with hexo"}</script>
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"en","comments":true,"permalink":"https://stream-ljw.github.io/stream-ljw.github.io/2023/05/05/how-to-build-with-hexo/","path":"2023/05/05/how-to-build-with-hexo/","title":"how to build with hexo"}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">""</script>
 <title>how to build with hexo | stream's blog</title>
@@ -112,12 +112,14 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
-            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#1-nodejs-npm"><span class="nav-number">1.</span> <span class="nav-text">1. nodejs + npm</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#2-git"><span class="nav-number">2.</span> <span class="nav-text">2. git</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#3-github-repo"><span class="nav-number">3.</span> <span class="nav-text">3. github repo</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#4-npm-hexo"><span class="nav-number">4.</span> <span class="nav-text">4. npm + hexo</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#5-modifiy-config-yml"><span class="nav-number">5.</span> <span class="nav-text">5. modifiy _config.yml</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#6-push"><span class="nav-number">6.</span> <span class="nav-text">6. push</span></a></li></ol></div>
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#hexo-github-pages"><span class="nav-number">1.</span> <span class="nav-text">hexo + github pages</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#hexo"><span class="nav-number">1.1.</span> <span class="nav-text">hexo</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#nodejs-npm-git"><span class="nav-number">1.2.</span> <span class="nav-text">nodejs + npm + git</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#git"><span class="nav-number">1.3.</span> <span class="nav-text">git</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#github-repo"><span class="nav-number">1.4.</span> <span class="nav-text">github repo</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#npm-hexo"><span class="nav-number">1.5.</span> <span class="nav-text">npm + hexo</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%96%B0%E5%88%9B%E5%BB%BA%E7%9A%84%E4%BB%93%E5%BA%93"><span class="nav-number">1.5.1.</span> <span class="nav-text">新创建的仓库</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%B7%B2%E7%BB%8F%E5%AD%98%E5%9C%A8github%E4%B8%8A%E9%9D%A2%E7%9A%84hexo%E4%BB%93%E5%BA%93"><span class="nav-number">1.5.2.</span> <span class="nav-text">已经存在github上面的hexo仓库</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#config-yml"><span class="nav-number">1.6.</span> <span class="nav-text">_config.yml</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%BC%96%E5%86%99markdown"><span class="nav-number">1.7.</span> <span class="nav-text">编写markdown</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#push"><span class="nav-number">1.8.</span> <span class="nav-text">push</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E6%9B%B4%E6%8D%A2%E5%90%88%E9%80%82%E7%9A%84%E4%B8%BB%E9%A2%98"><span class="nav-number">2.</span> <span class="nav-text">更换合适的主题</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#NexT"><span class="nav-number">2.0.1.</span> <span class="nav-text">NexT</span></a></li></ol></li></ol></li></ol></div>
         </div>
         <!--/noindex-->
 
         <div class="site-overview-wrap sidebar-panel">
           <div class="site-author animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="stream"
+      src="/images/avatar.jpg">
   <p class="site-author-name" itemprop="name">stream</p>
   <div class="site-description" itemprop="description"></div>
 </div>
@@ -125,7 +127,7 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">4</span>
+          <span class="site-state-item-count">5</span>
           <span class="site-state-item-name">posts</span>
         </a>
       </div>
@@ -134,7 +136,7 @@
         <span class="site-state-item-name">categories</span>
       </div>
       <div class="site-state-item site-state-tags">
-        <span class="site-state-item-count">4</span>
+        <span class="site-state-item-count">5</span>
         <span class="site-state-item-name">tags</span>
       </div>
   </nav>
@@ -169,10 +171,10 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="en">
-    <link itemprop="mainEntityOfPage" href="http://stream-ljw.github.io/stream-ljw.github.io/2023/05/05/how-to-build-with-hexo/">
+    <link itemprop="mainEntityOfPage" href="https://stream-ljw.github.io/stream-ljw.github.io/2023/05/05/how-to-build-with-hexo/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="image" content="/images/avatar.jpg">
       <meta itemprop="name" content="stream">
     </span>
 
@@ -197,9 +199,15 @@
         <i class="far fa-calendar"></i>
       </span>
       <span class="post-meta-item-text">Posted on</span>
-      
 
-      <time title="Created: 2023-05-05 17:48:39 / Modified: 17:51:59" itemprop="dateCreated datePublished" datetime="2023-05-05T17:48:39+08:00">2023-05-05</time>
+      <time title="Created: 2023-05-05 17:48:39" itemprop="dateCreated datePublished" datetime="2023-05-05T17:48:39+08:00">2023-05-05</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">Edited on</span>
+      <time title="Modified: 2023-05-08 18:38:47" itemprop="dateModified" datetime="2023-05-08T18:38:47+08:00">2023-05-08</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -220,7 +228,72 @@
     
     
     
-    <div class="post-body" itemprop="articleBody"><h1 id="1-nodejs-npm"><a href="#1-nodejs-npm" class="headerlink" title="1. nodejs + npm"></a>1. nodejs + npm</h1><h1 id="2-git"><a href="#2-git" class="headerlink" title="2. git"></a>2. git</h1><h1 id="3-github-repo"><a href="#3-github-repo" class="headerlink" title="3. github repo"></a>3. github repo</h1><h1 id="4-npm-hexo"><a href="#4-npm-hexo" class="headerlink" title="4. npm + hexo"></a>4. npm + hexo</h1><h1 id="5-modifiy-config-yml"><a href="#5-modifiy-config-yml" class="headerlink" title="5. modifiy _config.yml"></a>5. modifiy _config.yml</h1><h1 id="6-push"><a href="#6-push" class="headerlink" title="6. push"></a>6. push</h1>
+    <div class="post-body" itemprop="articleBody"><p><strong><center>集中力量办大事无法调动积极性，只会滋生投机份子</center></strong></p>
+<p>采用hexo这种静态页面的博客是无奈之举，因为云服务器+jupyter方式确实方便，最终云服务器到期了。<br>看了教程也是头疼，做下来感觉就是”难不会，会不难“。<br>简单来说就是hexo+ github pages，hexo需要用到nodejs+npm，github pages需要用到git。<br>先无脑跟着教程做一遍，再去体会</p>
+<h1 id="hexo-github-pages"><a href="#hexo-github-pages" class="headerlink" title="hexo + github pages"></a>hexo + github pages</h1><h2 id="hexo"><a href="#hexo" class="headerlink" title="hexo"></a>hexo</h2><p>博客框架</p>
+<h2 id="nodejs-npm-git"><a href="#nodejs-npm-git" class="headerlink" title="nodejs + npm + git"></a>nodejs + npm + git</h2><p>nodejs： <a target="_blank" rel="noopener" href="https://nodejs.org/en">网址下载</a></p>
+<blockquote>
+<p>note ： 从官网安装的版本自带npm，无需额外安装。但是通过shell apt安装则需要单独安装nodejs+npm</p>
+</blockquote>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sudo apt install nodejs</span><br><span class="line">sudo apt install npm</span><br></pre></td></tr></table></figure>
+
+<h2 id="git"><a href="#git" class="headerlink" title="git"></a>git</h2><p>git : <code>apt install git</code><br>安装好git后，还需要设置：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git config --global user.name xxx</span><br><span class="line">git config --global user.email xxx@gmail.com</span><br></pre></td></tr></table></figure>
+<p>因为我们需要把生成的博客页面上传到github仓库里面。还需要获取仓库的访问权限，也就是将本地密钥放到ssh key里面<br>生成密钥（rsa）：<br><code>ssh-keygen -t rsa -C email@gmail.com</code></p>
+<blockquote>
+<p>windows： C:&#x2F;user&#x2F;[username]&#x2F;.ssh&#x2F;id_rsa.pub<br>linux : ~&#x2F;.ssh&#x2F;id_rsa.pub </p>
+</blockquote>
+<h2 id="github-repo"><a href="#github-repo" class="headerlink" title="github repo"></a>github repo</h2><p>创建github 新的 repo，repo的名字一定是 <em><strong>[your_name].github.io</strong></em></p>
+<blockquote>
+<p>note： 名字不是上述形式的话，会出现本地渲染正常，但是上传到github pages里面后打开没有任何样式。</p>
+</blockquote>
+<blockquote>
+<p>note: 创建好之后，我们不必根据github的提示在本地初始化一个github仓库。后面设置好之后hexo-deployer-kit工具会自动提交到这个仓库。  </p>
+</blockquote>
+<h2 id="npm-hexo"><a href="#npm-hexo" class="headerlink" title="npm + hexo"></a>npm + hexo</h2><p>安装hexo ， 以下是常用的hexo命令：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">hexo clean  </span><br><span class="line">hexo generate # hexo g  </span><br><span class="line">hexo server   # hexo s  </span><br><span class="line">hexo deploy   # hexo d  将本地的hexo generate之后文件部署到github仓库，一般是通过hexo-deploy-git工具自动部署</span><br></pre></td></tr></table></figure>
+
+<p>这里分为两种情况：</p>
+<h3 id="新创建的仓库"><a href="#新创建的仓库" class="headerlink" title="新创建的仓库"></a>新创建的仓库</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-cli -g	  #安装hexo</span><br><span class="line">hexo init your_blog_name  #hexo 新建一个blog项目框架</span><br><span class="line">cd your_blog_name         # 进入blog项目文件夹下</span><br><span class="line">npm install               # 初始化安装必要的文件</span><br><span class="line">hexo server               # 也可以写为hexo s , 意思是开启本地一个服务，可以直接访问 localhost:4000 查看初始化好的hexo页面。</span><br></pre></td></tr></table></figure>
+
+<h3 id="已经存在github上面的hexo仓库"><a href="#已经存在github上面的hexo仓库" class="headerlink" title="已经存在github上面的hexo仓库"></a>已经存在github上面的hexo仓库</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-cli -g		  #安装hexo</span><br><span class="line">git clone your_repo_addr.git</span><br><span class="line">cd your_repo_addr</span><br><span class="line">npm install</span><br></pre></td></tr></table></figure>
+<h2 id="config-yml"><a href="#config-yml" class="headerlink" title="_config.yml"></a>_config.yml</h2><p>在Hexo中有两份主要的配置文件，其名称都是 <em>_config.yml</em>。其中，一份位于 Hexo 根目录下，主要包含 Hexo本身的配置；另一份位于主题目录下，这份配置由主题作者提供，主要用于配置主题相关的选项。  前者称为 <strong>站点配置文件</strong> ， 后者称为 <strong>主题配置文件</strong> 。</p>
+<ul>
+<li><p>站点配置文件<br>下面是站点配置文件需要修改的地方：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">title ： 网页的名称</span><br><span class="line">url ： https://your_name.github.io/your_name.github.io  #github repo的setting --&gt; pages </span><br><span class="line">root: /  #root在url下面，没有可以加上</span><br><span class="line"></span><br><span class="line">theme：file_name_in_themes  # theme名字就是 themes目录下，主题文件夹名称。文件夹名称可以自己更改</span><br><span class="line"></span><br><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repo: https://github.com/your_name/your_name.github.io</span><br><span class="line">  branch: gh-pages</span><br></pre></td></tr></table></figure>
+<p>deploy配置主要是用作hexo d，也就是 hexo-deploy-git插件会用到的地方。<br>主要是用作指定github创建的仓库位置及上传到哪个分支。这里分支名为gh-pages，也可以自己指定。</p>
+</li>
+<li><p>主题配置文件<br>主题配置文件大部分不需要配置，对页面功能有要求的可以自行了解。</p>
+</li>
+</ul>
+<p>当我们配置好之后就可以执行<code>hexo clean &amp;&amp; hexo g -d</code>进行部署到github，然后通过url查看效果<br>当然部署之前可以本地localhost:4000查看：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo g &amp;&amp; hexo s</span><br></pre></td></tr></table></figure>
+
+<h2 id="编写markdown"><a href="#编写markdown" class="headerlink" title="编写markdown"></a>编写markdown</h2><p>hexo配置好了，默认主题就是landscape，不考虑换的话，就应该做该做的写博客了。</p>
+<ol>
+<li><p>创建新的文章： <code>hexo new &quot;post title&quot;</code></p>
+</li>
+<li><p>source_posts 目录下的xxx.md就是刚刚创建的博客内容，格式是markdown</p>
+</li>
+</ol>
+<h2 id="push"><a href="#push" class="headerlink" title="push"></a>push</h2><p>我个人建议最好做一份本地文件的存档，真正做到“云博客”，换个场景之后，可以把文件从分支上clone下来，配置好本地环境即可接着编辑博客。</p>
+<p>我选择上传文件到main分支，main分支远程仓库暂时没有</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">git init       #初始化本地git仓库</span><br><span class="line">hexo clean     # 清楚多余的生成文件，保留原始文件</span><br><span class="line">git checkout -b main  #创建并切换到本地新分支</span><br><span class="line">git add * 				 #将改动提交到本地新分支</span><br><span class="line">git commit -m &quot;upload hexo files&quot;</span><br><span class="line">git remote add origin url       #关联远程分支</span><br><span class="line">git push -u origin main</span><br></pre></td></tr></table></figure>
+
+<h1 id="更换合适的主题"><a href="#更换合适的主题" class="headerlink" title="更换合适的主题"></a>更换合适的主题</h1><p>theme 主题一直是hexo的亮点。找到适合自己的主题，体面，酷炫，一直是bloger最浪费时间的工作。<br>主题才是真的需要熟悉的地方。我觉得这才是hexo的门槛所在。<br>我自从搭建了hexo以来，感觉一直在花费时间换各种各样的主题，尝试每个主题不同的功能。  </p>
+<p>在没找到好看的主题之前，这里就保存一下自己换过的主题用力哪些功能吧<br>因为LiveForCode 简单试用过之后就放弃了，主要是因为感觉还是要注重内容本身，不能搞的花里胡哨（虽然好的页面也可以令人心情愉悦，提升阅读体验）</p>
+<p>所以还是从万人敬仰的NexT开始记录吧。</p>
+<h3 id="NexT"><a href="#NexT" class="headerlink" title="NexT"></a>NexT</h3><ul>
+<li><p>scheme ：　<br>Gemini， NexT还提供四种页面布局可选，比较中意的是第四种，Gemini。<br>或许后面页面功能玩的熟练了，搭配其他的也可以。</p>
+</li>
+<li><p>menu<br>添加了 Home ，tags， Categories ， Archives<br>其余的about，schedule， sitemap， comonweal，还没定义。就不放上去了。但是tags 和categories还是不能用。</p>
+</li>
+<li><p>social link : github + email</p>
+</li>
+<li><p>分类和tag， 文本区要能折叠</p>
+</li>
+</ul>
+
     </div>
 
     
@@ -228,6 +301,24 @@
     
 
     <footer class="post-footer">
+          <div class="reward-container">
+  <div>Buy me a coffee</div>
+  <button>
+    Donate
+  </button>
+  <div class="post-reward">
+      <div>
+        <img src="/images/wechatpay.png" alt="stream WeChat Pay">
+        <span>WeChat Pay</span>
+      </div>
+      <div>
+        <img src="/images/alipay.png" alt="stream Alipay">
+        <span>Alipay</span>
+      </div>
+
+  </div>
+</div>
+
           <div class="post-tags">
               <a href="/tags/hexo/" rel="tag"># hexo</a>
           </div>
@@ -265,7 +356,7 @@
   <span class="with-love">
     <i class="fa fa-heart"></i>
   </span>
-  <span class="author" itemprop="copyrightHolder">stream</span>
+  <span class="author" itemprop="copyrightHolder">copyright belongs to Stream-ljw, please forward with obvious link!</span>
 </div>
   <div class="powered-by">Powered by <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/" rel="noopener" target="_blank">NexT.Gemini</a>
   </div>
@@ -278,6 +369,8 @@
     <i class="fa fa-arrow-up fa-lg"></i>
     <span>0%</span>
   </div>
+  <div class="reading-progress-bar"></div>
+  <a role="button" class="book-mark-link book-mark-link-fixed"></a>
 
 <noscript>
   <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
@@ -286,7 +379,7 @@
 
   
   <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous"></script>
-<script src="/js/comments.js"></script><script src="/js/utils.js"></script><script src="/js/motion.js"></script><script src="/js/next-boot.js"></script>
+<script src="/js/comments.js"></script><script src="/js/utils.js"></script><script src="/js/motion.js"></script><script src="/js/next-boot.js"></script><script src="/js/bookmark.js"></script>
 
   
 

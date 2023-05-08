@@ -19,28 +19,28 @@
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"stream-ljw.github.io","root":"/","images":"/images","scheme":"Gemini","darkmode":false,"version":"8.16.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":{"enable":false,"style":null},"bookmark":{"enable":true,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"Searching...","empty":"We didn't find any results for the search: ${query}","hits_time":"${hits} results found in ${time} ms","hits":"${hits} results found"}}</script><script src="/js/config.js"></script>
 
-    <meta name="description" content="中国人很擅长抽象， 化繁为简是好事，但总会丢了灵魂 说到底，还是把握不住精髓。都是知道了该怎么做就开始抽象。而不是知道了为什么这么做再开始抽象。浮躁。  Markdown换行、段落 换行：两个空格段落： 一行空行  粗体、斜体12** text **  * text *   note : 注意markdown中的符号后面的空格  列表1231. xxx2. xxx3. xxx  链接、图片12链">
+    <meta name="description" content="规则是工具可以被真正使用的前提 markdown在网页上使用兼容性强，语法简单。 在更复杂的使用场景里面需要RST，也就是 SPHINX和Doxygen比如公司的项目文档。需要描述内容的更多。 1. sphinx2. Doxygen">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Markdown basical syntax">
-<meta property="og:url" content="https://stream-ljw.github.io/stream-ljw.github.io/2023/05/06/Markdown-basical-syntax/index.html">
+<meta property="og:title" content="doc">
+<meta property="og:url" content="https://stream-ljw.github.io/stream-ljw.github.io/2023/05/08/doc/index.html">
 <meta property="og:site_name" content="stream&#39;s blog">
-<meta property="og:description" content="中国人很擅长抽象， 化繁为简是好事，但总会丢了灵魂 说到底，还是把握不住精髓。都是知道了该怎么做就开始抽象。而不是知道了为什么这么做再开始抽象。浮躁。  Markdown换行、段落 换行：两个空格段落： 一行空行  粗体、斜体12** text **  * text *   note : 注意markdown中的符号后面的空格  列表1231. xxx2. xxx3. xxx  链接、图片12链">
+<meta property="og:description" content="规则是工具可以被真正使用的前提 markdown在网页上使用兼容性强，语法简单。 在更复杂的使用场景里面需要RST，也就是 SPHINX和Doxygen比如公司的项目文档。需要描述内容的更多。 1. sphinx2. Doxygen">
 <meta property="og:locale" content="en_US">
-<meta property="article:published_time" content="2023-05-06T02:12:19.000Z">
-<meta property="article:modified_time" content="2023-05-08T10:20:48.517Z">
+<meta property="article:published_time" content="2023-05-08T06:39:17.000Z">
+<meta property="article:modified_time" content="2023-05-08T07:29:05.148Z">
 <meta property="article:author" content="stream">
-<meta property="article:tag" content="markdown">
+<meta property="article:tag" content="sphinx doxygen">
 <meta name="twitter:card" content="summary">
 
 
-<link rel="canonical" href="https://stream-ljw.github.io/stream-ljw.github.io/2023/05/06/Markdown-basical-syntax/">
+<link rel="canonical" href="https://stream-ljw.github.io/stream-ljw.github.io/2023/05/08/doc/">
 
 
 
-<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"en","comments":true,"permalink":"https://stream-ljw.github.io/stream-ljw.github.io/2023/05/06/Markdown-basical-syntax/","path":"2023/05/06/Markdown-basical-syntax/","title":"Markdown basical syntax"}</script>
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"en","comments":true,"permalink":"https://stream-ljw.github.io/stream-ljw.github.io/2023/05/08/doc/","path":"2023/05/08/doc/","title":"doc"}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">""</script>
-<title>Markdown basical syntax | stream's blog</title>
+<title>doc | stream's blog</title>
   
 
 
@@ -112,7 +112,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
-            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Markdown"><span class="nav-number">1.</span> <span class="nav-text">Markdown</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%8D%A2%E8%A1%8C%E3%80%81%E6%AE%B5%E8%90%BD"><span class="nav-number">1.1.</span> <span class="nav-text">换行、段落</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%B2%97%E4%BD%93%E3%80%81%E6%96%9C%E4%BD%93"><span class="nav-number">1.2.</span> <span class="nav-text">粗体、斜体</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%88%97%E8%A1%A8"><span class="nav-number">1.3.</span> <span class="nav-text">列表</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E9%93%BE%E6%8E%A5%E3%80%81%E5%9B%BE%E7%89%87"><span class="nav-number">1.4.</span> <span class="nav-text">链接、图片</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%BD%AC%E4%B9%89%E5%AD%97%E7%AC%A6-%E2%80%98-%E2%80%98"><span class="nav-number">1.5.</span> <span class="nav-text">转义字符 ‘\‘</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%A1%A8%E6%A0%BC"><span class="nav-number">1.6.</span> <span class="nav-text">表格</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%BB%A3%E7%A0%81"><span class="nav-number">1.6.1.</span> <span class="nav-text">代码</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Emoji"><span class="nav-number">1.7.</span> <span class="nav-text">Emoji</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%94%B9%E5%8F%98%E5%AD%97%E4%BD%93%E9%A2%9C%E8%89%B2"><span class="nav-number">1.8.</span> <span class="nav-text">改变字体颜色</span></a></li></ol></li></ol></div>
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#1-sphinx"><span class="nav-number">1.</span> <span class="nav-text">1. sphinx</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#2-Doxygen"><span class="nav-number">2.</span> <span class="nav-text">2. Doxygen</span></a></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -171,7 +171,7 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="en">
-    <link itemprop="mainEntityOfPage" href="https://stream-ljw.github.io/stream-ljw.github.io/2023/05/06/Markdown-basical-syntax/">
+    <link itemprop="mainEntityOfPage" href="https://stream-ljw.github.io/stream-ljw.github.io/2023/05/08/doc/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.jpg">
@@ -184,12 +184,12 @@
     </span>
 
     <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="Markdown basical syntax | stream's blog">
+      <meta itemprop="name" content="doc | stream's blog">
       <meta itemprop="description" content="">
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          Markdown basical syntax
+          doc
         </h1>
 
         <div class="post-meta-container">
@@ -199,15 +199,9 @@
         <i class="far fa-calendar"></i>
       </span>
       <span class="post-meta-item-text">Posted on</span>
+      
 
-      <time title="Created: 2023-05-06 10:12:19" itemprop="dateCreated datePublished" datetime="2023-05-06T10:12:19+08:00">2023-05-06</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar-check"></i>
-      </span>
-      <span class="post-meta-item-text">Edited on</span>
-      <time title="Modified: 2023-05-08 18:20:48" itemprop="dateModified" datetime="2023-05-08T18:20:48+08:00">2023-05-08</time>
+      <time title="Created: 2023-05-08 14:39:17 / Modified: 15:29:05" itemprop="dateCreated datePublished" datetime="2023-05-08T14:39:17+08:00">2023-05-08</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -228,37 +222,10 @@
     
     
     
-    <div class="post-body" itemprop="articleBody"><p><strong><center> 中国人很擅长抽象， 化繁为简是好事，但总会丢了灵魂 </center></strong><br>说到底，还是把握不住精髓。<br>都是知道了该怎么做就开始抽象。而不是知道了为什么这么做再开始抽象。浮躁。 </p>
-<h1 id="Markdown"><a href="#Markdown" class="headerlink" title="Markdown"></a>Markdown</h1><h2 id="换行、段落"><a href="#换行、段落" class="headerlink" title="换行、段落"></a>换行、段落</h2><blockquote>
-<p>换行：两个空格<br>段落： 一行空行</p>
-</blockquote>
-<h2 id="粗体、斜体"><a href="#粗体、斜体" class="headerlink" title="粗体、斜体"></a>粗体、斜体</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">** text ** </span><br><span class="line"> * text * </span><br></pre></td></tr></table></figure>
-<blockquote>
-<p><strong>note</strong> : <em>注意markdown中的符号后面的空格</em></p>
-</blockquote>
-<h2 id="列表"><a href="#列表" class="headerlink" title="列表"></a>列表</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">1. xxx</span><br><span class="line">2. xxx</span><br><span class="line">3. xxx</span><br></pre></td></tr></table></figure>
-
-<h2 id="链接、图片"><a href="#链接、图片" class="headerlink" title="链接、图片"></a>链接、图片</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">链接[source](link &quot;description&quot;)</span><br><span class="line">图片 ![](path &quot;title&quot;)</span><br></pre></td></tr></table></figure>
-
-<h2 id="转义字符-‘-‘"><a href="#转义字符-‘-‘" class="headerlink" title="转义字符 ‘\‘"></a>转义字符 ‘\‘</h2><h2 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">---|---|---</span><br><span class="line">---|---|---</span><br></pre></td></tr></table></figure>
-
-<h3 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h3><blockquote>
-<p>行内插入代码 ： ` code `<br>多行代码：</p>
-<ul>
-<li>``` code  ```</li>
-<li>四个空格或者tab缩进</li>
-</ul>
-</blockquote>
-<p>代码进行语法高亮</p>
-<blockquote>
-<p>``` python<br>python code<br>```  </p>
-</blockquote>
-<p>即在```后标明 code的语言  </p>
-<h2 id="Emoji"><a href="#Emoji" class="headerlink" title="Emoji"></a>Emoji</h2><p><code>:joy:</code> </p>
-<p>示例： 这是开心的表情 :joy:    (这里不知道为啥不能显示)</p>
-<p>更多表情简码列表，<a target="_blank" rel="noopener" href="https://gist.github.com/rxaviers/7360908">点击这里</a></p>
-<h2 id="改变字体颜色"><a href="#改变字体颜色" class="headerlink" title="改变字体颜色"></a>改变字体颜色</h2><p>markdown不支持改变字体颜色，但是支持html语法<br>通过<code>&lt;font color=green size=7 face=&quot;黑体&quot;&gt; font &lt;/font&gt;</code></p>
-
+    <div class="post-body" itemprop="articleBody"><p><strong><center>规则是工具可以被真正使用的前提</center></strong></p>
+<p>markdown在网页上使用兼容性强，语法简单。</p>
+<p>在更复杂的使用场景里面需要RST，也就是 SPHINX和Doxygen<br>比如公司的项目文档。需要描述内容的更多。</p>
+<h1 id="1-sphinx"><a href="#1-sphinx" class="headerlink" title="1. sphinx"></a>1. sphinx</h1><h1 id="2-Doxygen"><a href="#2-Doxygen" class="headerlink" title="2. Doxygen"></a>2. Doxygen</h1>
     </div>
 
     
@@ -285,21 +252,18 @@
 </div>
 
           <div class="post-tags">
-              <a href="/tags/markdown/" rel="tag"># markdown</a>
+              <a href="/tags/sphinx-doxygen/" rel="tag"># sphinx doxygen</a>
           </div>
 
         
 
           <div class="post-nav">
             <div class="post-nav-item">
-                <a href="/2023/05/06/Consideration-about-career/" rel="prev" title="Consideration about career">
-                  <i class="fa fa-chevron-left"></i> Consideration about career
+                <a href="/2023/05/06/Markdown-basical-syntax/" rel="prev" title="Markdown basical syntax">
+                  <i class="fa fa-chevron-left"></i> Markdown basical syntax
                 </a>
             </div>
             <div class="post-nav-item">
-                <a href="/2023/05/08/doc/" rel="next" title="doc">
-                  doc <i class="fa fa-chevron-right"></i>
-                </a>
             </div>
           </div>
     </footer>
