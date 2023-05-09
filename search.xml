@@ -70,7 +70,7 @@
   <entry>
     <title>hexo blog SEO configure</title>
     <url>/hexo-blog-SEO-configure/</url>
-    <content><![CDATA[<p><strong><center>To be continued</center></strong></p>
+    <content><![CDATA[<p><strong><center>永远拥抱开放，拥抱自由，where we stands as who we are</center></strong></p>
 <h1 id="SEO"><a href="#SEO" class="headerlink" title="SEO"></a>SEO</h1><p>SEO(Search Engine Optimization) 针对搜索引擎的优化。<br>意义是让我们的博客能被通过搜索引擎查询相关问题的人更容易看到浏览。(换句话说，没有这方面需求的人可以忽略)  </p>
 <p>我没有相关的需求，玩的就是一个收藏。毕竟写博客主要目的是技术积累，以及和朋友的谈资  : )<br>至于博客里面甚至留了bitcoin的打赏二维码，相信我，那只是为了好玩。 : )  </p>
 <p>出于对技术的热爱角度，也来学习一下，万一以后能用到呢。所以没有和hexo博客搭建写在一起，而是单独另起一篇细细的看下，有用的记录下。<br>如果你有缘看到了，那就一起学习下有哪些方式吧。</p>
@@ -186,6 +186,20 @@
       </categories>
       <tags>
         <tag>hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>stable diffusion</title>
+    <url>/stable-diffusion/</url>
+    <content><![CDATA[<p>**<center>“Do one thing every day that scares you.” –Eleanor Roosevelt</center></p>
+<p>从今天开始正式学习stable-diffusion！</p>
+]]></content>
+      <categories>
+        <category>project</category>
+      </categories>
+      <tags>
+        <tag>ai绘画</tag>
+        <tag>statble-diffusion</tag>
       </tags>
   </entry>
   <entry>
