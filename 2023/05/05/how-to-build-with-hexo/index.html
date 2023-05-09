@@ -27,7 +27,7 @@
 <meta property="og:description" content="集中力量办大事无法调动积极性，只会滋生投机份子 采用hexo这种静态页面的博客是无奈之举，因为云服务器+jupyter方式确实方便，最终云服务器到期了。看了教程也是头疼，做下来感觉就是”难不会，会不难“。简单来说就是hexo+ github pages，hexo需要用到nodejs+npm，github pages需要用到git。先无脑跟着教程做一遍，再去体会 hexo + github page">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2023-05-05T09:48:39.000Z">
-<meta property="article:modified_time" content="2023-05-09T07:06:21.845Z">
+<meta property="article:modified_time" content="2023-05-09T07:55:22.974Z">
 <meta property="article:author" content="stream">
 <meta property="article:tag" content="hexo">
 <meta name="twitter:card" content="summary">
@@ -139,7 +139,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
-            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#hexo-github-pages"><span class="nav-number">1.</span> <span class="nav-text">hexo + github pages</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#hexo"><span class="nav-number">1.1.</span> <span class="nav-text">hexo</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#nodejs-npm-git"><span class="nav-number">1.2.</span> <span class="nav-text">nodejs + npm + git</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#git"><span class="nav-number">1.3.</span> <span class="nav-text">git</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#github-repo"><span class="nav-number">1.4.</span> <span class="nav-text">github repo</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#npm-hexo"><span class="nav-number">1.5.</span> <span class="nav-text">npm + hexo</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%96%B0%E5%88%9B%E5%BB%BA%E7%9A%84%E4%BB%93%E5%BA%93"><span class="nav-number">1.5.1.</span> <span class="nav-text">新创建的仓库</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%B7%B2%E7%BB%8F%E5%AD%98%E5%9C%A8github%E4%B8%8A%E9%9D%A2%E7%9A%84hexo%E4%BB%93%E5%BA%93"><span class="nav-number">1.5.2.</span> <span class="nav-text">已经存在github上面的hexo仓库</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#config-yml"><span class="nav-number">1.6.</span> <span class="nav-text">_config.yml</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%BC%96%E5%86%99markdown"><span class="nav-number">1.7.</span> <span class="nav-text">编写markdown</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#push"><span class="nav-number">1.8.</span> <span class="nav-text">push</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E6%9B%B4%E6%8D%A2%E5%90%88%E9%80%82%E7%9A%84%E4%B8%BB%E9%A2%98"><span class="nav-number">2.</span> <span class="nav-text">更换合适的主题</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#NexT"><span class="nav-number">2.0.1.</span> <span class="nav-text">NexT</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%8F%82%E8%80%83%EF%BC%9A"><span class="nav-number">3.</span> <span class="nav-text">参考：</span></a></li></ol></div>
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#hexo-github-pages"><span class="nav-number">1.</span> <span class="nav-text">hexo + github pages</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#hexo"><span class="nav-number">1.1.</span> <span class="nav-text">hexo</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#nodejs-npm-git"><span class="nav-number">1.2.</span> <span class="nav-text">nodejs + npm + git</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#git"><span class="nav-number">1.3.</span> <span class="nav-text">git</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#github-repo"><span class="nav-number">1.4.</span> <span class="nav-text">github repo</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#npm-hexo"><span class="nav-number">1.5.</span> <span class="nav-text">npm + hexo</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%96%B0%E5%88%9B%E5%BB%BA%E7%9A%84%E4%BB%93%E5%BA%93"><span class="nav-number">1.5.1.</span> <span class="nav-text">新创建的仓库</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%B7%B2%E7%BB%8F%E5%AD%98%E5%9C%A8github%E4%B8%8A%E9%9D%A2%E7%9A%84hexo%E4%BB%93%E5%BA%93"><span class="nav-number">1.5.2.</span> <span class="nav-text">已经存在github上面的hexo仓库</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#config-yml"><span class="nav-number">1.6.</span> <span class="nav-text">_config.yml</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%BC%96%E5%86%99markdown"><span class="nav-number">1.7.</span> <span class="nav-text">编写markdown</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#push"><span class="nav-number">1.8.</span> <span class="nav-text">push</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E6%9B%B4%E6%8D%A2%E5%90%88%E9%80%82%E7%9A%84%E4%B8%BB%E9%A2%98"><span class="nav-number">2.</span> <span class="nav-text">更换合适的主题</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#NexT"><span class="nav-number">2.1.</span> <span class="nav-text">NexT</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#reference"><span class="nav-number">3.</span> <span class="nav-text">reference</span></a></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -236,7 +236,7 @@
         <i class="far fa-calendar-check"></i>
       </span>
       <span class="post-meta-item-text">Edited on</span>
-      <time title="Modified: 2023-05-09 15:06:21" itemprop="dateModified" datetime="2023-05-09T15:06:21+08:00">2023-05-09</time>
+      <time title="Modified: 2023-05-09 15:55:22" itemprop="dateModified" datetime="2023-05-09T15:55:22+08:00">2023-05-09</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -334,27 +334,29 @@
 <h1 id="更换合适的主题"><a href="#更换合适的主题" class="headerlink" title="更换合适的主题"></a>更换合适的主题</h1><p>theme 主题一直是hexo的亮点。找到适合自己的主题，体面，酷炫，一直是bloger最浪费时间的工作。<br>主题才是真的需要熟悉的地方。我觉得这才是hexo的门槛所在。<br>我自从搭建了hexo以来，感觉一直在花费时间换各种各样的主题，尝试每个主题不同的功能。  </p>
 <p>在没找到好看的主题之前，这里就保存一下自己换过的主题用了哪些功能吧<br>因为LiveForCode 简单试用过之后就放弃了，主要是因为感觉还是要注重内容本身，不能搞的花里胡哨（虽然好的页面也可以令人心情愉悦，提升阅读体验）</p>
 <p>所以还是从万人敬仰的NexT开始记录吧。</p>
-<h3 id="NexT"><a href="#NexT" class="headerlink" title="NexT"></a>NexT</h3><ul>
-<li><p>scheme ：　<br>Gemini， NexT还提供四种页面布局可选，比较中意的是第四种，Gemini。<br>或许后面页面功能玩的熟练了，搭配其他的也可以。</p>
+<h2 id="NexT"><a href="#NexT" class="headerlink" title="NexT"></a>NexT</h2><ul>
+<li><p><code>scheme</code> ：　<br>Gemini， NexT还提供四种页面布局可选，比较中意的是第四种，Gemini。<br>或许后面页面功能玩的熟练了，搭配其他的也可以。</p>
 </li>
-<li><p>menu<br>添加了 Home ，tags， Categories ， Archives<br>其余的about，schedule， sitemap， comonweal，还没定义。就不放上去了。但是tags 和categories还是不能用。</p>
+<li><p><code>menu</code><br>添加了 Home ，tags， Categories ， Archives<br>其余的about，schedule， sitemap， comonweal，还没定义。就不放上去了。但是tags 和categories还是不能用。</p>
 </li>
-<li><p>social link : github + email</p>
+<li><p><code>social link</code> : github + email</p>
 </li>
-<li><p>categories和tag，&#x2F;tags&#x2F; &amp; &#x2F;categories&#x2F; 里面的index.md内 type 字段值要和 _config.yml设置的保持一致。 </p>
+<li><p><code>categories</code>和<code>tag</code>，&#x2F;tags&#x2F; &amp; &#x2F;categories&#x2F; 里面的index.md内 type 字段值要和 _config.yml设置的保持一致。 </p>
 </li>
-<li><p>首页内容折叠： hexo7.8版本以上支持自动截图摘要功能，需要以下安装<code>npm install hexo-excerpt --save</code></p>
+<li><p>首页内容折叠<code>excerpt</code>： hexo7.8版本以上支持自动截图摘要功能，需要以下安装<code>npm install hexo-excerpt --save</code></p>
 <blockquote>
 <p><code>--save</code>的作用主要是将安装的插件记录到 package-lock.json &amp; package.json中<br>在新的仓库中执行npm install 其实就是读取或生成package-lock.json&amp; package.json 安装仓库的原有的环境里面的插件。<br>然后更改站点配置：</p>
 </blockquote>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">excerpt:</span><br><span class="line">  depth: 10</span><br><span class="line">  excerpt_excludes: []</span><br><span class="line">  more_excludes: []</span><br><span class="line">  hideWholePostExcerpts: true</span><br></pre></td></tr></table></figure>
 </li>
-<li><p>search : blog内容搜索，感觉这个功能主要给博客主自己用 安装：<code>npm install hexo-generator-searchdb --save</code><br>然后更改站点配置：</p>
+<li><p><code>local_search</code> : blog内容搜索，感觉这个功能主要给博客主自己用 安装：<code>npm install hexo-generator-searchdb --save</code><br>然后更改站点配置：</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">search:</span><br><span class="line">  path: search.xml</span><br><span class="line">  field: post</span><br><span class="line">  content: true</span><br><span class="line">  format: html</span><br></pre></td></tr></table></figure>
 <p>在主题配置中启用：</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">local_search:</span><br><span class="line">  enable: true</span><br></pre></td></tr></table></figure></li>
 </ul>
-<h1 id="参考："><a href="#参考：" class="headerlink" title="参考："></a>参考：</h1><p>在使用NexT中参考了很多前辈的配置过程，在此感谢！<br>hexo官方文档： <a target="_blank" rel="noopener" href="https://hexo.io/themes/">主要是选择主题</a><br>NexT官方参考文档： <a target="_blank" rel="noopener" href="https://theme-next.js.org/docs/getting-started/">Getting Started</a><br>比较全的主题功能配置： <a target="_blank" rel="noopener" href="https://www.meijindong.com/posts/3688165485.html">点此前往查看</a></p>
+<hr>
+<p>(end)</p>
+<h1 id="reference"><a href="#reference" class="headerlink" title="reference"></a><strong>reference</strong></h1><p>在使用NexT中参考了很多前辈的配置过程，在此感谢！<br>hexo官方文档： <a target="_blank" rel="noopener" href="https://hexo.io/themes/">主要是选择主题</a><br>NexT官方参考文档： <a target="_blank" rel="noopener" href="https://theme-next.js.org/docs/getting-started/">Getting Started</a><br>比较全的主题功能配置： <a target="_blank" rel="noopener" href="https://www.meijindong.com/posts/3688165485.html">点此前往查看</a></p>
 
     </div>
 
@@ -364,9 +366,9 @@
 
     <footer class="post-footer">
           <div class="reward-container">
-  <div>Buy me a coffee</div>
+  <div>如果对您有帮助，赞赏留名</div>
   <button>
-    Donate
+    赏！
   </button>
   <div class="post-reward">
       <div>

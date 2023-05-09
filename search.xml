@@ -84,27 +84,29 @@
 <h1 id="更换合适的主题"><a href="#更换合适的主题" class="headerlink" title="更换合适的主题"></a>更换合适的主题</h1><p>theme 主题一直是hexo的亮点。找到适合自己的主题，体面，酷炫，一直是bloger最浪费时间的工作。<br>主题才是真的需要熟悉的地方。我觉得这才是hexo的门槛所在。<br>我自从搭建了hexo以来，感觉一直在花费时间换各种各样的主题，尝试每个主题不同的功能。  </p>
 <p>在没找到好看的主题之前，这里就保存一下自己换过的主题用了哪些功能吧<br>因为LiveForCode 简单试用过之后就放弃了，主要是因为感觉还是要注重内容本身，不能搞的花里胡哨（虽然好的页面也可以令人心情愉悦，提升阅读体验）</p>
 <p>所以还是从万人敬仰的NexT开始记录吧。</p>
-<h3 id="NexT"><a href="#NexT" class="headerlink" title="NexT"></a>NexT</h3><ul>
-<li><p>scheme ：　<br>Gemini， NexT还提供四种页面布局可选，比较中意的是第四种，Gemini。<br>或许后面页面功能玩的熟练了，搭配其他的也可以。</p>
+<h2 id="NexT"><a href="#NexT" class="headerlink" title="NexT"></a>NexT</h2><ul>
+<li><p><code>scheme</code> ：　<br>Gemini， NexT还提供四种页面布局可选，比较中意的是第四种，Gemini。<br>或许后面页面功能玩的熟练了，搭配其他的也可以。</p>
 </li>
-<li><p>menu<br>添加了 Home ，tags， Categories ， Archives<br>其余的about，schedule， sitemap， comonweal，还没定义。就不放上去了。但是tags 和categories还是不能用。</p>
+<li><p><code>menu</code><br>添加了 Home ，tags， Categories ， Archives<br>其余的about，schedule， sitemap， comonweal，还没定义。就不放上去了。但是tags 和categories还是不能用。</p>
 </li>
-<li><p>social link : github + email</p>
+<li><p><code>social link</code> : github + email</p>
 </li>
-<li><p>categories和tag，&#x2F;tags&#x2F; &amp; &#x2F;categories&#x2F; 里面的index.md内 type 字段值要和 _config.yml设置的保持一致。 </p>
+<li><p><code>categories</code>和<code>tag</code>，&#x2F;tags&#x2F; &amp; &#x2F;categories&#x2F; 里面的index.md内 type 字段值要和 _config.yml设置的保持一致。 </p>
 </li>
-<li><p>首页内容折叠： hexo7.8版本以上支持自动截图摘要功能，需要以下安装<code>npm install hexo-excerpt --save</code></p>
+<li><p>首页内容折叠<code>excerpt</code>： hexo7.8版本以上支持自动截图摘要功能，需要以下安装<code>npm install hexo-excerpt --save</code></p>
 <blockquote>
 <p><code>--save</code>的作用主要是将安装的插件记录到 package-lock.json &amp; package.json中<br>在新的仓库中执行npm install 其实就是读取或生成package-lock.json&amp; package.json 安装仓库的原有的环境里面的插件。<br>然后更改站点配置：</p>
 </blockquote>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">excerpt:</span><br><span class="line">  depth: 10</span><br><span class="line">  excerpt_excludes: []</span><br><span class="line">  more_excludes: []</span><br><span class="line">  hideWholePostExcerpts: true</span><br></pre></td></tr></table></figure>
 </li>
-<li><p>search : blog内容搜索，感觉这个功能主要给博客主自己用 安装：<code>npm install hexo-generator-searchdb --save</code><br>然后更改站点配置：</p>
+<li><p><code>local_search</code> : blog内容搜索，感觉这个功能主要给博客主自己用 安装：<code>npm install hexo-generator-searchdb --save</code><br>然后更改站点配置：</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">search:</span><br><span class="line">  path: search.xml</span><br><span class="line">  field: post</span><br><span class="line">  content: true</span><br><span class="line">  format: html</span><br></pre></td></tr></table></figure>
 <p>在主题配置中启用：</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">local_search:</span><br><span class="line">  enable: true</span><br></pre></td></tr></table></figure></li>
 </ul>
-<h1 id="参考："><a href="#参考：" class="headerlink" title="参考："></a>参考：</h1><p>在使用NexT中参考了很多前辈的配置过程，在此感谢！<br>hexo官方文档： <a href="https://hexo.io/themes/">主要是选择主题</a><br>NexT官方参考文档： <a href="https://theme-next.js.org/docs/getting-started/">Getting Started</a><br>比较全的主题功能配置： <a href="https://www.meijindong.com/posts/3688165485.html">点此前往查看</a></p>
+<hr>
+<p>(end)</p>
+<h1 id="reference"><a href="#reference" class="headerlink" title="reference"></a><strong>reference</strong></h1><p>在使用NexT中参考了很多前辈的配置过程，在此感谢！<br>hexo官方文档： <a href="https://hexo.io/themes/">主要是选择主题</a><br>NexT官方参考文档： <a href="https://theme-next.js.org/docs/getting-started/">Getting Started</a><br>比较全的主题功能配置： <a href="https://www.meijindong.com/posts/3688165485.html">点此前往查看</a></p>
 ]]></content>
       <categories>
         <category>tool</category>
@@ -159,7 +161,7 @@
     <url>/2023/05/06/project-ideas/</url>
     <content><![CDATA[<p><strong><center>思考具有局限性</center></strong></p>
 <p>流程是由做过事情的人分享出来的，不能是没做的总结出来<br>初创公司 流程不能繁琐，而是直观简洁</p>
-<h1 id="1-智能红绿灯"><a href="#1-智能红绿灯" class="headerlink" title="1. 智能红绿灯"></a>1. 智能红绿灯</h1><h1 id="2-车车互联"><a href="#2-车车互联" class="headerlink" title="2. 车车互联"></a>2. 车车互联</h1><h1 id="3-密码管理平台"><a href="#3-密码管理平台" class="headerlink" title="3. 密码管理平台"></a>3. 密码管理平台</h1><h1 id="4-不同平台互联，传输文件开始"><a href="#4-不同平台互联，传输文件开始" class="headerlink" title="4. 不同平台互联，传输文件开始"></a>4. 不同平台互联，传输文件开始</h1>]]></content>
+<h1 id="智能红绿灯"><a href="#智能红绿灯" class="headerlink" title="智能红绿灯"></a>智能红绿灯</h1><h1 id="车车互联"><a href="#车车互联" class="headerlink" title="车车互联"></a>车车互联</h1><h1 id="密码管理平台"><a href="#密码管理平台" class="headerlink" title="密码管理平台"></a>密码管理平台</h1><h1 id="不同平台互联，传输文件开始"><a href="#不同平台互联，传输文件开始" class="headerlink" title="不同平台互联，传输文件开始"></a>不同平台互联，传输文件开始</h1>]]></content>
       <categories>
         <category>daily_note</category>
       </categories>

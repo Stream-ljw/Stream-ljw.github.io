@@ -203,22 +203,22 @@ h6 {
   margin: 30px 0 15px;
 }
 h1 {
-  font-size: 1.275em;
+  font-size: 1.175em;
 }
 h2 {
-  font-size: 1.15em;
+  font-size: 1.05em;
 }
 h3 {
-  font-size: 1.025em;
+  font-size: 0.925em;
 }
 h4 {
-  font-size: 0.9em;
+  font-size: 0.8em;
 }
 h5 {
-  font-size: 0.775em;
+  font-size: 0.675em;
 }
 h6 {
-  font-size: 0.65em;
+  font-size: 0.55em;
 }
 p {
   margin: 0 0 20px;
@@ -1024,7 +1024,7 @@ pre code {
 }
 .site-title {
   font-family: Lato, Lato, 'PingFang SC', 'Microsoft YaHei', sans-serif;
-  font-size: 1.5em;
+  font-size: 1.375em;
   font-weight: normal;
   line-height: 1.5;
   margin: 0;
@@ -2659,7 +2659,7 @@ header.header {
   vertical-align: middle;
 }
 .links-of-author a::before {
-  background: #14c920;
+  background: #6fa736;
   display: inline-block;
   margin-right: 3px;
   transform: translateY(-2px);
