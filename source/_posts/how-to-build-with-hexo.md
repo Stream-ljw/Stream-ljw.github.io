@@ -141,8 +141,10 @@ Gemini， NexT还提供四种页面布局可选，比较中意的是第四种，
 
 - social link : github + email
 - categories和tag，/tags/ & /categories/ 里面的index.md内 type 字段值要和 _config.yml设置的保持一致。 
-- 首页内容折叠： hexo7.8版本以上支持自动截图摘要功能，需要以下安装` npm install hexp-excerpt --save `
-然后更改主题配置：
+- 首页内容折叠： hexo7.8版本以上支持自动截图摘要功能，需要以下安装` npm install hexo-excerpt --save `
+> `--save`的作用主要是将安装的插件记录到 package-lock.json & package.json中
+> 在新的仓库中执行npm install 其实就是读取或生成package-lock.json& package.json 安装仓库的原有的环境里面的插件。
+然后更改站点配置：
 ```
 excerpt:
   depth: 10
@@ -150,4 +152,18 @@ excerpt:
   more_excludes: []
   hideWholePostExcerpts: true
  ```
- 
+
+- search : blog内容搜索，感觉这个功能主要给博客主自己用 安装：`npm install hexo-generator-searchdb --save`  
+然后更改站点配置：
+```
+search:
+  path: search.xml
+  field: post
+  content: true
+  format: html
+```
+在主题配置中启用：
+```
+local_search:
+  enable: true
+```

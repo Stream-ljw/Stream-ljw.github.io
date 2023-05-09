@@ -116,3 +116,12 @@ excerpt:
     excerpt_excludes: []
     more_excludes: []
     hideWholePostExcerpts: true
+
+# hexo search config
+# npm install hexo-genrator-searchdb --save
+search:
+    path: search.xml
+    field: post
+    content: true
+    format: html
+ 
