@@ -42,7 +42,7 @@ git config --global user.email xxx@gmail.com
 创建github 新的 repo，repo的名字一定是 ***[your_name].github.io***
 > note： 名字不是上述形式的话，会出现本地渲染正常，但是上传到github pages里面后打开没有任何样式。
 
-> note: 创建好之后，我们不必根据github的提示在本地初始化一个github仓库。后面设置好之后hexo-deployer-kit工具会自动提交到这个仓库。  
+> note: 创建好之后，我们不必根据github的提示在本地初始化一个github仓库。后面设置好之后hexo-deployer-git工具会自动提交到这个仓库。  
 
 ## npm + hexo 
 安装hexo ， 以下是常用的hexo命令：
@@ -50,7 +50,7 @@ git config --global user.email xxx@gmail.com
 hexo clean  
 hexo generate # hexo g  
 hexo server   # hexo s  
-hexo deploy   # hexo d  将本地的hexo generate之后文件部署到github仓库，一般是通过hexo-deploy-git工具自动部署
+hexo deploy   # hexo d  将本地的hexo generate之后文件部署到github仓库，一般是通过hexo-deployer-git工具自动部署
 ```
 
 这里分为两种情况：
@@ -93,6 +93,7 @@ deploy配置主要是用作hexo d，也就是 hexo-deploy-git插件会用到的�
 - 主题配置文件
 主题配置文件大部分不需要配置，对页面功能有要求的可以自行了解。
 
+安装hexo-deployer-git： `npm install hexo-deployer-git --save`  
 当我们配置好之后就可以执行`hexo clean && hexo g -d`进行部署到github，然后通过url查看效果
 当然部署之前可以本地localhost:4000查看：
 ```
