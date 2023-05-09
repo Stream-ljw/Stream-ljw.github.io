@@ -27,7 +27,7 @@
 <meta property="og:description" content="集中力量办大事无法调动积极性，只会滋生投机份子 采用hexo这种静态页面的博客是无奈之举，因为云服务器+jupyter方式确实方便，最终云服务器到期了。看了教程也是头疼，做下来感觉就是”难不会，会不难“。简单来说就是hexo+ github pages，hexo需要用到nodejs+npm，github pages需要用到git。先无脑跟着教程做一遍，再去体会 hexo + github page">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2023-05-05T09:48:39.000Z">
-<meta property="article:modified_time" content="2023-05-08T10:38:47.109Z">
+<meta property="article:modified_time" content="2023-05-09T05:11:06.958Z">
 <meta property="article:author" content="stream">
 <meta property="article:tag" content="hexo">
 <meta name="twitter:card" content="summary">
@@ -209,7 +209,7 @@
         <i class="far fa-calendar-check"></i>
       </span>
       <span class="post-meta-item-text">Edited on</span>
-      <time title="Modified: 2023-05-08 18:38:47" itemprop="dateModified" datetime="2023-05-08T18:38:47+08:00">2023-05-08</time>
+      <time title="Modified: 2023-05-09 13:11:06" itemprop="dateModified" datetime="2023-05-09T13:11:06+08:00">2023-05-09</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -250,10 +250,10 @@
 <p>note： 名字不是上述形式的话，会出现本地渲染正常，但是上传到github pages里面后打开没有任何样式。</p>
 </blockquote>
 <blockquote>
-<p>note: 创建好之后，我们不必根据github的提示在本地初始化一个github仓库。后面设置好之后hexo-deployer-kit工具会自动提交到这个仓库。  </p>
+<p>note: 创建好之后，我们不必根据github的提示在本地初始化一个github仓库。后面设置好之后hexo-deployer-git工具会自动提交到这个仓库。  </p>
 </blockquote>
 <h2 id="npm-hexo"><a href="#npm-hexo" class="headerlink" title="npm + hexo"></a>npm + hexo</h2><p>安装hexo ， 以下是常用的hexo命令：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo clean  </span><br><span class="line">hexo generate # hexo g  </span><br><span class="line">hexo server   # hexo s  </span><br><span class="line">hexo deploy   # hexo d  将本地的hexo generate之后文件部署到github仓库，一般是通过hexo-deploy-git工具自动部署</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo clean  </span><br><span class="line">hexo generate # hexo g  </span><br><span class="line">hexo server   # hexo s  </span><br><span class="line">hexo deploy   # hexo d  将本地的hexo generate之后文件部署到github仓库，一般是通过hexo-deployer-git工具自动部署</span><br></pre></td></tr></table></figure>
 
 <p>这里分为两种情况：</p>
 <h3 id="新创建的仓库"><a href="#新创建的仓库" class="headerlink" title="新创建的仓库"></a>新创建的仓库</h3><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">npm install hexo-cli -g	  #安装hexo</span><br><span class="line">hexo init your_blog_name  #hexo 新建一个blog项目框架</span><br><span class="line">cd your_blog_name         # 进入blog项目文件夹下</span><br><span class="line">npm install               # 初始化安装必要的文件</span><br><span class="line">hexo server               # 也可以写为hexo s , 意思是开启本地一个服务，可以直接访问 localhost:4000 查看初始化好的hexo页面。</span><br></pre></td></tr></table></figure>
@@ -268,7 +268,7 @@
 <li><p>主题配置文件<br>主题配置文件大部分不需要配置，对页面功能有要求的可以自行了解。</p>
 </li>
 </ul>
-<p>当我们配置好之后就可以执行<code>hexo clean &amp;&amp; hexo g -d</code>进行部署到github，然后通过url查看效果<br>当然部署之前可以本地localhost:4000查看：</p>
+<p>安装hexo-deployer-git： <code>npm install hexo-deployer-git --save</code><br>当我们配置好之后就可以执行<code>hexo clean &amp;&amp; hexo g -d</code>进行部署到github，然后通过url查看效果<br>当然部署之前可以本地localhost:4000查看：</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo g &amp;&amp; hexo s</span><br></pre></td></tr></table></figure>
 
 <h2 id="编写markdown"><a href="#编写markdown" class="headerlink" title="编写markdown"></a>编写markdown</h2><p>hexo配置好了，默认主题就是landscape，不考虑换的话，就应该做该做的写博客了。</p>
@@ -283,7 +283,7 @@
 <figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">git init       #初始化本地git仓库</span><br><span class="line">hexo clean     # 清楚多余的生成文件，保留原始文件</span><br><span class="line">git checkout -b main  #创建并切换到本地新分支</span><br><span class="line">git add * 				 #将改动提交到本地新分支</span><br><span class="line">git commit -m &quot;upload hexo files&quot;</span><br><span class="line">git remote add origin url       #关联远程分支</span><br><span class="line">git push -u origin main</span><br></pre></td></tr></table></figure>
 
 <h1 id="更换合适的主题"><a href="#更换合适的主题" class="headerlink" title="更换合适的主题"></a>更换合适的主题</h1><p>theme 主题一直是hexo的亮点。找到适合自己的主题，体面，酷炫，一直是bloger最浪费时间的工作。<br>主题才是真的需要熟悉的地方。我觉得这才是hexo的门槛所在。<br>我自从搭建了hexo以来，感觉一直在花费时间换各种各样的主题，尝试每个主题不同的功能。  </p>
-<p>在没找到好看的主题之前，这里就保存一下自己换过的主题用力哪些功能吧<br>因为LiveForCode 简单试用过之后就放弃了，主要是因为感觉还是要注重内容本身，不能搞的花里胡哨（虽然好的页面也可以令人心情愉悦，提升阅读体验）</p>
+<p>在没找到好看的主题之前，这里就保存一下自己换过的主题用了哪些功能吧<br>因为LiveForCode 简单试用过之后就放弃了，主要是因为感觉还是要注重内容本身，不能搞的花里胡哨（虽然好的页面也可以令人心情愉悦，提升阅读体验）</p>
 <p>所以还是从万人敬仰的NexT开始记录吧。</p>
 <h3 id="NexT"><a href="#NexT" class="headerlink" title="NexT"></a>NexT</h3><ul>
 <li><p>scheme ：　<br>Gemini， NexT还提供四种页面布局可选，比较中意的是第四种，Gemini。<br>或许后面页面功能玩的熟练了，搭配其他的也可以。</p>
@@ -292,8 +292,10 @@
 </li>
 <li><p>social link : github + email</p>
 </li>
-<li><p>分类和tag， 文本区要能折叠</p>
+<li><p>categories和tag，&#x2F;tags&#x2F; &amp; &#x2F;categories&#x2F; 里面的index.md内 type 字段值要和 _config.yml设置的保持一致。 </p>
 </li>
+<li><p>首页内容折叠： hexo7.8版本以上支持自动截图摘要功能，需要以下安装<code>npm install hexp-excerpt --save</code><br>然后更改主题配置：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">excerpt:</span><br><span class="line">  depth: 10</span><br><span class="line">  excerpt_excludes: []</span><br><span class="line">  more_excludes: []</span><br><span class="line">  hideWholePostExcerpts: true</span><br></pre></td></tr></table></figure></li>
 </ul>
 
     </div>
