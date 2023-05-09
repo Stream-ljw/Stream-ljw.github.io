@@ -9,7 +9,7 @@ tags:
 categories: tool
 ---
 
-**<center>To be continued</center>**
+**<center>永远拥抱开放，拥抱自由，where we stands as who we are</center>**
 
 # SEO
 
