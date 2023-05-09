@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Consideration about career</title>
+    <url>/2023/05/06/Consideration-about-career/</url>
+    <content><![CDATA[<h1 id="1-以下是关于我对职业的一些思考"><a href="#1-以下是关于我对职业的一些思考" class="headerlink" title="1. 以下是关于我对职业的一些思考"></a>1. 以下是关于我对职业的一些思考</h1>]]></content>
+      <categories>
+        <category>daily_note</category>
+      </categories>
+      <tags>
+        <tag>diary</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>doc</title>
     <url>/2023/05/08/doc/</url>
     <content><![CDATA[<p><strong><center>规则是工具可以被真正使用的前提</center></strong></p>
@@ -13,17 +24,6 @@
       <tags>
         <tag>sphinx</tag>
         <tag>doxygen</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Consideration about career</title>
-    <url>/2023/05/06/Consideration-about-career/</url>
-    <content><![CDATA[<h1 id="1-以下是关于我对职业的一些思考"><a href="#1-以下是关于我对职业的一些思考" class="headerlink" title="1. 以下是关于我对职业的一些思考"></a>1. 以下是关于我对职业的一些思考</h1>]]></content>
-      <categories>
-        <category>daily_note</category>
-      </categories>
-      <tags>
-        <tag>diary</tag>
       </tags>
   </entry>
   <entry>
@@ -114,19 +114,6 @@
       </tags>
   </entry>
   <entry>
-    <title>project ideas</title>
-    <url>/2023/05/06/project-ideas/</url>
-    <content><![CDATA[<p><strong><center>思考具有局限性</center></strong></p>
-<p>流程是由做过事情的人分享出来的，不能是没做的总结出来<br>初创公司 流程不能繁琐，而是直观简洁</p>
-<h1 id="1-智能红绿灯"><a href="#1-智能红绿灯" class="headerlink" title="1. 智能红绿灯"></a>1. 智能红绿灯</h1><h1 id="2-车车互联"><a href="#2-车车互联" class="headerlink" title="2. 车车互联"></a>2. 车车互联</h1><h1 id="3-密码管理平台"><a href="#3-密码管理平台" class="headerlink" title="3. 密码管理平台"></a>3. 密码管理平台</h1><h1 id="4-不同平台互联，传输文件开始"><a href="#4-不同平台互联，传输文件开始" class="headerlink" title="4. 不同平台互联，传输文件开始"></a>4. 不同平台互联，传输文件开始</h1>]]></content>
-      <categories>
-        <category>daily_note</category>
-      </categories>
-      <tags>
-        <tag>ideas</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Markdown basical syntax</title>
     <url>/2023/05/06/Markdown-basical-syntax/</url>
     <content><![CDATA[<p><strong><center> 中国人很擅长抽象， 化繁为简是好事，但总会丢了灵魂 </center></strong><br>说到底，还是把握不住精髓。<br>都是知道了该怎么做就开始抽象。而不是知道了为什么这么做再开始抽象。浮躁。 </p>
@@ -165,6 +152,19 @@
       </categories>
       <tags>
         <tag>markdown</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>project ideas</title>
+    <url>/2023/05/06/project-ideas/</url>
+    <content><![CDATA[<p><strong><center>思考具有局限性</center></strong></p>
+<p>流程是由做过事情的人分享出来的，不能是没做的总结出来<br>初创公司 流程不能繁琐，而是直观简洁</p>
+<h1 id="1-智能红绿灯"><a href="#1-智能红绿灯" class="headerlink" title="1. 智能红绿灯"></a>1. 智能红绿灯</h1><h1 id="2-车车互联"><a href="#2-车车互联" class="headerlink" title="2. 车车互联"></a>2. 车车互联</h1><h1 id="3-密码管理平台"><a href="#3-密码管理平台" class="headerlink" title="3. 密码管理平台"></a>3. 密码管理平台</h1><h1 id="4-不同平台互联，传输文件开始"><a href="#4-不同平台互联，传输文件开始" class="headerlink" title="4. 不同平台互联，传输文件开始"></a>4. 不同平台互联，传输文件开始</h1>]]></content>
+      <categories>
+        <category>daily_note</category>
+      </categories>
+      <tags>
+        <tag>ideas</tag>
       </tags>
   </entry>
 </search>
