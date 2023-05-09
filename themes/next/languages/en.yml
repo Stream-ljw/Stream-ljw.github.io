@@ -95,12 +95,12 @@ symbol:
   colon: ": "
 
 reward:
-  donate: Donate
+  donate: 赏！
   wechatpay: WeChat Pay
   alipay: Alipay
   paypal: PayPal
   bitcoin: Bitcoin
-  comment: Buy me a coffee
+  comment: 如果对您有帮助，赞赏留名
 
 follow_me:
   welcome: Welcome to my other publishing channels
