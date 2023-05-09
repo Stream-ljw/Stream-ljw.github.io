@@ -12,21 +12,6 @@
       </tags>
   </entry>
   <entry>
-    <title>doc</title>
-    <url>/doc/</url>
-    <content><![CDATA[<p><strong><center>规则是工具可以被真正使用的前提</center></strong></p>
-<p>markdown在网页上使用兼容性强，语法简单。</p>
-<p>在更复杂的使用场景里面需要RST，也就是 SPHINX和Doxygen<br>比如公司的项目文档。需要描述内容的更多。</p>
-<h1 id="1-sphinx"><a href="#1-sphinx" class="headerlink" title="1. sphinx"></a>1. sphinx</h1><h1 id="2-Doxygen"><a href="#2-Doxygen" class="headerlink" title="2. Doxygen"></a>2. Doxygen</h1>]]></content>
-      <categories>
-        <category>tool</category>
-      </categories>
-      <tags>
-        <tag>sphinx</tag>
-        <tag>doxygen</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Markdown basical syntax</title>
     <url>/Markdown-basical-syntax/</url>
     <content><![CDATA[<p><strong><center> 中国人很擅长抽象， 化繁为简是好事，但总会丢了灵魂 </center></strong><br>说到底，还是把握不住精髓。<br>都是知道了该怎么做就开始抽象。而不是知道了为什么这么做再开始抽象。浮躁。 </p>
@@ -65,6 +50,21 @@
       </categories>
       <tags>
         <tag>markdown</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>doc</title>
+    <url>/doc/</url>
+    <content><![CDATA[<p><strong><center>规则是工具可以被真正使用的前提</center></strong></p>
+<p>markdown在网页上使用兼容性强，语法简单。</p>
+<p>在更复杂的使用场景里面需要RST，也就是 SPHINX和Doxygen<br>比如公司的项目文档。需要描述内容的更多。</p>
+<h1 id="1-sphinx"><a href="#1-sphinx" class="headerlink" title="1. sphinx"></a>1. sphinx</h1><h1 id="2-Doxygen"><a href="#2-Doxygen" class="headerlink" title="2. Doxygen"></a>2. Doxygen</h1>]]></content>
+      <categories>
+        <category>tool</category>
+      </categories>
+      <tags>
+        <tag>sphinx</tag>
+        <tag>doxygen</tag>
       </tags>
   </entry>
   <entry>
@@ -189,20 +189,6 @@
       </tags>
   </entry>
   <entry>
-    <title>stable diffusion</title>
-    <url>/stable-diffusion/</url>
-    <content><![CDATA[<p>**<center>“Do one thing every day that scares you.” –Eleanor Roosevelt</center></p>
-<p>从今天开始正式学习stable-diffusion！</p>
-]]></content>
-      <categories>
-        <category>project</category>
-      </categories>
-      <tags>
-        <tag>ai绘画</tag>
-        <tag>statble-diffusion</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>project ideas</title>
     <url>/project-ideas/</url>
     <content><![CDATA[<p><strong><center>思考具有局限性</center></strong></p>
@@ -213,6 +199,20 @@
       </categories>
       <tags>
         <tag>ideas</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>stable diffusion</title>
+    <url>/stable-diffusion/</url>
+    <content><![CDATA[<p><strong><center>“Do one thing every day that scares you.” –Eleanor Roosevelt</center></strong></p>
+<p>从今天开始正式学习stable-diffusion！</p>
+]]></content>
+      <categories>
+        <category>project</category>
+      </categories>
+      <tags>
+        <tag>ai绘画</tag>
+        <tag>statble-diffusion</tag>
       </tags>
   </entry>
 </search>
