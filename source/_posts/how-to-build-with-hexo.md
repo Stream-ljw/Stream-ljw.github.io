@@ -87,7 +87,7 @@ deploy:
   repo: https://github.com/your_name/your_name.github.io
   branch: gh-pages
 ```
-deploy配置主要是用作hexo d，也就是 hexo-deploy-git插件会用到的地方。
+deploy配置主要是用作hexo d，也就是 hexo-deployer-git插件会用到的地方。
 主要是用作指定github创建的仓库位置及上传到哪个分支。这里分支名为gh-pages，也可以自己指定。
 
 - 主题配置文件
@@ -167,3 +167,10 @@ search:
 local_search:
   enable: true
 ```
+
+
+# 参考：
+在使用NexT中参考了很多前辈的配置过程，在此感谢！
+hexo官方文档： [主要是选择主题](https://hexo.io/themes/)
+NexT官方参考文档： [Getting Started](https://theme-next.js.org/docs/getting-started/)  
+比较全的主题功能配置： [点此前往查看](https://www.meijindong.com/posts/3688165485.html)

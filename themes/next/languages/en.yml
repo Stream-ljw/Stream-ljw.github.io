@@ -113,8 +113,8 @@ accessibility:
   select_lang: Select language
 
 symbols_count_time:
-  count: Word count in article
+  count: 总字数
   count_total: Word count total
-  time: Reading time
+  time: 阅读时间
   time_total: Reading time total
   time_minutes: mins.

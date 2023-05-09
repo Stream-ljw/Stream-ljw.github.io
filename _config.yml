@@ -124,4 +124,11 @@ search:
     field: post
     content: true
     format: html
+
+# wordcount
+# npm install hexo-symbols-count-time --save
+symbols_count_time:
+  separated_meta: true
+  item_text_post: true
+  item_text_total: false
  
