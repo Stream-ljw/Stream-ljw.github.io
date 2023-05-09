@@ -38,9 +38,9 @@ custom_file_path:
 
 # Schemes
 #scheme: Muse
-#scheme: Mist
+scheme: Mist
 #scheme: Pisces
-scheme: Gemini
+#scheme: Gemini
 
 # Dark Mode
 darkmode: false
@@ -424,7 +424,8 @@ github_banner:
 # ---------------------------------------------------------------
 
 font:
-  enable: false
+  #enable: false
+  enable: true
 
   # Uri of fonts host, e.g. https://fonts.googleapis.com (Default).
   host:
@@ -438,24 +439,25 @@ font:
   global:
     external: true
     family: Lato
-    size:
+    size: 0.9
 
   # Font settings for site title (.site-title).
   title:
     external: true
-    family:
-    size:
+    family: Lato
+    size: 1.5
 
   # Font settings for headlines (<h1> to <h6>).
   headings:
     external: true
-    family:
-    size:
+    family: Lato
+    size: 1.4
 
   # Font settings for posts (.post-body).
   posts:
     external: true
-    family:
+    family: Lato
+    size: 1
 
   # Font settings for <code> and code blocks.
   codes:

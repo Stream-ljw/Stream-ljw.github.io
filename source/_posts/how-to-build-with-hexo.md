@@ -54,7 +54,7 @@ hexo deploy   # hexo d  将本地的hexo generate之后文件部署到github仓�
 ```
 
 这里分为两种情况：
- ### 新创建的仓库
+### 新创建的仓库
 ```shell
 npm install hexo-cli -g	  #安装hexo
 hexo init your_blog_name  #hexo 新建一个blog项目框架
@@ -63,7 +63,7 @@ npm install               # 初始化安装必要的文件
 hexo server               # 也可以写为hexo s , 意思是开启本地一个服务，可以直接访问 localhost:4000 查看初始化好的hexo页面。
 ```
 
- ### 已经存在github上面的hexo仓库
+### 已经存在github上面的hexo仓库
 ```shell
 npm install hexo-cli -g		  #安装hexo
 git clone your_repo_addr.git
@@ -167,7 +167,6 @@ search:
 local_search:
   enable: true
 ```
-
 
 # 参考：
 在使用NexT中参考了很多前辈的配置过程，在此感谢！
