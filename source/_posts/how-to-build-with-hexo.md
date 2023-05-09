@@ -126,7 +126,7 @@ theme 主题一直是hexo的亮点。找到适合自己的主题，体面，酷�
 主题才是真的需要熟悉的地方。我觉得这才是hexo的门槛所在。  
 我自从搭建了hexo以来，感觉一直在花费时间换各种各样的主题，尝试每个主题不同的功能。  
 
-在没找到好看的主题之前，这里就保存一下自己换过的主题用力哪些功能吧
+在没找到好看的主题之前，这里就保存一下自己换过的主题用了哪些功能吧
 因为LiveForCode 简单试用过之后就放弃了，主要是因为感觉还是要注重内容本身，不能搞的花里胡哨（虽然好的页面也可以令人心情愉悦，提升阅读体验）
 
 所以还是从万人敬仰的NexT开始记录吧。
@@ -140,5 +140,14 @@ Gemini， NexT还提供四种页面布局可选，比较中意的是第四种，
 其余的about，schedule， sitemap， comonweal，还没定义。就不放上去了。但是tags 和categories还是不能用。
 
 - social link : github + email
-
-- 分类和tag， 文本区要能折叠
+- categories和tag，/tags/ & /categories/ 里面的index.md内 type 字段值要和 _config.yml设置的保持一致。 
+- 首页内容折叠： hexo7.8版本以上支持自动截图摘要功能，需要以下安装` npm install hexp-excerpt --save `
+然后更改主题配置：
+```
+excerpt:
+  depth: 10
+  excerpt_excludes: []
+  more_excludes: []
+  hideWholePostExcerpts: true
+ ```
+ 

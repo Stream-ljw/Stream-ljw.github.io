@@ -107,3 +107,12 @@ deploy:
   type: git
   repo: https://github.com/Stream-ljw/stream-ljw.github.io
   branch: gh-pages
+
+
+# hexo-excerpt configuration
+# npm install hexo-excerpt --save
+excerpt:
+    depth: 3
+    excerpt_excludes: []
+    more_excludes: []
+    hideWholePostExcerpts: true
