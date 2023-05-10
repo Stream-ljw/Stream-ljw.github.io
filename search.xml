@@ -37,6 +37,30 @@
       </tags>
   </entry>
   <entry>
+    <title>History</title>
+    <url>/History/</url>
+    <content><![CDATA[<p><strong></strong></p><center><strong>事出反常必有妖，习惯思考本质</strong></center><p></p>
+<p>这个想法产生很早了，记录一下时代的变革。</p>
+<p>对于一个人类来说，社会变革是缓慢的，人很难记住十年间发生的事情。<br>”互联网没有记忆“<br>所以，多记录，多思考，或许能发现属于我自己的社会发展的本质。</p>
+<h2 id="工业革命"><a href="#工业革命" class="headerlink" title="工业革命"></a>工业革命</h2><p>蒸汽<br>电力</p>
+<h2 id="互联网"><a href="#互联网" class="headerlink" title="互联网"></a>互联网</h2><ul>
+<li><p>编程语言</p>
+</li>
+<li><p>视觉，听觉变革</p>
+</li>
+</ul>
+<h2 id="AI"><a href="#AI" class="headerlink" title="AI"></a>AI</h2><h2 id="思想革命"><a href="#思想革命" class="headerlink" title="思想革命"></a>思想革命</h2><p>道家<br>哲学</p>
+]]></content>
+      <categories>
+        <category>note</category>
+      </categories>
+      <tags>
+        <tag>daily_note</tag>
+        <tag>人文</tag>
+        <tag>社会</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Markdown basical syntax</title>
     <url>/Markdown-basical-syntax/</url>
     <content><![CDATA[<p><strong></strong></p><center><strong> 中国人很擅长抽象， 化繁为简是好事，但总会丢了灵魂 </strong></center><br>说到底，还是把握不住精髓。<br>都是知道了该怎么做就开始抽象。而不是知道了为什么这么做再开始抽象。浮躁。 <p></p>
@@ -91,30 +115,6 @@
       </categories>
       <tags>
         <tag>markdown</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>History</title>
-    <url>/History/</url>
-    <content><![CDATA[<p><strong></strong></p><center><strong>事出反常必有妖，习惯思考本质</strong></center><p></p>
-<p>这个想法产生很早了，记录一下时代的变革。</p>
-<p>对于一个人类来说，社会变革是缓慢的，人很难记住十年间发生的事情。<br>”互联网没有记忆“<br>所以，多记录，多思考，或许能发现属于我自己的社会发展的本质。</p>
-<h2 id="工业革命"><a href="#工业革命" class="headerlink" title="工业革命"></a>工业革命</h2><p>蒸汽<br>电力</p>
-<h2 id="互联网"><a href="#互联网" class="headerlink" title="互联网"></a>互联网</h2><ul>
-<li><p>编程语言</p>
-</li>
-<li><p>视觉，听觉变革</p>
-</li>
-</ul>
-<h2 id="AI"><a href="#AI" class="headerlink" title="AI"></a>AI</h2><h2 id="思想革命"><a href="#思想革命" class="headerlink" title="思想革命"></a>思想革命</h2><p>道家<br>哲学</p>
-]]></content>
-      <categories>
-        <category>note</category>
-      </categories>
-      <tags>
-        <tag>daily_note</tag>
-        <tag>人文</tag>
-        <tag>社会</tag>
       </tags>
   </entry>
   <entry>
