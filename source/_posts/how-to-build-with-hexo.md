@@ -5,7 +5,7 @@ tags: hexo
 categories: tool
 ---
 
-**<center>集中力量办大事无法调动积极性，只会滋生投机份子</center>**
+
 
 采用hexo这种静态页面的博客是无奈之举，因为云服务器+jupyter方式确实方便，最终云服务器到期了。
 看了教程也是头疼，做下来感觉就是”难不会，会不难“。
@@ -196,3 +196,6 @@ hexo官方文档： [主要是选择主题](https://hexo.io/themes/)
 NexT官方参考文档： [Getting Started](https://theme-next.js.org/docs/getting-started/)  
 比较全的主题功能配置： [点此前往查看](https://www.meijindong.com/posts/3688165485.html)
 hexo提供的plugins： [千万安装](https://hexo.io/plugins/)
+
+
+{% cq %}集中力量办大事无法调动积极性，只会滋生投机份子{% endcq %}

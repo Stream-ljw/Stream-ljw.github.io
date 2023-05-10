@@ -9,7 +9,7 @@ tags:
 categories: tool
 ---
 
-**<center>永远拥抱开放，拥抱自由，where we stands as who we are</center>**
+
 
 # SEO
 
@@ -67,3 +67,6 @@ neat_js:
 
 - 知乎： [hexo博客高级优化](https://zhuanlan.zhihu.com/p/344927945)  
 - NexT： [SEO|NexT](https://theme-next.js.org/docs/theme-settings/seo)
+
+
+{% cq %}永远拥抱开放，拥抱自由，where we stands as who we are{% endcq %}

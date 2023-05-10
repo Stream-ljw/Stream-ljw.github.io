@@ -7,7 +7,6 @@ tags:
 categories: project 
 ---
 
-**<center>"Do one thing every day that scares you." --Eleanor Roosevelt</center>**
 
 从今天开始正式学习stable-diffusion
 
@@ -27,3 +26,6 @@ stable-diffusion | 开源免费，适合商用  | ^
 # ***reference***
 
 https://civitai.com/
+
+
+{% cq %}"Do one thing every day that scares you." --Eleanor Roosevelt{% endcq %}

@@ -1,13 +1,11 @@
 ---
-title: doc
+title: Doc工具
 date: 2023-05-08 14:39:17
 tags: 
 	- sphinx
 	- doxygen
 categories: tool
 ---
-
-**<center>规则是工具可以被真正使用的前提</center>**
 
 markdown在网页上使用兼容性强，语法简单。
 
@@ -19,3 +17,5 @@ markdown在网页上使用兼容性强，语法简单。
 
 
 # 2. Doxygen
+
+{% cq %}规则是工具可以被真正使用的前提{% endcq %}

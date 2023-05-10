@@ -5,7 +5,7 @@ tags: markdown
 categories: tool
 ---
 
-**<center> 中国人很擅长抽象， 化繁为简是好事，但总会丢了灵魂 </center>**
+
 说到底，还是把握不住精髓。  
 都是知道了该怎么做就开始抽象。而不是知道了为什么这么做再开始抽象。浮躁。 
 
@@ -129,3 +129,6 @@ cond(no)->sub1(right)->op
  - [官方docs](https://markdown.com.cn/)
  - [终极教程](https://kz16.top/md/#markdown%E7%BB%88%E6%9E%81%E6%95%99%E7%A8%8B)
  - [runnoob菜鸟教程高级技巧](https://www.runoob.com/markdown/md-advance.html)
+ 
+
+{% cq %} 中国人很擅长抽象， 化繁为简是好事，但总会丢了灵魂 {% endcq %}
