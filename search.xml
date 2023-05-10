@@ -14,21 +14,23 @@
   <entry>
     <title>Markdown basical syntax</title>
     <url>/Markdown-basical-syntax/</url>
-    <content><![CDATA[<p><strong><center> 中国人很擅长抽象， 化繁为简是好事，但总会丢了灵魂 </center></strong><br>说到底，还是把握不住精髓。<br>都是知道了该怎么做就开始抽象。而不是知道了为什么这么做再开始抽象。浮躁。 </p>
+    <content><![CDATA[<p><strong></strong></p><center><strong> 中国人很擅长抽象， 化繁为简是好事，但总会丢了灵魂 </strong></center><br>说到底，还是把握不住精髓。<br>都是知道了该怎么做就开始抽象。而不是知道了为什么这么做再开始抽象。浮躁。 <p></p>
 <h1 id="Markdown"><a href="#Markdown" class="headerlink" title="Markdown"></a>Markdown</h1><h2 id="换行、段落"><a href="#换行、段落" class="headerlink" title="换行、段落"></a>换行、段落</h2><blockquote>
 <p>换行：两个空格<br>段落： 一行空行</p>
 </blockquote>
-<h2 id="粗体、斜体"><a href="#粗体、斜体" class="headerlink" title="粗体、斜体"></a>粗体、斜体</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">** text ** </span><br><span class="line"> * text * </span><br></pre></td></tr></table></figure>
+<h2 id="粗体、斜体"><a href="#粗体、斜体" class="headerlink" title="粗体、斜体"></a>粗体、斜体</h2><figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">** text ** </span><br><span class="line"> * text * </span><br></pre></td></tr></tbody></table></figure>
 <blockquote>
 <p><strong>note</strong> : <em>注意markdown中的符号后面的空格</em></p>
 </blockquote>
-<h2 id="列表"><a href="#列表" class="headerlink" title="列表"></a>列表</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">1. xxx</span><br><span class="line">2. xxx</span><br><span class="line">3. xxx</span><br></pre></td></tr></table></figure>
+<h2 id="列表"><a href="#列表" class="headerlink" title="列表"></a>列表</h2><figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">1. xxx</span><br><span class="line">2. xxx</span><br><span class="line">3. xxx</span><br></pre></td></tr></tbody></table></figure>
 
-<h2 id="链接、图片"><a href="#链接、图片" class="headerlink" title="链接、图片"></a>链接、图片</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">链接[source](link &quot;description&quot;)</span><br><span class="line">图片 ![](path &quot;title&quot;)</span><br></pre></td></tr></table></figure>
+<h2 id="链接、图片"><a href="#链接、图片" class="headerlink" title="链接、图片"></a>链接、图片</h2><figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">链接[source](link "description")</span><br><span class="line">图片 ![](path "title")</span><br></pre></td></tr></tbody></table></figure>
 
-<h2 id="转义字符-‘-‘"><a href="#转义字符-‘-‘" class="headerlink" title="转义字符 ‘\‘"></a>转义字符 ‘\‘</h2><h2 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">---|---|---</span><br><span class="line">---|---|---</span><br></pre></td></tr></table></figure>
-
-<h3 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h3><blockquote>
+<h2 id="转义字符-‘-‘"><a href="#转义字符-‘-‘" class="headerlink" title="转义字符 ‘\‘"></a>转义字符 ‘\‘</h2><h2 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h2><figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">| 左对齐 | 右对齐 | 居中对齐 |</span><br><span class="line">| :-----| ----: | :----: |</span><br><span class="line">| 单元格 | 单元格 | 单元格 |</span><br><span class="line">| 单元格 | 单元格 | 单元格 |</span><br></pre></td></tr></tbody></table></figure>
+<p>单元格合并 ：<br>属于markdown扩展语法，需要markdown processor的支持，不支持没效果，记录一下，万一以后支持呢。</p>
+<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">&gt; 或 空 ： 横向框合并</span><br><span class="line">^ : 纵向框合并</span><br></pre></td></tr></tbody></table></figure>
+<p>表格工具： <a href="https://kz16.top/ckeditor/">点击试用</a></p>
+<h2 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h2><blockquote>
 <p>行内插入代码 ： ` code `<br>多行代码：</p>
 <ul>
 <li>``` code  ```</li>
@@ -41,9 +43,23 @@
 </blockquote>
 <p>即在```后标明 code的语言  </p>
 <h2 id="Emoji"><a href="#Emoji" class="headerlink" title="Emoji"></a>Emoji</h2><p><code>:joy:</code> </p>
-<p>示例： 这是开心的表情 :joy:    (这里不知道为啥不能显示)</p>
-<p>更多表情简码列表，<a href="https://gist.github.com/rxaviers/7360908">点击这里</a></p>
-<h2 id="改变字体颜色"><a href="#改变字体颜色" class="headerlink" title="改变字体颜色"></a>改变字体颜色</h2><p>markdown不支持改变字体颜色，但是支持html语法<br>通过<code>&lt;font color=green size=7 face=&quot;黑体&quot;&gt; font &lt;/font&gt;</code></p>
+<p>示例： 这是开心的表情 <span class="github-emoji"><span>😂</span><img src="https://github.githubassets.com/images/icons/emoji/unicode/1f602.png?v8" aria-hidden="true" onerror="this.parent.classList.add('github-emoji-fallback')"></span><br>如果上面没有出现表情，说明渲染器不支持emoji的渲染。需要安装额外插件<br>更多表情简码列表，<a href="https://gist.github.com/rxaviers/7360908">点击这里</a></p>
+<h2 id="改变字体颜色"><a href="#改变字体颜色" class="headerlink" title="改变字体颜色"></a>改变字体颜色</h2><p>markdown不支持改变字体颜色，但是支持html语法<br>通过<code>&lt;font color=green size=7 face="黑体"&gt; font &lt;/font&gt;</code></p>
+<h2 id="公式"><a href="#公式" class="headerlink" title="公式"></a>公式</h2><figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">$公式$  #行内插入</span><br><span class="line">$$公式$$ # 单独一行</span><br></pre></td></tr></tbody></table></figure>
+<p>$$ f(x)=sin(x)$$<br>如果上述公式看不到效果，检查markdown编辑器或者渲染插件是否安装了math插件。</p>
+<p>公式工具：<a href="https://kz16.top/latex/symbol/">点击使用</a><br>公式速查：</p>
+<h2 id="flowchart"><a href="#flowchart" class="headerlink" title="flowchart"></a>flowchart</h2><p>能看到flowchart的前提是有解析工具，比如 markdown preview插件，提前生成，才能看到<br>hexo主题需要额外安装flowchart插件以支持渲染。</p>
+<p>markdown图表类型支持： 流程图(mermaid/flow)、时序图(sequence)、甘特图(mermaid)<br>语法：</p>
+<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">st=&gt;start: 开始框</span><br><span class="line">op=&gt;operation: 处理框</span><br><span class="line">cond=&gt;condition: 判断框(是或否?)</span><br><span class="line">sub1=&gt;subroutine: 子流程</span><br><span class="line">io=&gt;inputoutput: 输入输出框</span><br><span class="line">e=&gt;end: 结束框</span><br><span class="line">st(right)-&gt;op(right)-&gt;cond</span><br><span class="line">cond(yes)-&gt;io(bottom)-&gt;e</span><br><span class="line">cond(no)-&gt;sub1(right)-&gt;op</span><br></pre></td></tr></tbody></table></figure>
+
+<h2 id="总结警告标注"><a href="#总结警告标注" class="headerlink" title="总结警告标注"></a>总结警告标注</h2><figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">!!! summary</span><br><span class="line">    总结 </span><br><span class="line"></span><br><span class="line">!!! warning</span><br><span class="line">    警告</span><br><span class="line"></span><br><span class="line">!!! Note</span><br><span class="line">    标注</span><br></pre></td></tr></tbody></table></figure>
+<p>(不生效)</p>
+<h1 id="reference"><a href="#reference" class="headerlink" title="reference"></a><em><strong>reference</strong></em></h1><p>其他的汇总： </p>
+<ul>
+<li><a href="https://markdown.com.cn/">官方docs</a></li>
+<li><a href="https://kz16.top/md/#markdown%E7%BB%88%E6%9E%81%E6%95%99%E7%A8%8B">终极教程</a></li>
+<li><a href="https://www.runoob.com/markdown/md-advance.html">runnoob菜鸟教程高级技巧</a></li>
+</ul>
 ]]></content>
       <categories>
         <category>tool</category>
@@ -55,7 +71,7 @@
   <entry>
     <title>doc</title>
     <url>/doc/</url>
-    <content><![CDATA[<p><strong><center>规则是工具可以被真正使用的前提</center></strong></p>
+    <content><![CDATA[<p><strong></strong></p><center><strong>规则是工具可以被真正使用的前提</strong></center><p></p>
 <p>markdown在网页上使用兼容性强，语法简单。</p>
 <p>在更复杂的使用场景里面需要RST，也就是 SPHINX和Doxygen<br>比如公司的项目文档。需要描述内容的更多。</p>
 <h1 id="1-sphinx"><a href="#1-sphinx" class="headerlink" title="1. sphinx"></a>1. sphinx</h1><h1 id="2-Doxygen"><a href="#2-Doxygen" class="headerlink" title="2. Doxygen"></a>2. Doxygen</h1>]]></content>
@@ -70,19 +86,19 @@
   <entry>
     <title>hexo blog SEO configure</title>
     <url>/hexo-blog-SEO-configure/</url>
-    <content><![CDATA[<p><strong><center>永远拥抱开放，拥抱自由，where we stands as who we are</center></strong></p>
+    <content><![CDATA[<p><strong></strong></p><center><strong>永远拥抱开放，拥抱自由，where we stands as who we are</strong></center><p></p>
 <h1 id="SEO"><a href="#SEO" class="headerlink" title="SEO"></a>SEO</h1><p>SEO(Search Engine Optimization) 针对搜索引擎的优化。<br>意义是让我们的博客能被通过搜索引擎查询相关问题的人更容易看到浏览。(换句话说，没有这方面需求的人可以忽略)  </p>
 <p>我没有相关的需求，玩的就是一个收藏。毕竟写博客主要目的是技术积累，以及和朋友的谈资  : )<br>至于博客里面甚至留了bitcoin的打赏二维码，相信我，那只是为了好玩。 : )  </p>
 <p>出于对技术的热爱角度，也来学习一下，万一以后能用到呢。所以没有和hexo博客搭建写在一起，而是单独另起一篇细细的看下，有用的记录下。<br>如果你有缘看到了，那就一起学习下有哪些方式吧。</p>
 <h2 id="添加搜索引擎的认证"><a href="#添加搜索引擎的认证" class="headerlink" title="添加搜索引擎的认证"></a>添加搜索引擎的认证</h2><h2 id="sitemap"><a href="#sitemap" class="headerlink" title="sitemap"></a>sitemap</h2><h2 id="优化目录结构"><a href="#优化目录结构" class="headerlink" title="优化目录结构"></a>优化目录结构</h2><p>修改站点配置文件<code>_config.yml--&gt; permalink</code></p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">permalink: :year:month:day/:title/</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">permalink: :year:month:day/:title/</span><br></pre></td></tr></tbody></table></figure>
 <p>or</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">permalink: :title.html</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">permalink: :title.html</span><br></pre></td></tr></tbody></table></figure>
 <p>从而改变博客的目录结构</p>
 <h2 id="代码压缩"><a href="#代码压缩" class="headerlink" title="代码压缩"></a>代码压缩</h2><p>网页的代码存在大量空白符，压缩代码可以提高网站被访问速度。</p>
 <p>安装插件： <code>npm install hexo-neat --save</code>  </p>
 <p>修改<em>站点配置文件</em>：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># 开启压缩</span><br><span class="line">neat_enable: true</span><br><span class="line">neat_html:</span><br><span class="line">  enable: true</span><br><span class="line">  exclude:</span><br><span class="line">neat_css:</span><br><span class="line">  enable: true</span><br><span class="line">  exclude:</span><br><span class="line">    - &#x27;**/*.min.css&#x27;</span><br><span class="line">neat_js:</span><br><span class="line">  enable: true</span><br><span class="line">  mangle: true</span><br><span class="line">  output:</span><br><span class="line">  compress:</span><br><span class="line">  exclude:</span><br><span class="line">    - &#x27;**/*.min.js&#x27;</span><br><span class="line">    - &#x27;**/index.js&#x27;</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line"># 开启压缩</span><br><span class="line">neat_enable: true</span><br><span class="line">neat_html:</span><br><span class="line">  enable: true</span><br><span class="line">  exclude:</span><br><span class="line">neat_css:</span><br><span class="line">  enable: true</span><br><span class="line">  exclude:</span><br><span class="line">    - '**/*.min.css'</span><br><span class="line">neat_js:</span><br><span class="line">  enable: true</span><br><span class="line">  mangle: true</span><br><span class="line">  output:</span><br><span class="line">  compress:</span><br><span class="line">  exclude:</span><br><span class="line">    - '**/*.min.js'</span><br><span class="line">    - '**/index.js'</span><br></pre></td></tr></tbody></table></figure>
 
 <h1 id="reference"><a href="#reference" class="headerlink" title="reference"></a><strong>reference</strong></h1><ul>
 <li>知乎： <a href="https://zhuanlan.zhihu.com/p/344927945">hexo博客高级优化</a>  </li>
@@ -102,20 +118,20 @@
   <entry>
     <title>how to build with hexo</title>
     <url>/how-to-build-with-hexo/</url>
-    <content><![CDATA[<p><strong><center>集中力量办大事无法调动积极性，只会滋生投机份子</center></strong></p>
+    <content><![CDATA[<p><strong></strong></p><center><strong>集中力量办大事无法调动积极性，只会滋生投机份子</strong></center><p></p>
 <p>采用hexo这种静态页面的博客是无奈之举，因为云服务器+jupyter方式确实方便，最终云服务器到期了。<br>看了教程也是头疼，做下来感觉就是”难不会，会不难“。<br>简单来说就是hexo+ github pages，hexo需要用到nodejs+npm，github pages需要用到git。<br>先无脑跟着教程做一遍，再去体会</p>
 <h1 id="hexo-github-pages"><a href="#hexo-github-pages" class="headerlink" title="hexo + github pages"></a>hexo + github pages</h1><h2 id="hexo"><a href="#hexo" class="headerlink" title="hexo"></a>hexo</h2><p>博客框架</p>
 <h2 id="nodejs-npm-git"><a href="#nodejs-npm-git" class="headerlink" title="nodejs + npm + git"></a>nodejs + npm + git</h2><p>nodejs： <a href="https://nodejs.org/en">网址下载</a></p>
 <blockquote>
 <p>note ： 从官网安装的版本自带npm，无需额外安装。但是通过shell apt安装则需要单独安装nodejs+npm</p>
 </blockquote>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">sudo apt install nodejs</span><br><span class="line">sudo apt install npm</span><br></pre></td></tr></table></figure>
+<figure class="highlight shell"><table><tbody><tr><td class="code"><pre><span class="line">sudo apt install nodejs</span><br><span class="line">sudo apt install npm</span><br></pre></td></tr></tbody></table></figure>
 
 <h2 id="git"><a href="#git" class="headerlink" title="git"></a>git</h2><p>git : <code>apt install git</code><br>安装好git后，还需要设置：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git config --global user.name xxx</span><br><span class="line">git config --global user.email xxx@gmail.com</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">git config --global user.name xxx</span><br><span class="line">git config --global user.email xxx@gmail.com</span><br></pre></td></tr></tbody></table></figure>
 <p>因为我们需要把生成的博客页面上传到github仓库里面。还需要获取仓库的访问权限，也就是将本地密钥放到ssh key里面<br>生成密钥（rsa）：<br><code>ssh-keygen -t rsa -C email@gmail.com</code></p>
 <blockquote>
-<p>windows： C:&#x2F;user&#x2F;[username]&#x2F;.ssh&#x2F;id_rsa.pub<br>linux : ~&#x2F;.ssh&#x2F;id_rsa.pub </p>
+<p>windows： C:/user/[username]/.ssh/id_rsa.pub<br>linux : ~/.ssh/id_rsa.pub </p>
 </blockquote>
 <h2 id="github-repo"><a href="#github-repo" class="headerlink" title="github repo"></a>github repo</h2><p>创建github 新的 repo，repo的名字一定是 <em><strong>[your_name].github.io</strong></em></p>
 <blockquote>
@@ -125,34 +141,34 @@
 <p>note: 创建好之后，我们不必根据github的提示在本地初始化一个github仓库。后面设置好之后hexo-deployer-git工具会自动提交到这个仓库。  </p>
 </blockquote>
 <h2 id="npm-hexo"><a href="#npm-hexo" class="headerlink" title="npm + hexo"></a>npm + hexo</h2><p>安装hexo ， 以下是常用的hexo命令：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo clean  </span><br><span class="line">hexo generate # hexo g  </span><br><span class="line">hexo server   # hexo s  </span><br><span class="line">hexo deploy   # hexo d  将本地的hexo generate之后文件部署到github仓库，一般是通过hexo-deployer-git工具自动部署</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">hexo clean  </span><br><span class="line">hexo generate # hexo g  </span><br><span class="line">hexo server   # hexo s  </span><br><span class="line">hexo deploy   # hexo d  将本地的hexo generate之后文件部署到github仓库，一般是通过hexo-deployer-git工具自动部署</span><br></pre></td></tr></tbody></table></figure>
 
 <p>这里分为两种情况：</p>
-<h3 id="新创建的仓库"><a href="#新创建的仓库" class="headerlink" title="新创建的仓库"></a>新创建的仓库</h3><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">npm install hexo-cli -g	  #安装hexo</span><br><span class="line">hexo init your_blog_name  #hexo 新建一个blog项目框架</span><br><span class="line">cd your_blog_name         # 进入blog项目文件夹下</span><br><span class="line">npm install               # 初始化安装必要的文件</span><br><span class="line">hexo server               # 也可以写为hexo s , 意思是开启本地一个服务，可以直接访问 localhost:4000 查看初始化好的hexo页面。</span><br></pre></td></tr></table></figure>
+<h3 id="新创建的仓库"><a href="#新创建的仓库" class="headerlink" title="新创建的仓库"></a>新创建的仓库</h3><figure class="highlight shell"><table><tbody><tr><td class="code"><pre><span class="line">npm install hexo-cli -g	  #安装hexo</span><br><span class="line">hexo init your_blog_name  #hexo 新建一个blog项目框架</span><br><span class="line">cd your_blog_name         # 进入blog项目文件夹下</span><br><span class="line">npm install               # 初始化安装必要的文件</span><br><span class="line">hexo server               # 也可以写为hexo s , 意思是开启本地一个服务，可以直接访问 localhost:4000 查看初始化好的hexo页面。</span><br></pre></td></tr></tbody></table></figure>
 
-<h3 id="已经存在github上面的hexo仓库"><a href="#已经存在github上面的hexo仓库" class="headerlink" title="已经存在github上面的hexo仓库"></a>已经存在github上面的hexo仓库</h3><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">npm install hexo-cli -g		  #安装hexo</span><br><span class="line">git clone your_repo_addr.git</span><br><span class="line">cd your_repo_addr</span><br><span class="line">npm install</span><br></pre></td></tr></table></figure>
+<h3 id="已经存在github上面的hexo仓库"><a href="#已经存在github上面的hexo仓库" class="headerlink" title="已经存在github上面的hexo仓库"></a>已经存在github上面的hexo仓库</h3><figure class="highlight shell"><table><tbody><tr><td class="code"><pre><span class="line">npm install hexo-cli -g		  #安装hexo</span><br><span class="line">git clone your_repo_addr.git</span><br><span class="line">cd your_repo_addr</span><br><span class="line">npm install</span><br></pre></td></tr></tbody></table></figure>
 <h2 id="config-yml"><a href="#config-yml" class="headerlink" title="_config.yml"></a>_config.yml</h2><p>在Hexo中有两份主要的配置文件，其名称都是 <em>_config.yml</em>。其中，一份位于 Hexo 根目录下，主要包含 Hexo本身的配置；另一份位于主题目录下，这份配置由主题作者提供，主要用于配置主题相关的选项。  前者称为 <strong>站点配置文件</strong> ， 后者称为 <strong>主题配置文件</strong> 。</p>
 <ul>
 <li><p>站点配置文件<br>下面是站点配置文件需要修改的地方：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">title ： 网页的名称</span><br><span class="line">url ： https://your_name.github.io/your_name.github.io  #github repo的setting --&gt; pages </span><br><span class="line">root: /  #root在url下面，没有可以加上</span><br><span class="line"></span><br><span class="line">theme：file_name_in_themes  # theme名字就是 themes目录下，主题文件夹名称。文件夹名称可以自己更改</span><br><span class="line"></span><br><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repo: https://github.com/your_name/your_name.github.io</span><br><span class="line">  branch: gh-pages</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">title ： 网页的名称</span><br><span class="line">url ： https://your_name.github.io/your_name.github.io  #github repo的setting --&gt; pages </span><br><span class="line">root: /  #root在url下面，没有可以加上</span><br><span class="line"></span><br><span class="line">theme：file_name_in_themes  # theme名字就是 themes目录下，主题文件夹名称。文件夹名称可以自己更改</span><br><span class="line"></span><br><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repo: https://github.com/your_name/your_name.github.io</span><br><span class="line">  branch: gh-pages</span><br></pre></td></tr></tbody></table></figure>
 <p>deploy配置主要是用作hexo d，也就是 hexo-deployer-git插件会用到的地方。<br>主要是用作指定github创建的仓库位置及上传到哪个分支。这里分支名为gh-pages，也可以自己指定。</p>
 </li>
 <li><p>主题配置文件<br>主题配置文件大部分不需要配置，对页面功能有要求的可以自行了解。</p>
 </li>
 </ul>
 <p>安装hexo-deployer-git： <code>npm install hexo-deployer-git --save</code><br>当我们配置好之后就可以执行<code>hexo clean &amp;&amp; hexo g -d</code>进行部署到github，然后通过url查看效果<br>当然部署之前可以本地localhost:4000查看：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo g &amp;&amp; hexo s</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo g &amp;&amp; hexo s</span><br></pre></td></tr></tbody></table></figure>
 
 <h2 id="编写markdown"><a href="#编写markdown" class="headerlink" title="编写markdown"></a>编写markdown</h2><p>hexo配置好了，默认主题就是landscape，不考虑换的话，就应该做该做的写博客了。</p>
 <ol>
-<li><p>创建新的文章： <code>hexo new &quot;post title&quot;</code></p>
+<li><p>创建新的文章： <code>hexo new "post title"</code></p>
 </li>
 <li><p>source_posts 目录下的xxx.md就是刚刚创建的博客内容，格式是markdown</p>
 </li>
 </ol>
 <h2 id="push"><a href="#push" class="headerlink" title="push"></a>push</h2><p>我个人建议最好做一份本地文件的存档，真正做到“云博客”，换个场景之后，可以把文件从分支上clone下来，配置好本地环境即可接着编辑博客。</p>
 <p>我选择上传文件到main分支，main分支远程仓库暂时没有</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">git init       #初始化本地git仓库</span><br><span class="line">hexo clean     # 清楚多余的生成文件，保留原始文件</span><br><span class="line">git checkout -b main  #创建并切换到本地新分支</span><br><span class="line">git add * 				 #将改动提交到本地新分支</span><br><span class="line">git commit -m &quot;upload hexo files&quot;</span><br><span class="line">git remote add origin url       #关联远程分支</span><br><span class="line">git push -u origin main</span><br></pre></td></tr></table></figure>
+<figure class="highlight shell"><table><tbody><tr><td class="code"><pre><span class="line">git init       #初始化本地git仓库</span><br><span class="line">hexo clean     # 清楚多余的生成文件，保留原始文件</span><br><span class="line">git checkout -b main  #创建并切换到本地新分支</span><br><span class="line">git add * 				 #将改动提交到本地新分支</span><br><span class="line">git commit -m "upload hexo files"</span><br><span class="line">git remote add origin url       #关联远程分支</span><br><span class="line">git push -u origin main</span><br></pre></td></tr></tbody></table></figure>
 
 <h1 id="更换合适的主题"><a href="#更换合适的主题" class="headerlink" title="更换合适的主题"></a>更换合适的主题</h1><p>theme 主题一直是hexo的亮点。找到适合自己的主题，体面，酷炫，一直是bloger最浪费时间的工作。<br>主题才是真的需要熟悉的地方。我觉得这才是hexo的门槛所在。<br>我自从搭建了hexo以来，感觉一直在花费时间换各种各样的主题，尝试每个主题不同的功能。  </p>
 <p>在没找到好看的主题之前，这里就保存一下自己换过的主题用了哪些功能吧<br>因为LiveForCode 简单试用过之后就放弃了，主要是因为感觉还是要注重内容本身，不能搞的花里胡哨（虽然好的页面也可以令人心情愉悦，提升阅读体验）</p>
@@ -164,22 +180,30 @@
 </li>
 <li><p><code>social link</code> : github + email</p>
 </li>
-<li><p><code>categories</code>和<code>tag</code>，&#x2F;tags&#x2F; &amp; &#x2F;categories&#x2F; 里面的index.md内 type 字段值要和 _config.yml设置的保持一致。 </p>
+<li><p><code>categories</code>和<code>tag</code>，/tags/ &amp; /categories/ 里面的index.md内 type 字段值要和 _config.yml设置的保持一致。 </p>
 </li>
 <li><p>首页内容折叠<code>excerpt</code>： hexo7.8版本以上支持自动截图摘要功能，需要以下安装<code>npm install hexo-excerpt --save</code></p>
 <blockquote>
 <p><code>--save</code>的作用主要是将安装的插件记录到 package-lock.json &amp; package.json中<br>在新的仓库中执行npm install 其实就是读取或生成package-lock.json&amp; package.json 安装仓库的原有的环境里面的插件。<br>然后更改站点配置：</p>
 </blockquote>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">excerpt:</span><br><span class="line">  depth: 10</span><br><span class="line">  excerpt_excludes: []</span><br><span class="line">  more_excludes: []</span><br><span class="line">  hideWholePostExcerpts: true</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">excerpt:</span><br><span class="line">  depth: 10</span><br><span class="line">  excerpt_excludes: []</span><br><span class="line">  more_excludes: []</span><br><span class="line">  hideWholePostExcerpts: true</span><br></pre></td></tr></tbody></table></figure>
 </li>
 <li><p><code>local_search</code> : blog内容搜索，感觉这个功能主要给博客主自己用 安装：<code>npm install hexo-generator-searchdb --save</code><br>然后更改站点配置：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">search:</span><br><span class="line">  path: search.xml</span><br><span class="line">  field: post</span><br><span class="line">  content: true</span><br><span class="line">  format: html</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">search:</span><br><span class="line">  path: search.xml</span><br><span class="line">  field: post</span><br><span class="line">  content: true</span><br><span class="line">  format: html</span><br></pre></td></tr></tbody></table></figure>
 <p>在主题配置中启用：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">local_search:</span><br><span class="line">  enable: true</span><br></pre></td></tr></table></figure></li>
+<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">local_search:</span><br><span class="line">  enable: true</span><br></pre></td></tr></tbody></table></figure>
+</li>
+<li><p>tag-plugins : 意思是通过给文本、图片等打上一些标签从而实现一些特殊的效果<br>For more info: <a href="https://theme-next.js.org/docs/tag-plugins/">Tag Plugins introduc</a><br>注意： 这不属于markdown的语法，而是hexo在渲染时候的功能</p>
+</li>
+<li><p>emoji:  通过shortcode使用表情， hexo默认的markdown渲染器hexo-render-marked不支持渲染emoji<br>可以通过更改支持的渲染器来解决。但是我不想大动干戈，本着emoji能用就行的心态，装个插件。</p>
+</li>
 </ul>
+<p><code>npm install hexo-filter-github-emojis --save</code><br>修改站点配置文件：</p>
+<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">githubEmojis:</span><br><span class="line">  enable: true</span><br><span class="line">  className: github-emoji</span><br><span class="line">  inject: true</span><br><span class="line">  styles:</span><br><span class="line">  customEmojis:</span><br></pre></td></tr></tbody></table></figure>
+
 <hr>
 <p>(end)</p>
-<h1 id="reference"><a href="#reference" class="headerlink" title="reference"></a><strong>reference</strong></h1><p>在使用NexT中参考了很多前辈的配置过程，在此感谢！<br>hexo官方文档： <a href="https://hexo.io/themes/">主要是选择主题</a><br>NexT官方参考文档： <a href="https://theme-next.js.org/docs/getting-started/">Getting Started</a><br>比较全的主题功能配置： <a href="https://www.meijindong.com/posts/3688165485.html">点此前往查看</a></p>
+<h1 id="reference"><a href="#reference" class="headerlink" title="reference"></a><strong>reference</strong></h1><p>在使用NexT中参考了很多前辈的配置过程，在此感谢！<br>hexo官方文档： <a href="https://hexo.io/themes/">主要是选择主题</a><br>NexT官方参考文档： <a href="https://theme-next.js.org/docs/getting-started/">Getting Started</a><br>比较全的主题功能配置： <a href="https://www.meijindong.com/posts/3688165485.html">点此前往查看</a><br>hexo提供的plugins： <a href="https://hexo.io/plugins/">千万安装</a></p>
 ]]></content>
       <categories>
         <category>tool</category>
@@ -191,7 +215,7 @@
   <entry>
     <title>project ideas</title>
     <url>/project-ideas/</url>
-    <content><![CDATA[<p><strong><center>思考具有局限性</center></strong></p>
+    <content><![CDATA[<p><strong></strong></p><center><strong>思考具有局限性</strong></center><p></p>
 <p>流程是由做过事情的人分享出来的，不能是没做的总结出来<br>初创公司 流程不能繁琐，而是直观简洁</p>
 <h1 id="智能红绿灯"><a href="#智能红绿灯" class="headerlink" title="智能红绿灯"></a>智能红绿灯</h1><h1 id="车车互联"><a href="#车车互联" class="headerlink" title="车车互联"></a>车车互联</h1><h1 id="密码管理平台"><a href="#密码管理平台" class="headerlink" title="密码管理平台"></a>密码管理平台</h1><h1 id="不同平台互联，传输文件开始"><a href="#不同平台互联，传输文件开始" class="headerlink" title="不同平台互联，传输文件开始"></a>不同平台互联，传输文件开始</h1>]]></content>
       <categories>
@@ -204,8 +228,34 @@
   <entry>
     <title>stable diffusion</title>
     <url>/stable-diffusion/</url>
-    <content><![CDATA[<p><strong><center>“Do one thing every day that scares you.” –Eleanor Roosevelt</center></strong></p>
-<p>从今天开始正式学习stable-diffusion！</p>
+    <content><![CDATA[<p><strong></strong></p><center><strong>“Do one thing every day that scares you.” –Eleanor Roosevelt</strong></center><p></p>
+<p>从今天开始正式学习stable-diffusion</p>
+<h1 id="stable-diffusion"><a href="#stable-diffusion" class="headerlink" title="stable diffusion"></a>stable diffusion</h1><p>当下ai绘画主流产品：MidJourney ，stable-diffusion， DALL·E</p>
+<table>
+<thead>
+<tr>
+<th>产品</th>
+<th>特点</th>
+<th>共同点</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>MidJourney</td>
+<td>收费</td>
+<td>三款产品都是可以根据text形式prompt(提示词)来生成图片也可以根据图片来修改。</td>
+</tr>
+<tr>
+<td>DALL-E</td>
+<td>openai 产品之一，著名的是其语言模型gpt-4 ，ofcourse，收费。</td>
+<td>^</td>
+</tr>
+<tr>
+<td>stable-diffusion</td>
+<td>开源免费，适合商用</td>
+<td>^</td>
+</tr>
+</tbody></table>
+<h1 id="reference"><a href="#reference" class="headerlink" title="reference"></a><em><strong>reference</strong></em></h1><p><a href="https://civitai.com/">https://civitai.com/</a></p>
 ]]></content>
       <categories>
         <category>project</category>
