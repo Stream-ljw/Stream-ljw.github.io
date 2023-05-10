@@ -71,21 +71,6 @@
       </tags>
   </entry>
   <entry>
-    <title>doc</title>
-    <url>/doc/</url>
-    <content><![CDATA[<p><strong></strong></p><center><strong>规则是工具可以被真正使用的前提</strong></center><p></p>
-<p>markdown在网页上使用兼容性强，语法简单。</p>
-<p>在更复杂的使用场景里面需要RST，也就是 SPHINX和Doxygen<br>比如公司的项目文档。需要描述内容的更多。</p>
-<h1 id="1-sphinx"><a href="#1-sphinx" class="headerlink" title="1. sphinx"></a>1. sphinx</h1><h1 id="2-Doxygen"><a href="#2-Doxygen" class="headerlink" title="2. Doxygen"></a>2. Doxygen</h1>]]></content>
-      <categories>
-        <category>tool</category>
-      </categories>
-      <tags>
-        <tag>sphinx</tag>
-        <tag>doxygen</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>hexo blog SEO configure</title>
     <url>/hexo-blog-SEO-configure/</url>
     <content><![CDATA[<p><strong></strong></p><center><strong>永远拥抱开放，拥抱自由，where we stands as who we are</strong></center><p></p>
@@ -115,6 +100,21 @@
         <tag>next</tag>
         <tag>SEO</tag>
         <tag>next-plugin</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>doc</title>
+    <url>/doc/</url>
+    <content><![CDATA[<p><strong></strong></p><center><strong>规则是工具可以被真正使用的前提</strong></center><p></p>
+<p>markdown在网页上使用兼容性强，语法简单。</p>
+<p>在更复杂的使用场景里面需要RST，也就是 SPHINX和Doxygen<br>比如公司的项目文档。需要描述内容的更多。</p>
+<h1 id="1-sphinx"><a href="#1-sphinx" class="headerlink" title="1. sphinx"></a>1. sphinx</h1><h1 id="2-Doxygen"><a href="#2-Doxygen" class="headerlink" title="2. Doxygen"></a>2. Doxygen</h1>]]></content>
+      <categories>
+        <category>tool</category>
+      </categories>
+      <tags>
+        <tag>sphinx</tag>
+        <tag>doxygen</tag>
       </tags>
   </entry>
   <entry>
