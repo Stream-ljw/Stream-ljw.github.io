@@ -1,29 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>History</title>
-    <url>/History/</url>
-    <content><![CDATA[<p><strong></strong></p><center><strong>事出反常必有妖，习惯思考本质</strong></center><p></p>
-<p>这个想法产生很早了，记录一下时代的变革。</p>
-<p>对于一个人类来说，社会变革是缓慢的，人很难记住十年间发生的事情。<br>”互联网没有记忆“<br>所以，多记录，多思考，或许能发现属于我自己的社会发展的本质。</p>
-<h2 id="工业革命"><a href="#工业革命" class="headerlink" title="工业革命"></a>工业革命</h2><p>蒸汽<br>电力</p>
-<h2 id="互联网"><a href="#互联网" class="headerlink" title="互联网"></a>互联网</h2><ul>
-<li><p>编程语言</p>
-</li>
-<li><p>视觉，听觉变革</p>
-</li>
-</ul>
-<h2 id="AI"><a href="#AI" class="headerlink" title="AI"></a>AI</h2>]]></content>
-      <categories>
-        <category>note</category>
-      </categories>
-      <tags>
-        <tag>daily_note</tag>
-        <tag>人文</tag>
-        <tag>社会</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Consideration about career</title>
     <url>/Consideration-about-career/</url>
     <content><![CDATA[<p><strong></strong></p><center><strong>小米这样的公司其实限制了产品的天花板</strong></center><p></p>
@@ -57,6 +34,30 @@
       </categories>
       <tags>
         <tag>diary</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>History</title>
+    <url>/History/</url>
+    <content><![CDATA[<p><strong></strong></p><center><strong>事出反常必有妖，习惯思考本质</strong></center><p></p>
+<p>这个想法产生很早了，记录一下时代的变革。</p>
+<p>对于一个人类来说，社会变革是缓慢的，人很难记住十年间发生的事情。<br>”互联网没有记忆“<br>所以，多记录，多思考，或许能发现属于我自己的社会发展的本质。</p>
+<h2 id="工业革命"><a href="#工业革命" class="headerlink" title="工业革命"></a>工业革命</h2><p>蒸汽<br>电力</p>
+<h2 id="互联网"><a href="#互联网" class="headerlink" title="互联网"></a>互联网</h2><ul>
+<li><p>编程语言</p>
+</li>
+<li><p>视觉，听觉变革</p>
+</li>
+</ul>
+<h2 id="AI"><a href="#AI" class="headerlink" title="AI"></a>AI</h2><h2 id="思想革命"><a href="#思想革命" class="headerlink" title="思想革命"></a>思想革命</h2><p>道家<br>哲学</p>
+]]></content>
+      <categories>
+        <category>note</category>
+      </categories>
+      <tags>
+        <tag>daily_note</tag>
+        <tag>人文</tag>
+        <tag>社会</tag>
       </tags>
   </entry>
   <entry>
@@ -117,21 +118,6 @@
       </tags>
   </entry>
   <entry>
-    <title>doc</title>
-    <url>/doc/</url>
-    <content><![CDATA[<p><strong></strong></p><center><strong>规则是工具可以被真正使用的前提</strong></center><p></p>
-<p>markdown在网页上使用兼容性强，语法简单。</p>
-<p>在更复杂的使用场景里面需要RST，也就是 SPHINX和Doxygen<br>比如公司的项目文档。需要描述内容的更多。</p>
-<h1 id="1-sphinx"><a href="#1-sphinx" class="headerlink" title="1. sphinx"></a>1. sphinx</h1><h1 id="2-Doxygen"><a href="#2-Doxygen" class="headerlink" title="2. Doxygen"></a>2. Doxygen</h1>]]></content>
-      <categories>
-        <category>tool</category>
-      </categories>
-      <tags>
-        <tag>sphinx</tag>
-        <tag>doxygen</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>hexo blog SEO configure</title>
     <url>/hexo-blog-SEO-configure/</url>
     <content><![CDATA[<p><strong></strong></p><center><strong>永远拥抱开放，拥抱自由，where we stands as who we are</strong></center><p></p>
@@ -161,6 +147,34 @@
         <tag>next</tag>
         <tag>SEO</tag>
         <tag>next-plugin</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>doc</title>
+    <url>/doc/</url>
+    <content><![CDATA[<p><strong></strong></p><center><strong>规则是工具可以被真正使用的前提</strong></center><p></p>
+<p>markdown在网页上使用兼容性强，语法简单。</p>
+<p>在更复杂的使用场景里面需要RST，也就是 SPHINX和Doxygen<br>比如公司的项目文档。需要描述内容的更多。</p>
+<h1 id="1-sphinx"><a href="#1-sphinx" class="headerlink" title="1. sphinx"></a>1. sphinx</h1><h1 id="2-Doxygen"><a href="#2-Doxygen" class="headerlink" title="2. Doxygen"></a>2. Doxygen</h1>]]></content>
+      <categories>
+        <category>tool</category>
+      </categories>
+      <tags>
+        <tag>sphinx</tag>
+        <tag>doxygen</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>project ideas</title>
+    <url>/project-ideas/</url>
+    <content><![CDATA[<p><strong></strong></p><center><strong>思考具有局限性</strong></center><p></p>
+<p>流程是由做过事情的人分享出来的，不能是没做的总结出来<br>初创公司 流程不能繁琐，而是直观简洁</p>
+<h1 id="智能红绿灯"><a href="#智能红绿灯" class="headerlink" title="智能红绿灯"></a>智能红绿灯</h1><h1 id="车车互联"><a href="#车车互联" class="headerlink" title="车车互联"></a>车车互联</h1><h1 id="密码管理平台"><a href="#密码管理平台" class="headerlink" title="密码管理平台"></a>密码管理平台</h1><h1 id="不同平台互联，传输文件开始"><a href="#不同平台互联，传输文件开始" class="headerlink" title="不同平台互联，传输文件开始"></a>不同平台互联，传输文件开始</h1>]]></content>
+      <categories>
+        <category>daily_note</category>
+      </categories>
+      <tags>
+        <tag>ideas</tag>
       </tags>
   </entry>
   <entry>
@@ -258,19 +272,6 @@
       </categories>
       <tags>
         <tag>hexo</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>project ideas</title>
-    <url>/project-ideas/</url>
-    <content><![CDATA[<p><strong></strong></p><center><strong>思考具有局限性</strong></center><p></p>
-<p>流程是由做过事情的人分享出来的，不能是没做的总结出来<br>初创公司 流程不能繁琐，而是直观简洁</p>
-<h1 id="智能红绿灯"><a href="#智能红绿灯" class="headerlink" title="智能红绿灯"></a>智能红绿灯</h1><h1 id="车车互联"><a href="#车车互联" class="headerlink" title="车车互联"></a>车车互联</h1><h1 id="密码管理平台"><a href="#密码管理平台" class="headerlink" title="密码管理平台"></a>密码管理平台</h1><h1 id="不同平台互联，传输文件开始"><a href="#不同平台互联，传输文件开始" class="headerlink" title="不同平台互联，传输文件开始"></a>不同平台互联，传输文件开始</h1>]]></content>
-      <categories>
-        <category>daily_note</category>
-      </categories>
-      <tags>
-        <tag>ideas</tag>
       </tags>
   </entry>
   <entry>
