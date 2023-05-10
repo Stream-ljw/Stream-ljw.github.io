@@ -1,42 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Consideration about career</title>
-    <url>/Consideration-about-career/</url>
-    <content><![CDATA[<p><strong></strong></p><center><strong>小米这样的公司其实限制了产品的天花板</strong></center><p></p>
-<p>如果人人都选择牺牲品质去换取价格，高端产品市场被压缩，意味着顶尖的技术革新变慢。好的创意胎死腹中。<br>其实现在整个中国的商业风气都很差。大公司毫无底线节操，遇到好的创意就抄袭。<br>加之中国浮躁的氛围，很少有人愿意沉淀下来</p>
-<h1 id="收获"><a href="#收获" class="headerlink" title="收获"></a>收获</h1><h2 id="理论"><a href="#理论" class="headerlink" title="理论"></a>理论</h2><ul>
-<li>共赢思维<br>《教父》中 ”想完成交易最简单的方式就是开出对方无法拒绝的条件“。<br>另一个角度： 己欲立而立人，己欲达而达人。 欲先取之必先与之。<br>吃亏是福。</li>
-</ul>
-<p>现代社会只能依赖合作。带着开放的心态共同成长。</p>
-<ul>
-<li><p>协议精神<br>不能只共苦， 也要能同甘。</p>
-</li>
-<li><p>不断完善自己</p>
-</li>
-</ul>
-<h2 id="实践"><a href="#实践" class="headerlink" title="实践"></a>实践</h2><ul>
-<li><p>遇到问题应该先同步信息，先搞清楚再去分析问题。<br>片面的情况只是会浪费时间，不断的试错其实本质上仍然在同步信息。所以最终还是会回到同步信息上来。</p>
-</li>
-<li><p>更快的复现问题。</p>
-</li>
-<li><p>了解链路，切片式的分段排查分析。<br>摄像头链路很长，所以要分环节去学。</p>
-</li>
-</ul>
-<h1 id="reference"><a href="#reference" class="headerlink" title="reference"></a><em><strong>reference</strong></em></h1><ul>
-<li>《》</li>
-<li>《》</li>
-<li>《》</li>
-</ul>
-]]></content>
-      <categories>
-        <category>daily_note</category>
-      </categories>
-      <tags>
-        <tag>diary</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>History</title>
     <url>/History/</url>
     <content><![CDATA[<p><strong></strong></p><center><strong>事出反常必有妖，习惯思考本质</strong></center><p></p>
@@ -117,18 +81,39 @@
       </tags>
   </entry>
   <entry>
-    <title>doc</title>
-    <url>/doc/</url>
-    <content><![CDATA[<p><strong></strong></p><center><strong>规则是工具可以被真正使用的前提</strong></center><p></p>
-<p>markdown在网页上使用兼容性强，语法简单。</p>
-<p>在更复杂的使用场景里面需要RST，也就是 SPHINX和Doxygen<br>比如公司的项目文档。需要描述内容的更多。</p>
-<h1 id="1-sphinx"><a href="#1-sphinx" class="headerlink" title="1. sphinx"></a>1. sphinx</h1><h1 id="2-Doxygen"><a href="#2-Doxygen" class="headerlink" title="2. Doxygen"></a>2. Doxygen</h1>]]></content>
+    <title>Consideration about career</title>
+    <url>/Consideration-about-career/</url>
+    <content><![CDATA[<p><strong></strong></p><center><strong>小米这样的公司其实限制了产品的天花板</strong></center><p></p>
+<p>如果人人都选择牺牲品质去换取价格，高端产品市场被压缩，意味着顶尖的技术革新变慢。好的创意胎死腹中。<br>其实现在整个中国的商业风气都很差。大公司毫无底线节操，遇到好的创意就抄袭。<br>加之中国浮躁的氛围，很少有人愿意沉淀下来</p>
+<h1 id="收获"><a href="#收获" class="headerlink" title="收获"></a>收获</h1><h2 id="理论"><a href="#理论" class="headerlink" title="理论"></a>理论</h2><ul>
+<li>共赢思维<br>《教父》中 ”想完成交易最简单的方式就是开出对方无法拒绝的条件“。<br>另一个角度： 己欲立而立人，己欲达而达人。 欲先取之必先与之。<br>吃亏是福。</li>
+</ul>
+<p>现代社会只能依赖合作。带着开放的心态共同成长。</p>
+<ul>
+<li><p>协议精神<br>不能只共苦， 也要能同甘。</p>
+</li>
+<li><p>不断完善自己</p>
+</li>
+</ul>
+<h2 id="实践"><a href="#实践" class="headerlink" title="实践"></a>实践</h2><ul>
+<li><p>遇到问题应该先同步信息，先搞清楚再去分析问题。<br>片面的情况只是会浪费时间，不断的试错其实本质上仍然在同步信息。所以最终还是会回到同步信息上来。</p>
+</li>
+<li><p>更快的复现问题。</p>
+</li>
+<li><p>了解链路，切片式的分段排查分析。<br>摄像头链路很长，所以要分环节去学。</p>
+</li>
+</ul>
+<h1 id="reference"><a href="#reference" class="headerlink" title="reference"></a><em><strong>reference</strong></em></h1><ul>
+<li>《》</li>
+<li>《》</li>
+<li>《》</li>
+</ul>
+]]></content>
       <categories>
-        <category>tool</category>
+        <category>daily_note</category>
       </categories>
       <tags>
-        <tag>sphinx</tag>
-        <tag>doxygen</tag>
+        <tag>diary</tag>
       </tags>
   </entry>
   <entry>
@@ -164,16 +149,18 @@
       </tags>
   </entry>
   <entry>
-    <title>project ideas</title>
-    <url>/project-ideas/</url>
-    <content><![CDATA[<p><strong></strong></p><center><strong>思考具有局限性</strong></center><p></p>
-<p>流程是由做过事情的人分享出来的，不能是没做的总结出来<br>初创公司 流程不能繁琐，而是直观简洁</p>
-<h1 id="智能红绿灯"><a href="#智能红绿灯" class="headerlink" title="智能红绿灯"></a>智能红绿灯</h1><h1 id="车车互联"><a href="#车车互联" class="headerlink" title="车车互联"></a>车车互联</h1><h1 id="密码管理平台"><a href="#密码管理平台" class="headerlink" title="密码管理平台"></a>密码管理平台</h1><h1 id="不同平台互联，传输文件开始"><a href="#不同平台互联，传输文件开始" class="headerlink" title="不同平台互联，传输文件开始"></a>不同平台互联，传输文件开始</h1>]]></content>
+    <title>doc</title>
+    <url>/doc/</url>
+    <content><![CDATA[<p><strong></strong></p><center><strong>规则是工具可以被真正使用的前提</strong></center><p></p>
+<p>markdown在网页上使用兼容性强，语法简单。</p>
+<p>在更复杂的使用场景里面需要RST，也就是 SPHINX和Doxygen<br>比如公司的项目文档。需要描述内容的更多。</p>
+<h1 id="1-sphinx"><a href="#1-sphinx" class="headerlink" title="1. sphinx"></a>1. sphinx</h1><h1 id="2-Doxygen"><a href="#2-Doxygen" class="headerlink" title="2. Doxygen"></a>2. Doxygen</h1>]]></content>
       <categories>
-        <category>daily_note</category>
+        <category>tool</category>
       </categories>
       <tags>
-        <tag>ideas</tag>
+        <tag>sphinx</tag>
+        <tag>doxygen</tag>
       </tags>
   </entry>
   <entry>
@@ -271,6 +258,19 @@
       </categories>
       <tags>
         <tag>hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>project ideas</title>
+    <url>/project-ideas/</url>
+    <content><![CDATA[<p><strong></strong></p><center><strong>思考具有局限性</strong></center><p></p>
+<p>流程是由做过事情的人分享出来的，不能是没做的总结出来<br>初创公司 流程不能繁琐，而是直观简洁</p>
+<h1 id="智能红绿灯"><a href="#智能红绿灯" class="headerlink" title="智能红绿灯"></a>智能红绿灯</h1><h1 id="车车互联"><a href="#车车互联" class="headerlink" title="车车互联"></a>车车互联</h1><h1 id="密码管理平台"><a href="#密码管理平台" class="headerlink" title="密码管理平台"></a>密码管理平台</h1><h1 id="不同平台互联，传输文件开始"><a href="#不同平台互联，传输文件开始" class="headerlink" title="不同平台互联，传输文件开始"></a>不同平台互联，传输文件开始</h1>]]></content>
+      <categories>
+        <category>daily_note</category>
+      </categories>
+      <tags>
+        <tag>ideas</tag>
       </tags>
   </entry>
   <entry>
