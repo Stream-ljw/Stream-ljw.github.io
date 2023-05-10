@@ -509,7 +509,7 @@ note:
   #  - modern    bootstrap callout new (v2-v3) alert style.
   #  - flat      flat callout style with background, like on Mozilla or StackOverflow.
   #  - disabled  disable all CSS styles import of note tag.
-  style: simple
+  style: modern
   icons: false
   # Offset lighter of background in % for modern and flat styles (modern: -12 | 12; flat: -18 | 6).
   # Offset also applied to label tag variables. This option can work with disabled note tag.
@@ -558,10 +558,11 @@ math:
   # Default (false) will load mathjax / katex script on demand.
   # That is it only render those page which has `mathjax: true` in front-matter.
   # If you set it to true, it will load mathjax / katex script EVERY PAGE.
-  every_page: false
+  every_page: true
 
   mathjax:
-    enable: false
+    #enable: false
+    enable: true
     # Available values: none | ams | all
     tags: none
 

@@ -169,6 +169,22 @@ local_search:
   enable: true
 ```
 
+- tag-plugins : 意思是通过给文本、图片等打上一些标签从而实现一些特殊的效果  
+For more info: [Tag Plugins introduc](https://theme-next.js.org/docs/tag-plugins/)
+注意： 这不属于markdown的语法，而是hexo在渲染时候的功能
+
+- emoji:  通过shortcode使用表情， hexo默认的markdown渲染器hexo-render-marked不支持渲染emoji  
+可以通过更改支持的渲染器来解决。但是我不想大动干戈，本着emoji能用就行的心态，装个插件。
+``` npm install hexo-filter-github-emojis --save ```
+修改站点配置文件：
+```
+githubEmojis:
+  enable: true
+  className: github-emoji
+  inject: true
+  styles:
+  customEmojis:
+```
 
 ----------
 (end)
@@ -179,3 +195,4 @@ local_search:
 hexo官方文档： [主要是选择主题](https://hexo.io/themes/)
 NexT官方参考文档： [Getting Started](https://theme-next.js.org/docs/getting-started/)  
 比较全的主题功能配置： [点此前往查看](https://www.meijindong.com/posts/3688165485.html)
+hexo提供的plugins： [千万安装](https://hexo.io/plugins/)
