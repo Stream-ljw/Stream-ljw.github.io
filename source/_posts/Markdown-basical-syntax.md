@@ -97,8 +97,8 @@ $$ f(x)=sin(x)$$
 hexo主题需要额外安装flowchart插件以支持渲染。
 
 markdown图表类型支持： 流程图(mermaid/flow)、时序图(sequence)、甘特图(mermaid) 
-语法：(需要在开头注明flow类型)
-```[flow]
+语法：(需要在开头注明mermaid类型,此处被自动省略)
+```
 st=>start: 开始框
 op=>operation: 处理框
 cond=>condition: 判断框(是或否?)
@@ -109,6 +109,8 @@ st(right)->op(right)->cond
 cond(yes)->io(bottom)->e
 cond(no)->sub1(right)->op
 ```
+可以看出语法繁琐，记得很多。
+下面是mermaid插件提供的语法
 ```
 graph LR
 A[方形] -->B(圆角)
@@ -121,17 +123,6 @@ A[方形] -->B(圆角)
 [用mermaid画图](https://zhuanlan.zhihu.com/p/355997933)
 
 效果:
-```flow
-st=>start: 开始框
-op=>operation: 处理框
-cond=>condition: 判断框(是或否?)
-sub1=>subroutine: 子流程
-io=>inputoutput: 输入输出框
-e=>end: 结束框
-st(right)->op(right)->cond
-cond(yes)->io(bottom)->e
-cond(no)->sub1(right)->op
-```
 ```mermaid
 graph LR
 A[方形] -->B(圆角)

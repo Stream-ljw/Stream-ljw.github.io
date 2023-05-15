@@ -174,8 +174,7 @@ For more info: [Tag Plugins introduc](https://theme-next.js.org/docs/tag-plugins
 注意： 这不属于markdown的语法，而是hexo在渲染时候的功能
 
 - emoji:  通过shortcode使用表情， hexo默认的markdown渲染器hexo-render-marked不支持渲染emoji  
-可以通过更改支持的渲染器来解决。但是我不想大动干戈，本着emoji能用就行的心态，装个插件。
-``` npm install hexo-filter-github-emojis --save ```
+可以通过更改支持的渲染器来解决。但是我不想大动干戈，本着emoji能用就行的心态，装个插件:   ` npm install hexo-filter-github-emojis --save `
 修改站点配置文件：
 ```
 githubEmojis:
@@ -185,6 +184,11 @@ githubEmojis:
   styles:
   customEmojis:
 ```
+- flowchart、mermaid ： 在next主题配置文件中找到mermaid 字段，enable 改为true
+尽量使用mermaid ，似乎flowchart语法，在手机上浏览网页会让页面错误。
+
+- 添加图片： 站点配置文件中post_assert_floder改为true， 这样hexo new post时就会创建对应的文件夹。
+注意： 插入图片时应该使用 post_floder_name/image_name.type 路径来引用图片。 插入图片不需要安装其他任何插件，不显示就是路径设置错误  
 
 ----------
 (end)
