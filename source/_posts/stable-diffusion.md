@@ -20,12 +20,29 @@ MidJourney |  收费 | 三款产品都是可以根据text形式prompt(提示词)
 DALL-E | openai 产品之一，著名的是其语言模型gpt-4 ，ofcourse，收费。| ^
 stable-diffusion | 开源免费，适合商用  | ^
 
+## 一些知识
+- 潜空间
 
+- UNet神经网络
+
+- 调度算法Scheduling
+
+- 扩散diffusion
+
+## 生成过程
+![图像生成过程](stable-diffusion/image.jpg)
+
+
+# 使用
+
+## 环境搭建
+
+## 使用case
 
 
 # ***reference***
 
 https://civitai.com/
-
-
+https://zhuanlan.zhihu.com/p/610094594?utm_id=0
+stable-diffusion wiki
 {% cq %}"Do one thing every day that scares you." --Eleanor Roosevelt{% endcq %}

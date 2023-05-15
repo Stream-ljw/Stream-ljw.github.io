@@ -47,7 +47,7 @@ categories: tool
 | 单元格 | 单元格 | 单元格 |
 ```
 单元格合并 ：  
-属于markdown扩展语法，需要markdown processor的支持，不支持没效果，记录一下，万一以后支持呢。
+属于markdown扩展语法，需要markdown渲染器的支持，不支持没效果，记录一下，万一以后支持呢。
 ```
 > 或 空 ： 横向框合并
 ^ : 纵向框合并
@@ -97,7 +97,30 @@ $$ f(x)=sin(x)$$
 hexo主题需要额外安装flowchart插件以支持渲染。
 
 markdown图表类型支持： 流程图(mermaid/flow)、时序图(sequence)、甘特图(mermaid) 
-语法：
+语法：(需要在开头注明flow类型)
+```[flow]
+st=>start: 开始框
+op=>operation: 处理框
+cond=>condition: 判断框(是或否?)
+sub1=>subroutine: 子流程
+io=>inputoutput: 输入输出框
+e=>end: 结束框
+st(right)->op(right)->cond
+cond(yes)->io(bottom)->e
+cond(no)->sub1(right)->op
+```
+```
+graph LR
+A[方形] -->B(圆角)
+    B --> C{条件a}
+    C -->|a=1| D[结果1]
+    C -->|a=2| E[结果2]
+    F[横向流程图]
+```
+更多：   
+[用mermaid画图](https://zhuanlan.zhihu.com/p/355997933)
+
+效果:
 ```flow
 st=>start: 开始框
 op=>operation: 处理框
@@ -109,19 +132,22 @@ st(right)->op(right)->cond
 cond(yes)->io(bottom)->e
 cond(no)->sub1(right)->op
 ```
-
-## 总结警告标注
+```mermaid
+graph LR
+A[方形] -->B(圆角)
+    B --> C{条件a}
+    C -->|a=1| D[结果1]
+    C -->|a=2| E[结果2]
+    F[横向流程图]
 ```
-!!! summary
-    总结 
-
-!!! warning
-    警告
-
-!!! Note
-    标注
+```mermaid
+pie
+    title 为什么总是宅在家里？
+    "喜欢宅" : 15
+    "天气太热或太冷" : 20
+    "穷" : 500
 ```
-(不生效)
+
 
 # ***reference***
 
