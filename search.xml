@@ -1,32 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>History</title>
-    <url>/History/</url>
-    <content><![CDATA[<p>这个想法产生很早了，记录时代的变革。</p>
-<p>对于一个人类来说，社会变革是缓慢的，人很难联想间隔十年间的两件事情。<br>”互联网没有记忆“<br>所以，多记录，多思考，或许能发现属于我自己的社会发展的本质。</p>
-<h2 id="工业革命"><a href="#工业革命" class="headerlink" title="工业革命"></a>工业革命</h2><p>蒸汽<br>电力</p>
-<h2 id="互联网"><a href="#互联网" class="headerlink" title="互联网"></a>互联网</h2><ul>
-<li><p>编程语言</p>
-</li>
-<li><p>视觉，听觉变革</p>
-</li>
-</ul>
-<h2 id="AI"><a href="#AI" class="headerlink" title="AI"></a>AI</h2><h2 id="思想革命"><a href="#思想革命" class="headerlink" title="思想革命"></a>思想革命</h2><p>道家<br>哲学</p>
-<blockquote class="blockquote-center">
-<p>事出反常必有妖，习惯思考本质</p>
-
-</blockquote>]]></content>
-      <categories>
-        <category>note</category>
-      </categories>
-      <tags>
-        <tag>daily_note</tag>
-        <tag>人文</tag>
-        <tag>社会</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Consideration about career</title>
     <url>/Consideration-about-career/</url>
     <content><![CDATA[<p>如果人人都选择牺牲品质去换取价格，高端产品市场被压缩，意味着顶尖的技术革新变慢。好的创意胎死腹中。<br>其实现在整个中国的商业风气都很差。大公司毫无底线节操，遇到好的创意就抄袭。<br>加之中国浮躁的氛围，很少有人愿意沉淀下来</p>
@@ -62,6 +36,83 @@
       </categories>
       <tags>
         <tag>diary</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Doc工具</title>
+    <url>/doc/</url>
+    <content><![CDATA[<p>markdown在网页上使用兼容性强，语法简单。</p>
+<p>在更复杂的使用场景里面需要RST，也就是 SPHINX和Doxygen<br>比如公司的项目文档。需要描述内容的更多。</p>
+<h1 id="1-sphinx"><a href="#1-sphinx" class="headerlink" title="1. sphinx"></a>1. sphinx</h1><h1 id="2-Doxygen"><a href="#2-Doxygen" class="headerlink" title="2. Doxygen"></a>2. Doxygen</h1><blockquote class="blockquote-center">
+<p>规则是工具可以被真正使用的前提</p>
+
+</blockquote>]]></content>
+      <categories>
+        <category>tool</category>
+      </categories>
+      <tags>
+        <tag>sphinx</tag>
+        <tag>doxygen</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>History</title>
+    <url>/History/</url>
+    <content><![CDATA[<p>这个想法产生很早了，记录时代的变革。</p>
+<p>对于一个人类来说，社会变革是缓慢的，人很难联想间隔十年间的两件事情。<br>”互联网没有记忆“<br>所以，多记录，多思考，或许能发现属于我自己的社会发展的本质。</p>
+<h2 id="工业革命"><a href="#工业革命" class="headerlink" title="工业革命"></a>工业革命</h2><p>蒸汽<br>电力</p>
+<h2 id="互联网"><a href="#互联网" class="headerlink" title="互联网"></a>互联网</h2><ul>
+<li><p>编程语言</p>
+</li>
+<li><p>视觉，听觉变革</p>
+</li>
+</ul>
+<h2 id="AI"><a href="#AI" class="headerlink" title="AI"></a>AI</h2><h2 id="思想革命"><a href="#思想革命" class="headerlink" title="思想革命"></a>思想革命</h2><p>道家<br>哲学</p>
+<blockquote class="blockquote-center">
+<p>事出反常必有妖，习惯思考本质</p>
+
+</blockquote>]]></content>
+      <categories>
+        <category>note</category>
+      </categories>
+      <tags>
+        <tag>daily_note</tag>
+        <tag>人文</tag>
+        <tag>社会</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>hexo blog SEO configure</title>
+    <url>/hexo-blog-SEO-configure/</url>
+    <content><![CDATA[<h1 id="SEO"><a href="#SEO" class="headerlink" title="SEO"></a>SEO</h1><p>SEO(Search Engine Optimization) 针对搜索引擎的优化。<br>意义是让我们的博客能被通过搜索引擎查询相关问题的人更容易看到浏览。(换句话说，没有这方面需求的人可以忽略)  </p>
+<p>我没有相关的需求，玩的就是一个收藏。毕竟写博客主要目的是技术积累，以及和朋友的谈资  : )<br>至于博客里面甚至留了bitcoin的打赏二维码，相信我，那只是为了好玩。 : )  </p>
+<p>出于对技术的热爱角度，也来学习一下，万一以后能用到呢。所以没有和hexo博客搭建写在一起，而是单独另起一篇细细的看下，有用的记录下。<br>如果你有缘看到了，那就一起学习下有哪些方式吧。</p>
+<h2 id="添加搜索引擎的认证"><a href="#添加搜索引擎的认证" class="headerlink" title="添加搜索引擎的认证"></a>添加搜索引擎的认证</h2><h2 id="sitemap"><a href="#sitemap" class="headerlink" title="sitemap"></a>sitemap</h2><h2 id="优化目录结构"><a href="#优化目录结构" class="headerlink" title="优化目录结构"></a>优化目录结构</h2><p>修改站点配置文件<code>_config.yml--&gt; permalink</code></p>
+<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">permalink: :year:month:day/:title/</span><br></pre></td></tr></tbody></table></figure>
+<p>or</p>
+<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">permalink: :title.html</span><br></pre></td></tr></tbody></table></figure>
+<p>从而改变博客的目录结构</p>
+<h2 id="代码压缩"><a href="#代码压缩" class="headerlink" title="代码压缩"></a>代码压缩</h2><p>网页的代码存在大量空白符，压缩代码可以提高网站被访问速度。</p>
+<p>安装插件： <code>npm install hexo-neat --save</code>  </p>
+<p>修改<em>站点配置文件</em>：</p>
+<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line"># 开启压缩</span><br><span class="line">neat_enable: true</span><br><span class="line">neat_html:</span><br><span class="line">  enable: true</span><br><span class="line">  exclude:</span><br><span class="line">neat_css:</span><br><span class="line">  enable: true</span><br><span class="line">  exclude:</span><br><span class="line">    - '**/*.min.css'</span><br><span class="line">neat_js:</span><br><span class="line">  enable: true</span><br><span class="line">  mangle: true</span><br><span class="line">  output:</span><br><span class="line">  compress:</span><br><span class="line">  exclude:</span><br><span class="line">    - '**/*.min.js'</span><br><span class="line">    - '**/index.js'</span><br></pre></td></tr></tbody></table></figure>
+
+<h1 id="reference"><a href="#reference" class="headerlink" title="reference"></a><strong>reference</strong></h1><ul>
+<li>知乎： <a href="https://zhuanlan.zhihu.com/p/344927945">hexo博客高级优化</a>  </li>
+<li>NexT： <a href="https://theme-next.js.org/docs/theme-settings/seo">SEO|NexT</a></li>
+</ul>
+<blockquote class="blockquote-center">
+<p>永远拥抱开放，拥抱自由，where we stands as who we are</p>
+
+</blockquote>]]></content>
+      <categories>
+        <category>tool</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+        <tag>next</tag>
+        <tag>SEO</tag>
+        <tag>next-plugin</tag>
       </tags>
   </entry>
   <entry>
@@ -122,57 +173,6 @@
       </categories>
       <tags>
         <tag>markdown</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Doc工具</title>
-    <url>/doc/</url>
-    <content><![CDATA[<p>markdown在网页上使用兼容性强，语法简单。</p>
-<p>在更复杂的使用场景里面需要RST，也就是 SPHINX和Doxygen<br>比如公司的项目文档。需要描述内容的更多。</p>
-<h1 id="1-sphinx"><a href="#1-sphinx" class="headerlink" title="1. sphinx"></a>1. sphinx</h1><h1 id="2-Doxygen"><a href="#2-Doxygen" class="headerlink" title="2. Doxygen"></a>2. Doxygen</h1><blockquote class="blockquote-center">
-<p>规则是工具可以被真正使用的前提</p>
-
-</blockquote>]]></content>
-      <categories>
-        <category>tool</category>
-      </categories>
-      <tags>
-        <tag>sphinx</tag>
-        <tag>doxygen</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>hexo blog SEO configure</title>
-    <url>/hexo-blog-SEO-configure/</url>
-    <content><![CDATA[<h1 id="SEO"><a href="#SEO" class="headerlink" title="SEO"></a>SEO</h1><p>SEO(Search Engine Optimization) 针对搜索引擎的优化。<br>意义是让我们的博客能被通过搜索引擎查询相关问题的人更容易看到浏览。(换句话说，没有这方面需求的人可以忽略)  </p>
-<p>我没有相关的需求，玩的就是一个收藏。毕竟写博客主要目的是技术积累，以及和朋友的谈资  : )<br>至于博客里面甚至留了bitcoin的打赏二维码，相信我，那只是为了好玩。 : )  </p>
-<p>出于对技术的热爱角度，也来学习一下，万一以后能用到呢。所以没有和hexo博客搭建写在一起，而是单独另起一篇细细的看下，有用的记录下。<br>如果你有缘看到了，那就一起学习下有哪些方式吧。</p>
-<h2 id="添加搜索引擎的认证"><a href="#添加搜索引擎的认证" class="headerlink" title="添加搜索引擎的认证"></a>添加搜索引擎的认证</h2><h2 id="sitemap"><a href="#sitemap" class="headerlink" title="sitemap"></a>sitemap</h2><h2 id="优化目录结构"><a href="#优化目录结构" class="headerlink" title="优化目录结构"></a>优化目录结构</h2><p>修改站点配置文件<code>_config.yml--&gt; permalink</code></p>
-<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">permalink: :year:month:day/:title/</span><br></pre></td></tr></tbody></table></figure>
-<p>or</p>
-<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">permalink: :title.html</span><br></pre></td></tr></tbody></table></figure>
-<p>从而改变博客的目录结构</p>
-<h2 id="代码压缩"><a href="#代码压缩" class="headerlink" title="代码压缩"></a>代码压缩</h2><p>网页的代码存在大量空白符，压缩代码可以提高网站被访问速度。</p>
-<p>安装插件： <code>npm install hexo-neat --save</code>  </p>
-<p>修改<em>站点配置文件</em>：</p>
-<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line"># 开启压缩</span><br><span class="line">neat_enable: true</span><br><span class="line">neat_html:</span><br><span class="line">  enable: true</span><br><span class="line">  exclude:</span><br><span class="line">neat_css:</span><br><span class="line">  enable: true</span><br><span class="line">  exclude:</span><br><span class="line">    - '**/*.min.css'</span><br><span class="line">neat_js:</span><br><span class="line">  enable: true</span><br><span class="line">  mangle: true</span><br><span class="line">  output:</span><br><span class="line">  compress:</span><br><span class="line">  exclude:</span><br><span class="line">    - '**/*.min.js'</span><br><span class="line">    - '**/index.js'</span><br></pre></td></tr></tbody></table></figure>
-
-<h1 id="reference"><a href="#reference" class="headerlink" title="reference"></a><strong>reference</strong></h1><ul>
-<li>知乎： <a href="https://zhuanlan.zhihu.com/p/344927945">hexo博客高级优化</a>  </li>
-<li>NexT： <a href="https://theme-next.js.org/docs/theme-settings/seo">SEO|NexT</a></li>
-</ul>
-<blockquote class="blockquote-center">
-<p>永远拥抱开放，拥抱自由，where we stands as who we are</p>
-
-</blockquote>]]></content>
-      <categories>
-        <category>tool</category>
-      </categories>
-      <tags>
-        <tag>hexo</tag>
-        <tag>next</tag>
-        <tag>SEO</tag>
-        <tag>next-plugin</tag>
       </tags>
   </entry>
   <entry>
@@ -275,10 +275,19 @@
       </tags>
   </entry>
   <entry>
-    <title>project ideas</title>
+    <title>To Be Continued</title>
     <url>/project-ideas/</url>
     <content><![CDATA[<p>流程是由做过事情的人分享出来的，不能是没做的总结出来<br>初创公司 流程不能繁琐，而是直观简洁</p>
-<h1 id="智能红绿灯"><a href="#智能红绿灯" class="headerlink" title="智能红绿灯"></a>智能红绿灯</h1><h1 id="车车互联"><a href="#车车互联" class="headerlink" title="车车互联"></a>车车互联</h1><h1 id="密码管理平台"><a href="#密码管理平台" class="headerlink" title="密码管理平台"></a>密码管理平台</h1><h1 id="不同平台互联，传输文件开始"><a href="#不同平台互联，传输文件开始" class="headerlink" title="不同平台互联，传输文件开始"></a>不同平台互联，传输文件开始</h1><blockquote class="blockquote-center">
+<h1 id="智能红绿灯"><a href="#智能红绿灯" class="headerlink" title="智能红绿灯"></a>智能红绿灯</h1><p>专利</p>
+<h1 id="车车互联"><a href="#车车互联" class="headerlink" title="车车互联"></a>车车互联</h1><p>车车娱乐系统</p>
+<h1 id="密码管理平台"><a href="#密码管理平台" class="headerlink" title="密码管理平台"></a>密码管理平台</h1><ol>
+<li>通过手机号码掌管所有已注册的应用或平台</li>
+<li>隐私管理， 手机号码多一层加密，对应用或平台进行隐藏</li>
+<li>记录所有平台的密码, 支持一键修改</li>
+</ol>
+<h1 id="不同平台互联，传输文件开始"><a href="#不同平台互联，传输文件开始" class="headerlink" title="不同平台互联，传输文件开始"></a>不同平台互联，传输文件开始</h1><p>windows跟手机传输文件，只能通过第三方软件的文件传输功能，手机发送文件到文件传输，windows打开软件文件传输接收文件，然后另存问到windows<br>这样很烦， iphone的 隔空传送其实任何平台都应该支持。</p>
+<h1 id="针对小公司的云存储平台"><a href="#针对小公司的云存储平台" class="headerlink" title="针对小公司的云存储平台"></a>针对小公司的云存储平台</h1><p>bg：小公司缺乏技术人员，文件保存杂乱，可追溯性差， 公司的积累事倍功半。<br>客户信息，交易记录，经验积累等生产资料。这些丢失对于一个公司的损失很惨重。<br>我认为任何正常的小公司需要一个存储重要文件的地方。还可以有效的分类管理，方便查找和预览。</p>
+<blockquote class="blockquote-center">
 <p>思考具有局限性</p>
 
 </blockquote>]]></content>
@@ -318,7 +327,18 @@
 <td>^</td>
 </tr>
 </tbody></table>
-<h1 id="reference"><a href="#reference" class="headerlink" title="reference"></a><em><strong>reference</strong></em></h1><p><a href="https://civitai.com/">https://civitai.com/</a></p>
+<h2 id="一些知识"><a href="#一些知识" class="headerlink" title="一些知识"></a>一些知识</h2><ul>
+<li><p>潜空间</p>
+</li>
+<li><p>UNet神经网络</p>
+</li>
+<li><p>调度算法Scheduling</p>
+</li>
+<li><p>扩散diffusion</p>
+</li>
+</ul>
+<h2 id="生成过程"><a href="#生成过程" class="headerlink" title="生成过程"></a>生成过程</h2><p><img src="/stable-diffusion/image.jpg" alt="图像生成过程"></p>
+<h1 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h1><h2 id="环境搭建"><a href="#环境搭建" class="headerlink" title="环境搭建"></a>环境搭建</h2><h2 id="使用case"><a href="#使用case" class="headerlink" title="使用case"></a>使用case</h2><h1 id="reference"><a href="#reference" class="headerlink" title="reference"></a><em><strong>reference</strong></em></h1><p><a href="https://civitai.com/">https://civitai.com/</a><br><a href="https://zhuanlan.zhihu.com/p/610094594?utm_id=0">https://zhuanlan.zhihu.com/p/610094594?utm_id=0</a><br>stable-diffusion wiki</p>
 <blockquote class="blockquote-center">
 <p>“Do one thing every day that scares you.” –Eleanor Roosevelt</p>
 
