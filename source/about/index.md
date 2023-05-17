@@ -41,10 +41,7 @@ comments : false
 ## 关于主题
 主题是： [Hexo - NexT](http://theme-next.iissnan.com/)   
 
-目前使用了home，about，tags，categories，archives  
-其他的还没完明白，后续加个搜索的功能。  
+目前使用了home，about，tags，categories，archives，以及搜索。
+使用的插件有： 首页内容折叠，阅读和字数统计，网页加载提速，创造性声明，emoji，flowchart
 
-tags 和 categories还有一个小插曲：  
-我已经配置好了next的主题配置文件和站点配置文件，目录名tags都统一了，但是仍然tags和categories页面还是空的。  
-原来是 tags目录下的index.md里面 type类型 我写成了tag, 应该是tags, 可能主题都是根据pages里面的type来识别的.  
-修改完就正常显示了.
+
