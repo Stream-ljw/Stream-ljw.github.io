@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Consideration about career</title>
+    <title>Beings</title>
     <url>/Consideration-about-career/</url>
-    <content><![CDATA[<p>如果人人都选择牺牲品质去换取价格，高端产品市场被压缩，意味着顶尖的技术革新变慢。好的创意胎死腹中。<br>其实现在整个中国的商业风气都很差。大公司毫无底线节操，遇到好的创意就抄袭。<br>加之中国浮躁的氛围，很少有人愿意沉淀下来</p>
-<h2 id="理论"><a href="#理论" class="headerlink" title="理论"></a>理论</h2><ul>
+    <content><![CDATA[<h1 id="Work"><a href="#Work" class="headerlink" title="Work"></a>Work</h1><h2 id="理论"><a href="#理论" class="headerlink" title="理论"></a>理论</h2><ul>
 <li>共赢思维<br>《教父》中 ”想完成交易最简单的方式就是开出对方无法拒绝的条件“。<br>另一个角度： 己欲立而立人，己欲达而达人。 欲先取之必先与之。<br>吃亏是福。</li>
 </ul>
 <p>现代社会只能依赖合作。带着开放的心态共同成长。</p>
@@ -28,7 +27,7 @@
 <li>《》</li>
 </ul>
 <blockquote class="blockquote-center">
-<p>小米这样的公司其实限制了产品的天花板</p>
+<p>小米这样的公司其实限制了产品的天花板<br>如果人人都选择牺牲品质去换取价格，高端产品市场被压缩，意味着顶尖的技术革新变慢。好的创意胎死腹中。<br>其实现在整个中国的商业风气都很差。大公司毫无底线节操，遇到好的创意就抄袭。<br>加之中国浮躁的氛围，很少有人愿意沉淀下来</p>
 
 </blockquote>]]></content>
       <categories>
@@ -36,6 +35,23 @@
       </categories>
       <tags>
         <tag>diary</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Doc工具</title>
+    <url>/doc/</url>
+    <content><![CDATA[<p>markdown在网页上使用兼容性强，语法简单。</p>
+<p>在更复杂的使用场景里面需要RST，也就是 SPHINX和Doxygen<br>比如公司的项目文档。需要描述内容的更多。</p>
+<h1 id="1-sphinx"><a href="#1-sphinx" class="headerlink" title="1. sphinx"></a>1. sphinx</h1><h1 id="2-Doxygen"><a href="#2-Doxygen" class="headerlink" title="2. Doxygen"></a>2. Doxygen</h1><blockquote class="blockquote-center">
+<p>规则是工具可以被真正使用的前提</p>
+
+</blockquote>]]></content>
+      <categories>
+        <category>tool</category>
+      </categories>
+      <tags>
+        <tag>sphinx</tag>
+        <tag>doxygen</tag>
       </tags>
   </entry>
   <entry>
@@ -136,23 +152,6 @@ A[方形] --&gt;B(圆角)
       </categories>
       <tags>
         <tag>markdown</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Doc工具</title>
-    <url>/doc/</url>
-    <content><![CDATA[<p>markdown在网页上使用兼容性强，语法简单。</p>
-<p>在更复杂的使用场景里面需要RST，也就是 SPHINX和Doxygen<br>比如公司的项目文档。需要描述内容的更多。</p>
-<h1 id="1-sphinx"><a href="#1-sphinx" class="headerlink" title="1. sphinx"></a>1. sphinx</h1><h1 id="2-Doxygen"><a href="#2-Doxygen" class="headerlink" title="2. Doxygen"></a>2. Doxygen</h1><blockquote class="blockquote-center">
-<p>规则是工具可以被真正使用的前提</p>
-
-</blockquote>]]></content>
-      <categories>
-        <category>tool</category>
-      </categories>
-      <tags>
-        <tag>sphinx</tag>
-        <tag>doxygen</tag>
       </tags>
   </entry>
   <entry>
@@ -268,12 +267,8 @@ A[方形] --&gt;B(圆角)
 </li>
 <li><p>tag-plugins : 意思是通过给文本、图片等打上一些标签从而实现一些特殊的效果<br>For more info: <a href="https://theme-next.js.org/docs/tag-plugins/">Tag Plugins introduc</a><br>注意： 这不属于markdown的语法，而是hexo在渲染时候的功能</p>
 </li>
-<li><p>emoji:  通过shortcode使用表情， hexo默认的markdown渲染器hexo-render-marked不支持渲染emoji<br>可以通过更改支持的渲染器来解决。但是我不想大动干戈，本着emoji能用就行的心态，装个插件。</p>
-</li>
-</ul>
-<p><code>npm install hexo-filter-github-emojis --save</code><br>修改站点配置文件：</p>
-<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">githubEmojis:</span><br><span class="line">  enable: true</span><br><span class="line">  className: github-emoji</span><br><span class="line">  inject: true</span><br><span class="line">  styles:</span><br><span class="line">  customEmojis:</span><br></pre></td></tr></tbody></table></figure>
-<ul>
+<li><p>emoji:  通过shortcode使用表情， hexo默认的markdown渲染器hexo-render-marked不支持渲染emoji<br>可以通过更改支持的渲染器来解决。但是我不想大动干戈，本着emoji能用就行的心态，装个插件:   <code>npm install hexo-filter-github-emojis --save</code><br>修改站点配置文件：</p>
+<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">githubEmojis:</span><br><span class="line">  enable: true</span><br><span class="line">  className: github-emoji</span><br><span class="line">  inject: true</span><br><span class="line">  styles:</span><br><span class="line">  customEmojis:</span><br></pre></td></tr></tbody></table></figure></li>
 <li><p>flowchart、mermaid ： 在next主题配置文件中找到mermaid 字段，enable 改为true<br>尽量使用mermaid ，似乎flowchart语法，在手机上浏览网页会让页面错误。</p>
 </li>
 <li><p>添加图片： 站点配置文件中post_assert_floder改为true， 这样hexo new post时就会创建对应的文件夹。<br>注意： 插入图片时应该使用 post_floder_name/image_name.type 路径来引用图片。 插入图片不需要安装其他任何插件，不显示就是路径设置错误</p>
