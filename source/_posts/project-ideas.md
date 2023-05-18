@@ -1,5 +1,5 @@
 ---
-title: To Be Continued
+title: Hello world
 date: 2023-05-06 09:59:10
 tags: ideas
 categories: daily_note
