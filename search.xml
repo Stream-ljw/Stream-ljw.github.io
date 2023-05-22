@@ -38,23 +38,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Doc工具</title>
-    <url>/doc/</url>
-    <content><![CDATA[<p>markdown在网页上使用兼容性强，语法简单。</p>
-<p>在更复杂的使用场景里面需要RST，也就是 SPHINX和Doxygen<br>比如公司的项目文档。需要描述内容的更多。</p>
-<h1 id="1-sphinx"><a href="#1-sphinx" class="headerlink" title="1. sphinx"></a>1. sphinx</h1><h1 id="2-Doxygen"><a href="#2-Doxygen" class="headerlink" title="2. Doxygen"></a>2. Doxygen</h1><blockquote class="blockquote-center">
-<p>规则是工具可以被真正使用的前提</p>
-
-</blockquote>]]></content>
-      <categories>
-        <category>tool</category>
-      </categories>
-      <tags>
-        <tag>sphinx</tag>
-        <tag>doxygen</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>History</title>
     <url>/History/</url>
     <content><![CDATA[<p>这个想法产生很早了，记录时代的变革。</p>
@@ -155,6 +138,23 @@ A[方形] --&gt;B(圆角)
       </tags>
   </entry>
   <entry>
+    <title>Doc工具</title>
+    <url>/doc/</url>
+    <content><![CDATA[<p>markdown在网页上使用兼容性强，语法简单。</p>
+<p>在更复杂的使用场景里面需要RST，也就是 SPHINX和Doxygen<br>比如公司的项目文档。需要描述内容的更多。</p>
+<h1 id="1-sphinx"><a href="#1-sphinx" class="headerlink" title="1. sphinx"></a>1. sphinx</h1><h1 id="2-Doxygen"><a href="#2-Doxygen" class="headerlink" title="2. Doxygen"></a>2. Doxygen</h1><blockquote class="blockquote-center">
+<p>规则是工具可以被真正使用的前提</p>
+
+</blockquote>]]></content>
+      <categories>
+        <category>tool</category>
+      </categories>
+      <tags>
+        <tag>sphinx</tag>
+        <tag>doxygen</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>hexo blog SEO configure</title>
     <url>/hexo-blog-SEO-configure/</url>
     <content><![CDATA[<h1 id="SEO"><a href="#SEO" class="headerlink" title="SEO"></a>SEO</h1><p>SEO(Search Engine Optimization) 针对搜索引擎的优化。<br>意义是让我们的博客能被通过搜索引擎查询相关问题的人更容易看到浏览。(换句话说，没有这方面需求的人可以忽略)  </p>
@@ -186,6 +186,39 @@ A[方形] --&gt;B(圆角)
         <tag>next</tag>
         <tag>SEO</tag>
         <tag>next-plugin</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hello world</title>
+    <url>/project-ideas/</url>
+    <content><![CDATA[<h1 id="公司的小程序"><a href="#公司的小程序" class="headerlink" title="公司的小程序"></a>公司的小程序</h1><ol>
+<li>小程序和网页可以用于推广；  </li>
+<li>用于简化流程，节省人力，方便管理。</li>
+</ol>
+<h1 id="智能红绿灯"><a href="#智能红绿灯" class="headerlink" title="智能红绿灯"></a>智能红绿灯</h1><ul>
+<li>多车道识别</li>
+<li>车辆识别—用于变灯判断</li>
+<li>多路口红绿灯连接—用于潮汐车道。</li>
+</ul>
+<h1 id="车车互联"><a href="#车车互联" class="headerlink" title="车车互联"></a>车车互联</h1><p>车车娱乐系统<br>场景： 提前预警； 信息互通</p>
+<h1 id="密码管理平台"><a href="#密码管理平台" class="headerlink" title="密码管理平台"></a>密码管理平台</h1><ol>
+<li>通过手机号码掌管所有已注册的应用或平台</li>
+<li>隐私管理， 手机号码多一层加密，对应用或平台进行隐藏</li>
+<li>记录所有平台的密码, 支持一键修改</li>
+</ol>
+<h1 id="不同平台互联，传输文件开始"><a href="#不同平台互联，传输文件开始" class="headerlink" title="不同平台互联，传输文件开始"></a>不同平台互联，传输文件开始</h1><p>windows跟手机传输文件，只能通过第三方软件的文件传输功能，手机发送文件到文件传输，windows打开软件文件传输接收文件，然后另存问到windows<br>这样很烦， iphone的 隔空传送其实任何平台都应该支持。</p>
+<h1 id="针对小公司的云存储平台"><a href="#针对小公司的云存储平台" class="headerlink" title="针对小公司的云存储平台"></a>针对小公司的云存储平台</h1><p>bg：小公司缺乏技术人员，文件保存杂乱，可追溯性差， 公司的积累事倍功半。<br>客户信息，交易记录，经验积累等生产资料。这些丢失对于一个公司的损失很惨重。<br>我认为任何正常的小公司需要一个存储重要文件的地方。还可以有效的分类管理，方便查找和预览。</p>
+<blockquote class="blockquote-center">
+<p><strong>思考具有局限性</strong><br>你认为的正确只是在你了解的知识体系中的正确</p>
+
+</blockquote>
+<p>流程是由做过事情的人分享出来的，不能是没做的总结出来<br>初创公司 流程不能繁琐，而是直观简洁</p>
+]]></content>
+      <categories>
+        <category>daily_note</category>
+      </categories>
+      <tags>
+        <tag>ideas</tag>
       </tags>
   </entry>
   <entry>
@@ -289,30 +322,6 @@ A[方形] --&gt;B(圆角)
       </tags>
   </entry>
   <entry>
-    <title>To Be Continued</title>
-    <url>/project-ideas/</url>
-    <content><![CDATA[<p>流程是由做过事情的人分享出来的，不能是没做的总结出来<br>初创公司 流程不能繁琐，而是直观简洁</p>
-<h1 id="智能红绿灯"><a href="#智能红绿灯" class="headerlink" title="智能红绿灯"></a>智能红绿灯</h1><p>专利</p>
-<h1 id="车车互联"><a href="#车车互联" class="headerlink" title="车车互联"></a>车车互联</h1><p>车车娱乐系统</p>
-<h1 id="密码管理平台"><a href="#密码管理平台" class="headerlink" title="密码管理平台"></a>密码管理平台</h1><ol>
-<li>通过手机号码掌管所有已注册的应用或平台</li>
-<li>隐私管理， 手机号码多一层加密，对应用或平台进行隐藏</li>
-<li>记录所有平台的密码, 支持一键修改</li>
-</ol>
-<h1 id="不同平台互联，传输文件开始"><a href="#不同平台互联，传输文件开始" class="headerlink" title="不同平台互联，传输文件开始"></a>不同平台互联，传输文件开始</h1><p>windows跟手机传输文件，只能通过第三方软件的文件传输功能，手机发送文件到文件传输，windows打开软件文件传输接收文件，然后另存问到windows<br>这样很烦， iphone的 隔空传送其实任何平台都应该支持。</p>
-<h1 id="针对小公司的云存储平台"><a href="#针对小公司的云存储平台" class="headerlink" title="针对小公司的云存储平台"></a>针对小公司的云存储平台</h1><p>bg：小公司缺乏技术人员，文件保存杂乱，可追溯性差， 公司的积累事倍功半。<br>客户信息，交易记录，经验积累等生产资料。这些丢失对于一个公司的损失很惨重。<br>我认为任何正常的小公司需要一个存储重要文件的地方。还可以有效的分类管理，方便查找和预览。</p>
-<blockquote class="blockquote-center">
-<p>思考具有局限性</p>
-
-</blockquote>]]></content>
-      <categories>
-        <category>daily_note</category>
-      </categories>
-      <tags>
-        <tag>ideas</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>stable diffusion</title>
     <url>/stable-diffusion/</url>
     <content><![CDATA[<p>从今天开始正式学习stable-diffusion</p>
@@ -341,7 +350,7 @@ A[方形] --&gt;B(圆角)
 <td>^</td>
 </tr>
 </tbody></table>
-<h2 id="一些知识"><a href="#一些知识" class="headerlink" title="一些知识"></a>一些知识</h2><ul>
+<h2 id="Requisite"><a href="#Requisite" class="headerlink" title="Requisite"></a>Requisite</h2><ul>
 <li><p>潜空间</p>
 </li>
 <li><p>UNet神经网络</p>
@@ -350,9 +359,38 @@ A[方形] --&gt;B(圆角)
 </li>
 <li><p>扩散diffusion</p>
 </li>
+<li><p>生成过程<br><img src="/stable-diffusion/image.jpg" alt="图像生成过程"></p>
+</li>
 </ul>
-<h2 id="生成过程"><a href="#生成过程" class="headerlink" title="生成过程"></a>生成过程</h2><p><img src="/stable-diffusion/image.jpg" alt="图像生成过程"></p>
-<h1 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h1><h2 id="环境搭建"><a href="#环境搭建" class="headerlink" title="环境搭建"></a>环境搭建</h2><h2 id="使用case"><a href="#使用case" class="headerlink" title="使用case"></a>使用case</h2><h1 id="reference"><a href="#reference" class="headerlink" title="reference"></a><em><strong>reference</strong></em></h1><p><a href="https://civitai.com/">https://civitai.com/</a><br><a href="https://zhuanlan.zhihu.com/p/610094594?utm_id=0">https://zhuanlan.zhihu.com/p/610094594?utm_id=0</a><br>stable-diffusion wiki</p>
+<hr>
+<h1 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h1><h2 id="env-build"><a href="#env-build" class="headerlink" title="env build"></a>env build</h2><ul>
+<li><p>本地环境搭建webui</p>
+</li>
+<li><p>如何在服务器上通过接口调用服务</p>
+</li>
+</ul>
+<h2 id="use-case"><a href="#use-case" class="headerlink" title="use-case"></a>use-case</h2><ul>
+<li><p>text2img</p>
+</li>
+<li><p>text+img2img</p>
+</li>
+</ul>
+<h1 id="应用–换装预览"><a href="#应用–换装预览" class="headerlink" title="应用–换装预览"></a>应用–换装预览</h1><h2 id="Thread"><a href="#Thread" class="headerlink" title="Thread"></a>Thread</h2><ol>
+<li>client<br>选择衣服，选择预览人物</li>
+<li>server<br>根据所选衣服和预览人物，生成提示词，填入后调接口进行生成</li>
+</ol>
+<h2 id="Details"><a href="#Details" class="headerlink" title="Details"></a>Details</h2><ol>
+<li>人物模型生成</li>
+<li>衣服模型提取</li>
+<li>生成提示词精准度</li>
+<li>提高生成速度</li>
+</ol>
+<h2 id="implement"><a href="#implement" class="headerlink" title="implement"></a>implement</h2><h1 id="reference"><a href="#reference" class="headerlink" title="reference"></a><em><strong>reference</strong></em></h1><ul>
+<li><a href="https://civitai.com/">https://civitai.com/</a></li>
+<li><a href="https://zhuanlan.zhihu.com/p/610094594?utm_id=0">https://zhuanlan.zhihu.com/p/610094594?utm_id=0</a></li>
+<li>stable-diffusion wiki</li>
+<li>好玩的AI社区：<a href="https://huggingface.co/spaces/stabilityai/stable-diffusion">这是stable-diffusion的一个样例, 还有例如chatgpt-4的体验空间</a></li>
+</ul>
 <blockquote class="blockquote-center">
 <p>“Do one thing every day that scares you.” –Eleanor Roosevelt</p>
 
@@ -363,6 +401,30 @@ A[方形] --&gt;B(圆角)
       <tags>
         <tag>ai绘画</tag>
         <tag>statble-diffusion</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>rtos_issue</title>
+    <url>/rtos-issue/</url>
+    <content><![CDATA[<h1 id="Backgroud"><a href="#Backgroud" class="headerlink" title="Backgroud"></a>Backgroud</h1><p>记录工作中遇到的tda4中的一些问题，以及自己是怎么解决的。<br>更多是记录一些玄幻的问题以及原因。</p>
+<h2 id="调用remote-service不返回，加个pintf后又正常返回。"><a href="#调用remote-service不返回，加个pintf后又正常返回。" class="headerlink" title="调用remote-service不返回，加个pintf后又正常返回。"></a>调用remote-service不返回，加个pintf后又正常返回。</h2><p><strong>问题描述：</strong><br>在通过控制电源管理芯片20087对摄像头进行上下电过程中，调用写好的写20087寄存器的接口。<br>写20087在 rtos内，调用处也在rtos处。<br>循环四次上下电四次。  </p>
+<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">for(camIdx = 0; camIdx &lt; 4; camIdx++){</span><br><span class="line">	// 上电</span><br><span class="line">	powerState.camIndex = camIdx;</span><br><span class="line">	powerState.camState = 1;  // power_on</span><br><span class="line">	appRemoteServiceRun(</span><br><span class="line">	APP_IPC_CPU_MCU2_0,</span><br><span class="line">	APP_REMOTE_SERVICE_CALI_PARAM_NAME,</span><br><span class="line">	APP_REMOTE_SERVICE_SVM_CAM_POWER,</span><br><span class="line">	&amp;powerState,</span><br><span class="line">	sizeof(S_ImoSvmPowerState),</span><br><span class="line">	0);</span><br><span class="line">	appLogWaitMsecs(500);</span><br><span class="line">	// read to judge</span><br><span class="line">	Board_i2c16BitRegRd(i2cHandle, 0x29, 0x0, &amp;reg_v, 1, BOARD_I2C_REG_ADDR_MSB_FIRST, 100);</span><br><span class="line">	if(0x29 != (reg_v&gt;&gt;1)){</span><br><span class="line">	// 出现异常进行断电</span><br><span class="line">		printf("#streamFlag# camIdx = %d cause i2c error!!, reg_v = 0x%x \n", camIdx, reg_v); reg_v = 0xff;</span><br><span class="line">		powerState.camIndex = camIdx;</span><br><span class="line">		powerState.camState = 0;  // power_off</span><br><span class="line">		appRemoteServiceRun(</span><br><span class="line">		APP_IPC_CPU_MCU2_0,</span><br><span class="line">		APP_REMOTE_SERVICE_CALI_PARAM_NAME,</span><br><span class="line">		APP_REMOTE_SERVICE_SVM_CAM_POWER,</span><br><span class="line">		&amp;powerState,</span><br><span class="line">		sizeof(S_ImoSvmPowerState),</span><br><span class="line">		0);</span><br><span class="line">		// printf("#streamFlag# camIdx = %d cause i2c error!!, reg_v = 0x%x \n", camIdx, reg_v); reg_v = 0xff;</span><br><span class="line">	}</span><br><span class="line">}</span><br><span class="line">printf("#streamFlag# test content \n");</span><br></pre></td></tr></tbody></table></figure>
+<p>没有加结尾处的printf后，testcontent 无法打印出来，相当于没走到，加了printf后竟然正常打印testcontent了！</p>
+<p><strong>问题分析:</strong> </p>
+<ol>
+<li>接口appRemoteServiceRun()中加打印跟踪流程</li>
+</ol>
+<blockquote class="blockquote-center">
+<p>学区房是阶级的象征 </p>
+
+</blockquote>]]></content>
+      <categories>
+        <category>tech</category>
+      </categories>
+      <tags>
+        <tag>rtos</tag>
+        <tag>TI</tag>
+        <tag>tda4</tag>
       </tags>
   </entry>
 </search>
