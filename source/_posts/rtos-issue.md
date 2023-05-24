@@ -1,5 +1,5 @@
 ---
-title: rtos_issue
+title: rtos学习
 date: 2023-05-18 17:11:14
 tags: 
 	- rtos
@@ -8,9 +8,7 @@ tags:
 categories: tech
 ---
 
-# Backgroud
-记录工作中遇到的tda4中的一些问题，以及自己是怎么解决的。  
-更多是记录一些玄幻的问题以及原因。
+# ISSUES
 
 ## 加个pintf后一切正常--rtos里面经常发生的
 **问题描述：**
