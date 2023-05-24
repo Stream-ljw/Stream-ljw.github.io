@@ -1,6 +1,6 @@
 ---
 title: hexo blog SEO configure
-date: 2023-05-09 16:50:26
+date: 2021-05-09 16:50:26
 tags: 
 	- hexo
 	- next

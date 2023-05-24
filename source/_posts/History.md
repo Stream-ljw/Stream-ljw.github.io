@@ -1,11 +1,10 @@
 ---
 title: History
-date: 2023-05-10 15:08:57
+date: 2020-05-10 15:08:57
 tags: 
-	- daily_note
-	- 人文
-	- 社会
-categories: note
+	- diary
+
+categories: diary
 ---
 
 这个想法产生很早了，记录时代的变革。

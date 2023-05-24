@@ -71,6 +71,10 @@ click here :point_right: [official guidance of source code](https://github.com/A
 
 ---------
 # 应用--换装预览
+:point_right:[**AI models**样例](https://www.zmo.ai/aimodels/)
+
+## 场景1：
+淘宝商家给出衣服图片，用ai绘出穿着衣服的人物模型，支持各种场景和人物姿势
 
 ## Thread
 1. client
