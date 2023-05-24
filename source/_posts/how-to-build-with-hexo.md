@@ -1,6 +1,6 @@
 ---
 title: how to build with hexo
-date: 2023-05-05 17:48:39
+date: 2021-05-05 17:48:39
 tags: hexo
 categories: tool
 ---

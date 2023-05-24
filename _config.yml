@@ -201,3 +201,15 @@ mermaid: ## mermaid url https://github.com/knsv/mermaid
   #version: "7.1.2" # default v7.1.2
   options:  # find more api options from https://github.com/knsv/mermaid/blob/master/src/mermaidAPI.js
     #startOnload: true  // default true
+    
+
+# Security
+# hexo-blog-encrypt
+encrypt: 
+  abstract: 空空如也~~~
+  message: Ops！这篇文章博主似乎不想透露！
+  tags:
+  - {name: diary, password: 140312}
+  theme: xray
+  wrong_pass_message: Warning！！请停止窥探隐私行为！！您的IP已经被记录！！
+  wrong_hash_message: 抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容.

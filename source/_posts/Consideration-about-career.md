@@ -1,8 +1,8 @@
 ---
 title: Beings
-date: 2023-05-06 10:08:02
+date: 2020-05-06 10:08:02
 tags: diary
-categories: daily_note
+categories: diary
 ---
 
 # Work
