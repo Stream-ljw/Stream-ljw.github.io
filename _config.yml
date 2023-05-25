@@ -128,11 +128,22 @@ search:
 
 # wordcount
 # npm install hexo-symbols-count-time --save
+#symbols_count_time:
+#  separated_meta: true
+#  item_text_post: true
+#  item_text_total: false
+# wordcount (next recommended)
+# npm uninstall hexo-symbols-count-time
+# npm install hexo-word-counter --save
 symbols_count_time:
-  separated_meta: true
-  item_text_post: true
-  item_text_total: false
- 
+  symbols: true
+  time: true
+  total_symbols: true
+  total_time: true
+  exclude_codeblock: false
+  wpm: 275
+  suffix: "mins."
+
 # page sourcecode compress to optimize open site time
 # npm install hexo-neat --save
 # 开启压缩 提高网站访问速度

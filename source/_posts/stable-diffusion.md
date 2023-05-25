@@ -47,12 +47,30 @@ Seed	        | 随机数种子。生成每张图片时的随机种子，这个�
 click here :point_right: [official guidance of source code](https://github.com/AUTOMATIC1111/stable-diffusion-webui)
 - 本地环境搭建webui
 	1. **windows:**
+	:point_right: [详细的指南(包括支持AMD显卡)](https://nerdschalk.com/install-stable-diffusion-windows/)  
+	manually install：
 	```	
 		#prepare `python3.10.6(更新的版本不支持torch)+git`
 		git clone https://github.com/AUTOMATIC1111/stable-diffusion-webui.git
 		#run webui-user.bat  #不需要管理员权限运行
 	```
-
+	- 安装失败： `Torch is not able to use GPU`
+		+ 尝试更新显卡驱动
+			官网下载最新驱动 :point_right: [链接](https://www.nvidia.in/Download/index.aspx?lang=en)  
+			解压后开始安装  
+		+ 更新后删除或重命名stable-diffusion/venv目录
+		+ 重新执行webui-user.bat
+			`更新venv目录下的 pip版本`或`pip下载库connect timeout`常见问题:  
+			` -i https://pypi.tuna.tsinghua.edu.cn/simple `
+	- `RuntimeError: Couldn't install gfpgan.`
+		+ 方法1 ： :point_right: [resulotion](https://github.com/CompVis/stable-diffusion/issues/506#issuecomment-1438585062)
+		+ 方法2 ： 给git添加代理
+		+ 方法3 ： 更换pip源： 更改pip.ini(`C:\Users\name\AppData\Roaming\pip\pip.ini`)
+		```
+		[global]
+			index-url = https://pypi.tuna.tsinghua.edu.cn/simple
+		```
+		重新运行 webui-user.bat （等待很长时间，可能电脑太菜~ ）
 	2. **linux:**
 	```
 		sudo apt install wget git python3 python3-venv
@@ -71,10 +89,19 @@ click here :point_right: [official guidance of source code](https://github.com/A
 
 ---------
 # 应用--换装预览
-:point_right:[**AI models**样例](https://www.zmo.ai/aimodels/)
 
-## 场景1：
-淘宝商家给出衣服图片，用ai绘出穿着衣服的人物模型，支持各种场景和人物姿势
+## Scenario 1：
+淘宝商家给出衣服图片，用ai绘出穿着衣服的人物模型，支持各种场景和人物姿势.  
+:point_right:[**AI models**样例](https://www.zmo.ai/aimodels/)
+### Details
+1. 随机模特模型生成
+2. 提供的照片衣服模型结合
+
+## Scenario 2：
+消费者网购衣服，需要预览选中的衣服的效果，不同场合，不同姿势。
+### Details
+1. 消费者人物模型生成
+2. 选取衣服模型提取
 
 ## Thread
 1. client
@@ -82,13 +109,12 @@ click here :point_right: [official guidance of source code](https://github.com/A
 2. server
 根据所选衣服和预览人物，生成提示词，填入后调接口进行生成
 
-## Details
-1. 人物模型生成
-2. 衣服模型提取
 3. 生成提示词精准度
 4. 提高生成速度
 
-## Implement
+
+
+# Implement
 (待续)
 
 --------
