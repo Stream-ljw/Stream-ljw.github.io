@@ -1,32 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>History</title>
-    <url>/History/</url>
-    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Warning！！请停止窥探隐私行为！！您的IP已经被记录！！" data-whm="抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容.">
-  <script id="hbeData" type="hbeData" data-hmacdigest="2819f751cfdc4dfb40aa65e70e6883a57f8e1a61d66a8d97945d9ec6e7eff0c2">d370c5caa6f82aab46a5e5036abddd95ec52576d88b9b0cafa4e452b76dd65f76bba0c5fef7e2cd145778ffe27998acc112fdd2b6ef707993ffd4db77c56ee3d931e29462c1aefa3a5d32d8cf09443b811fd9c196b11a63012c32c27031a2dd7684df54532892f23091964e25db36811686825af88d13397f470894d9e4304f5d9df557c3fc67715f782ce9126b7d15a6a12eb7c7f645ebbd903d3e6ff93f5acd2f6bc8f50711e96d78dc5c2098ece5978985e639f2c87914554f22f013e089779998fd0ecce4029f8539c101a843802198a31c04c54bb26c3255d64e5eba4dcc9576e25b5344694b737b83a754c39b4236f2f1c54a55770cc12ceae612126b1213ea23b5f8658df1734c04183aac7cd68294f0f71b91f04fe6347df101ad436a988e144f8a1144c75ed9ca3d526df2da33c825ee73d5dfe79d2c599aba04ee32544c41d205111053f5bf50adc856a735298a0ab929f4b2fbac74f7f43fd1209c34c89ff52c041f515e37b9d90feb6e5abfa1e98f1651f48f32ca8b0b9988a8895bc7db50ddffc7ead85f086de92dcaf955fd6ca717319395156f2f7fe6b467950117bafe3bd12792d12bcb5f8223aca0fbe74151846c8bd20801bb2621f143f42d2c80b5e87f237460a358f59e9fa11b45d9e7d8a3351e186aab565b97c2553d2382a8c163ecbdca53c473297ffc66a535a3e8c5df5631df8d441daafeca898615dbc6963d0da1e1b721170b123f454b61bb21ade3ff610e4bb7fc14eb4680c850d197dfa1fce9c1550b779fe9d41afcdbe2a3b4c3f067cec9dc8e050b88b1444cab72c0eff96cd2beeb82370265d5d23565b1e237cc6f099b4af4d02d3038cd2dbeb5c4e9e2f1fb7a5481ba508587dd82dcc63d1bb4afe641381ada38ea43ace91f8302b2f95b29139f8354a0d9845ce2bc1683cdc0515ec3e018021474763ff883f8c28dc64bcfd25c008aeb212ff19127c59f0e7b38f39d97aef4743e5169e2056d60b7aad496153c5731840aee83d4a64949aba70e2875373021b37a6830a6c78f8e60c9ab2ffdbc2aee26ad556195992ab58e18b06391a3bed91f400a8275dd0e8ab7544b1fde94adc0db0b972898f8ce6a3a79ecbbf44231f6c87e0bfdb89e976a5d0e865e9d3724b5cd0f29a0a40c3bc03daf271b84a684cbfb30314c8cf2f61b3f518351027f12334687a960e863434fa02a684a15c2493952524c01740dc2e730bda460d774872d7c702acb41b42b02fa15601af38abee803475c0e7f8dce83a72651a8486a4b275f3134d43447fff858eca83a9cc872f0c5b080b0f30b888dcb83d1562b491166572bf87</script>
-  <div class="hbe hbe-content">
-    <div class="hbe hbe-input hbe-input-xray">
-      <input class="hbe hbe-input-field hbe-input-field-xray" type="password" id="hbePass">
-      <label class="hbe hbe-input-label hbe-input-label-xray" for="hbePass">
-        <span class="hbe hbe-input-label-content hbe-input-label-content-xray">Ops！这篇文章博主似乎不想透露！</span>
-      </label>
-      <svg class="hbe hbe-graphic hbe-graphic-xray" width="300%" height="100%" viewBox="0 0 1200 60" preserveAspectRatio="none">
-        <path d="M0,56.5c0,0,298.666,0,399.333,0C448.336,56.5,513.994,46,597,46c77.327,0,135,10.5,200.999,10.5c95.996,0,402.001,0,402.001,0"></path>
-        <path d="M0,2.5c0,0,298.666,0,399.333,0C448.336,2.5,513.994,13,597,13c77.327,0,135-10.5,200.999-10.5c95.996,0,402.001,0,402.001,0"></path>
-      </svg>
-    </div>
-  </div>
-</div>
-<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
-      <categories>
-        <category>diary</category>
-      </categories>
-      <tags>
-        <tag>diary</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Markdown basical syntax</title>
     <url>/Markdown-basical-syntax/</url>
     <content><![CDATA[<p>说到底，还是把握不住精髓。<br>都是知道了该怎么做就开始抽象。而不是知道了为什么这么做再开始抽象。浮躁。 </p>
@@ -101,6 +75,32 @@ A[方形] --&gt;B(圆角)
       </tags>
   </entry>
   <entry>
+    <title>History</title>
+    <url>/History/</url>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Warning！！请停止窥探隐私行为！！您的IP已经被记录！！" data-whm="抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容.">
+  <script id="hbeData" type="hbeData" data-hmacdigest="2819f751cfdc4dfb40aa65e70e6883a57f8e1a61d66a8d97945d9ec6e7eff0c2">d370c5caa6f82aab46a5e5036abddd95ec52576d88b9b0cafa4e452b76dd65f76bba0c5fef7e2cd145778ffe27998acc112fdd2b6ef707993ffd4db77c56ee3d931e29462c1aefa3a5d32d8cf09443b811fd9c196b11a63012c32c27031a2dd7684df54532892f23091964e25db36811686825af88d13397f470894d9e4304f5d9df557c3fc67715f782ce9126b7d15a6a12eb7c7f645ebbd903d3e6ff93f5acd2f6bc8f50711e96d78dc5c2098ece5978985e639f2c87914554f22f013e089779998fd0ecce4029f8539c101a843802198a31c04c54bb26c3255d64e5eba4dcc9576e25b5344694b737b83a754c39b4236f2f1c54a55770cc12ceae612126b1213ea23b5f8658df1734c04183aac7cd68294f0f71b91f04fe6347df101ad436a988e144f8a1144c75ed9ca3d526df2da33c825ee73d5dfe79d2c599aba04ee32544c41d205111053f5bf50adc856a735298a0ab929f4b2fbac74f7f43fd1209c34c89ff52c041f515e37b9d90feb6e5abfa1e98f1651f48f32ca8b0b9988a8895bc7db50ddffc7ead85f086de92dcaf955fd6ca717319395156f2f7fe6b467950117bafe3bd12792d12bcb5f8223aca0fbe74151846c8bd20801bb2621f143f42d2c80b5e87f237460a358f59e9fa11b45d9e7d8a3351e186aab565b97c2553d2382a8c163ecbdca53c473297ffc66a535a3e8c5df5631df8d441daafeca898615dbc6963d0da1e1b721170b123f454b61bb21ade3ff610e4bb7fc14eb4680c850d197dfa1fce9c1550b779fe9d41afcdbe2a3b4c3f067cec9dc8e050b88b1444cab72c0eff96cd2beeb82370265d5d23565b1e237cc6f099b4af4d02d3038cd2dbeb5c4e9e2f1fb7a5481ba508587dd82dcc63d1bb4afe641381ada38ea43ace91f8302b2f95b29139f8354a0d9845ce2bc1683cdc0515ec3e018021474763ff883f8c28dc64bcfd25c008aeb212ff19127c59f0e7b38f39d97aef4743e5169e2056d60b7aad496153c5731840aee83d4a64949aba70e2875373021b37a6830a6c78f8e60c9ab2ffdbc2aee26ad556195992ab58e18b06391a3bed91f400a8275dd0e8ab7544b1fde94adc0db0b972898f8ce6a3a79ecbbf44231f6c87e0bfdb89e976a5d0e865e9d3724b5cd0f29a0a40c3bc03daf271b84a684cbfb30314c8cf2f61b3f518351027f12334687a960e863434fa02a684a15c2493952524c01740dc2e730bda460d774872d7c702acb41b42b02fa15601af38abee803475c0e7f8dce83a72651a8486a4b275f3134d43447fff858eca83a9cc872f0c5b080b0f30b888dcb83d1562b491166572bf87</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-xray">
+      <input class="hbe hbe-input-field hbe-input-field-xray" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-xray" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-xray">Ops！这篇文章博主似乎不想透露！</span>
+      </label>
+      <svg class="hbe hbe-graphic hbe-graphic-xray" width="300%" height="100%" viewBox="0 0 1200 60" preserveAspectRatio="none">
+        <path d="M0,56.5c0,0,298.666,0,399.333,0C448.336,56.5,513.994,46,597,46c77.327,0,135,10.5,200.999,10.5c95.996,0,402.001,0,402.001,0"></path>
+        <path d="M0,2.5c0,0,298.666,0,399.333,0C448.336,2.5,513.994,13,597,13c77.327,0,135-10.5,200.999-10.5c95.996,0,402.001,0,402.001,0"></path>
+      </svg>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      <categories>
+        <category>diary</category>
+      </categories>
+      <tags>
+        <tag>diary</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Doc工具</title>
     <url>/doc/</url>
     <content><![CDATA[<p>markdown在网页上使用兼容性强，语法简单。</p>
@@ -149,58 +149,6 @@ A[方形] --&gt;B(圆角)
         <tag>next</tag>
         <tag>SEO</tag>
         <tag>next-plugin</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>personal_info</title>
-    <url>/personal-info/</url>
-    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Warning！！请停止窥探隐私行为！！您的IP已经被记录！！" data-whm="抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容.">
-  <script id="hbeData" type="hbeData" data-hmacdigest="34cec21f8b47174a7da1c07792d9dea447987f53746eae556043b44cb0c5f202">d370c5caa6f82aab46a5e5036abddd95767a41255db1361ce5665e7b680a85919a13f89ab358e0b129f6cd8b720d68216219a2ba0b92b95df4b5fd5d25fd1a88f232cd73f05bbe044d51ad9d4ff30d09fe0b58e186df2094e77405f356b789712cf5d29b57e8e75002cf3062487e5e27dcd5def145dae07d6640665d0870df22</script>
-  <div class="hbe hbe-content">
-    <div class="hbe hbe-input hbe-input-xray">
-      <input class="hbe hbe-input-field hbe-input-field-xray" type="password" id="hbePass">
-      <label class="hbe hbe-input-label hbe-input-label-xray" for="hbePass">
-        <span class="hbe hbe-input-label-content hbe-input-label-content-xray">Ops！这篇文章博主似乎不想透露！</span>
-      </label>
-      <svg class="hbe hbe-graphic hbe-graphic-xray" width="300%" height="100%" viewBox="0 0 1200 60" preserveAspectRatio="none">
-        <path d="M0,56.5c0,0,298.666,0,399.333,0C448.336,56.5,513.994,46,597,46c77.327,0,135,10.5,200.999,10.5c95.996,0,402.001,0,402.001,0"></path>
-        <path d="M0,2.5c0,0,298.666,0,399.333,0C448.336,2.5,513.994,13,597,13c77.327,0,135-10.5,200.999-10.5c95.996,0,402.001,0,402.001,0"></path>
-      </svg>
-    </div>
-  </div>
-</div>
-<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
-      <categories>
-        <category>diary</category>
-      </categories>
-      <tags>
-        <tag>diary</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>For Life</title>
-    <url>/note/</url>
-    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Warning！！请停止窥探隐私行为！！您的IP已经被记录！！" data-whm="抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容.">
-  <script id="hbeData" type="hbeData" data-hmacdigest="0e541eea3a74d597f20ae7498b421592710b01dac7443e6b5674e27825121fe3">d370c5caa6f82aab46a5e5036abddd95f3748a1f868670e6c92a5d7157303714555794d1e8593b3200afee48d526c32cf6d2539a053be8345bb623863bfe1ef2bc8e6db1fbdc25d588cb61293da0bdd77db069d154eea9ea2f1771f1d34f939d7e0769969105c1f234ba7356adfbe8f5ef110ab25a3b9ea73c0daf629cb9aced546006b3d672c9d7f6d9d1b71489d82749339c43ab1b327a53a9d53332da10731315764ce57f49394e9e6ff86f79cde334be8cc792b836571e7bea675e8752986d8779f311f125d2092957417c564bab3227a7ed6223a42bad4df3ae867a1a3b2f382685780c8c43b2ba9e143d846ce52294c8b817e2243c2b18629f3c1c7797ae077d37b6c6e03769f02697bd451518fbfeee78870790707019b5df0194393462de29b9059ec19fc48bcb4075571e0567cefd3c99aab303511266feead761bb67b8d2c7985906c309f5b09861292822f2e4219c4636231590f1edecc4fbc3b2ea41ad8bc133db2eaad3f08b728177a1dd3260d119e80609c639dd476ce0e27afd9d5e247f7918b8d6693c70d04de774feba7314797ae577f4bcac88854a7c50dd8802dc8f658a40b93eb0769dc010964137df00bd0a735f598f5edfb8a7fc010ebe94ca404ca07537f9df4283ebdbd64b09cee810b4f6c101e29fb9ae23d98aab1d75d24aa88c41b2550e9e5f57c1e5b203505df0569a4a143fff9e05fd0a0868bc68db320b1b839114cfc577fe3321b194438a3622fff8b1ed9f110be63c51110ee502247b015684154fe63f0e339998c546c926d941a97463820ef654f47b0cc07179609801acf6ad46d3da7a79520ae8fa4dd1812faeef848f47cea705d124ecfb3c1817cdfaa72b25d4b69857c7db3432509f3bc8509cb55d4dd1f5626a6e039ef3c561629d0540de2dbaead4e3d169f62333bd6f94e7ea72160a60b1153b0705d2bd92352cf6c83d7bb65595ebe86ee8e733c1b368fd8cfdbffdc92cefea7a496e83426cc37fa9e773d543554e8d5f46661decd84ce72efb83c1e870a41574d64e4a83a35e0b6aa36593c62f32d2560b4c990785affa9a3700c61c73c22bfbdf14a4041960ba3a0597a167644a7fab177fb5be96e754d94556641cf5fc68b0bef3817f7de13ebecef0e37585b9db4f6084a4226f4672466a8db96cadcb22a047206aef7e75c54064a2c0861c329f5ab3b070ad9726eacb836d96763e3e4a9db678bec9c01567c7eb4bba9425e1a46b6fbeb7f2fddaf23b60b211a3451a14ce7fe1ded0b3192360beb3603de01c335edcd10ae704f163b517dece0ff7a23aa5b6b14c87c07f2a7ba5de9a338135969483bc1aabbdef914dd4c42e5aa7498641598a05066ed51c45cf5098b8bdcfccc15aa9a5ebe160d6fe7235efc1377bfaf50080a65a22e23534bc1fb2b888ab0b3fade4942ab0871e4fbe08bde3f2c6582f8a7882e400d3b5b012c8698367f147ca2fc7bbff1b35c37a5ecb5fb9121e1edacdf2f76f490623c9a60ea1d08b69f48e4e9758990d1c8dfad5cebd39d80fb09108f79268de3d310e7c2bbf373a756c9a91d415015b4f952eaa268ff857fcbbe1b9892320f7e2fc5175f1385ffc98f1b86e1e91901db43f588abedf9c0acee49690a4880d6da92dbf78289d6fab8b915c35c9cdf0f2f96c6ddd6b02b0342a4887b1848d572a548ecacb9d82f76cfae18243898c54778fa0268799cda16f057161c12ac3510b7df7b186df37e3b45b750342444f9488306eca6f735524d52b65d2fbf6eb56cb48634f03321d83df4771dabf5202fdad82576687389d32dca204b60a30b17e9cd7f58b3c5c08ffd38732d72649dc71f4071e38be67c4ef2ad6dc2bc948c13706a0cd357e553fe09e7e07e90a5f911269222ecf746415b64fd592fc58314e511aa4750462d5ec47e7d7b8140a6b04f24d8e949f7ed6198483465ab1277f6b0b3a7acb20762b0dac8ba83d3226449f80d866431ca345e54a3d0f7be1db85fce92a8daced380b8cd55c0a9a99e74c3f906ab31981cd66cedaee389d8f1164ebfeb0915cb26d239ba8b188688e979c1ff4bc9cfe7efb97c7a1df305ec9c8ab70660811026de094c1615f1631742355a7d87d3a0db2d34fa8abf3174f88fe1257033c7eaf0c82097a8b9c7e5304ce4ed0eb09e2c4a78e39a9da805c1a4434fedad808f7d35bd441db7a1177262d6f990cde41ea0bff484e0ff9c252943246396303904aad4dc1218022f3505d20794592fff3dec2db4214dd97c8bed0ea8a4c86a82eda0bda8dcebbc8e6e3878b355fe33c01b160d2dceeedd21cbf4e9f47a46aa6b3adbe962f06eeb29e4486b7b5caaf4c1484992fe39d2891f0bc574828d11287e72257d6bb4dcf7e919b0ce27ed8aabe2fdb4bbf59e2dd4d01ec5d3609acd9e3672ffdc5af33fb3378ad315caac40b40cb5da8a89ad0ab933a3631cf13b343a7ffe75f003a515e821b69c38cc501b7a07fa03b366d1dc8d05f07fe76e0a8e0afc641ab44b2e1d89f2b681a5cbd85406b997444d7d2f8aab6df47899b3b986ffd699f26c5188108455c21d4150360c22494a6b161560008633ebf1aba5eaef7d6a0e3b63cc0e1dafa28c921e2f0b7fc42a18447860c81c725ed7f776ce6bae8a809ef981d5a89967f8e2501695ac2bd5c439aec2f120ed2486eb0b4135076f25b977ee9ad64a17ec67abd8f7240ad7a106d7b81df83eeceaf7e5d648dde3e5fc1c91172228ea2117576f7524304ee60a427b91459c80da6fd830f08b6b7e5d5266dac02ce7c46cc77dbbd833ceb8b1bcc82c2c70516c05b1dfe41029635a0927fe056af4b23c323b8f36b62222f9377d00faa37022dc0033a8bf1e96ec53d7a066839c3a2174c1d1e361ddeec6258c59a772d10743727f47a17702e247ad40ebe6a257f941fee51577474b26606818680ebf5e71afb25172ba61c38cc299021ce9f1a39ec4829fb7b0d0c8d0a6d5afe0ac317f3e26d5640328d51418bfd29c0c7bde10f010a25e40478b61d54b5d56c7fade3f58e9a00047526eba6bc16866b48109bdac5224f6a75717f8e81ab3024ffd8cd805c8736bd6671da3d13ecf2eb6adeb82ab1f7e3716271a2c64984835e8ae3ce3e54ed30b7e5c02e629a8788cad9c0d0074f6fea96d93c790f5e68bbbb86f015fadc2c1df1ded13e3fcbd7d70e5e98bd4ad176b5dbff4bfe1da2817b015e63de3a865287ec95009b10887c39d6ea8a5526d953b1fbf072214a0c628ed118bd0432f0015714ec1ce58995b9ef6bf1fca9c38c7f09c50e52d3a60b406aeb187348e66d92a77c64a7deba64317d96afd19699a51cc200ef4664e6811770e2340df96ba19bcbe43f23307207d74f6d219b7f21e09da18c8470c0eec7136cde8d0b8361d5b59d417e21fc6f3de533ad33fb651e4cf684af83746578f0fbde78d3f8cb3d9ac577daccd10c8b23f9d089ba08bbf81f1460eda2eb72762bfe4c89caaf94338aab07451a00afa507a59d731e5129069d5c33cdf4750d6eebccc46c8619bd5366769ab797d9a31f419200e784b400a7db6fed5bd7d68b585f387763d4a1fb49653b02fb2a1c4c4525b36a6a787f3e9f7cefe94eaa58b9f99cf5a8a6c45f53772c2f8247ac14680cce2f696fbdeaf3a9fe2905aa614d8626f0ddd11de8746aa338bc7def6edae0b49ec08b732ee0eb134275bbb951b94173f433ff52fce58ebdc55ce7fa2c86fee8a66e7e30b3836801ac287baf159471d8af0dc8b600338c5ca01cf7ec94f2a5729bd761bf8bbdea7d1eb96a1b0e64809f271a315642fc0782a50f563a5607c65cbab280e659a4eba732b437ef409eed41aa1ecd2547b8fa0d15fb45081d12454d713ea70bfb2a4786c3f9a117d8bf4eab98b0bb14da2aa0290c64ec2fe2e58f0422db947e1ae4a1a60b3a6e1e6ed6b8bf915bfb05d4160f33f44f1ac070a965cb55d7f580cc1dddb373dec6c6bd047e6fdd138e9ecf0b395fa0cf2da51e9ed2696f7ccf1aab6ef7aa534d0b34df2dfcfa18105c14e95cbbbff3988355e6618eb7139abe31a2e74d545ff906a29505fad8ee0802263feadbdfc6f4e56ff7283b8c35836f81a23fb3b01825e5ad1c3efa682065f2a172533afe2681bbdb81c89de2ffd5b8e65093a0a57cbb6c63cb179f5247150428c79a2bde67a8387966daceed85e9d13ed74b5095aa82d4f82c6bb27d96ea5718826e6615ee81132d3c47ccd61a11477dcd37ce19cf1059278b18c5ea4d7870963c86b8fcce0686c96a989e818f8b27ed901a5a58bac6148fc4ca86d5bd6799afef1f889f8943f497c852d777722e88216d6b846d4ecaf351fdf4c83b69af2db0c7210d9ebddb43e253d7a599b2fdec94902d58ebcb8c87fdfbd221d9ee73d0d0cf9171c89cc3b59476a4ca7cc6b533f09451e9c008ada4fbc570e044d1e06bd6268aeedcea9a8b944816051974a557cef47fff14e198267cf7c40e8135c43ff55eac77eb01bb0b5728044c5a4aec54f1e6ed6d8f1c4862dc2344047fe320c7ebc15c729fd51e647fbc802205bb5be2026045c5d05f73862e11c90920db4302d452f8698c3115c0f453281752a159f38cf0adb8cdf3bab0d21d24b6d6f192210ff8f113c4a735bd27ce11e99b361f27d52dd296e08bde0aac6caef2da46dab7891a3bd293f93f425238c38edd737bad04eedd480376bfcee7d5379b</script>
-  <div class="hbe hbe-content">
-    <div class="hbe hbe-input hbe-input-xray">
-      <input class="hbe hbe-input-field hbe-input-field-xray" type="password" id="hbePass">
-      <label class="hbe hbe-input-label hbe-input-label-xray" for="hbePass">
-        <span class="hbe hbe-input-label-content hbe-input-label-content-xray">Ops！这篇文章博主似乎不想透露！</span>
-      </label>
-      <svg class="hbe hbe-graphic hbe-graphic-xray" width="300%" height="100%" viewBox="0 0 1200 60" preserveAspectRatio="none">
-        <path d="M0,56.5c0,0,298.666,0,399.333,0C448.336,56.5,513.994,46,597,46c77.327,0,135,10.5,200.999,10.5c95.996,0,402.001,0,402.001,0"></path>
-        <path d="M0,2.5c0,0,298.666,0,399.333,0C448.336,2.5,513.994,13,597,13c77.327,0,135-10.5,200.999-10.5c95.996,0,402.001,0,402.001,0"></path>
-      </svg>
-    </div>
-  </div>
-</div>
-<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
-      <categories>
-        <category>diary</category>
-      </categories>
-      <tags>
-        <tag>diary</tag>
       </tags>
   </entry>
   <entry>
@@ -307,6 +255,58 @@ A[方形] --&gt;B(圆角)
       </categories>
       <tags>
         <tag>hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>personal_info</title>
+    <url>/personal-info/</url>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Warning！！请停止窥探隐私行为！！您的IP已经被记录！！" data-whm="抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容.">
+  <script id="hbeData" type="hbeData" data-hmacdigest="34cec21f8b47174a7da1c07792d9dea447987f53746eae556043b44cb0c5f202">d370c5caa6f82aab46a5e5036abddd95767a41255db1361ce5665e7b680a85919a13f89ab358e0b129f6cd8b720d68216219a2ba0b92b95df4b5fd5d25fd1a88f232cd73f05bbe044d51ad9d4ff30d09fe0b58e186df2094e77405f356b789712cf5d29b57e8e75002cf3062487e5e27dcd5def145dae07d6640665d0870df22</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-xray">
+      <input class="hbe hbe-input-field hbe-input-field-xray" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-xray" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-xray">Ops！这篇文章博主似乎不想透露！</span>
+      </label>
+      <svg class="hbe hbe-graphic hbe-graphic-xray" width="300%" height="100%" viewBox="0 0 1200 60" preserveAspectRatio="none">
+        <path d="M0,56.5c0,0,298.666,0,399.333,0C448.336,56.5,513.994,46,597,46c77.327,0,135,10.5,200.999,10.5c95.996,0,402.001,0,402.001,0"></path>
+        <path d="M0,2.5c0,0,298.666,0,399.333,0C448.336,2.5,513.994,13,597,13c77.327,0,135-10.5,200.999-10.5c95.996,0,402.001,0,402.001,0"></path>
+      </svg>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      <categories>
+        <category>diary</category>
+      </categories>
+      <tags>
+        <tag>diary</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>For Life</title>
+    <url>/note/</url>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Warning！！请停止窥探隐私行为！！您的IP已经被记录！！" data-whm="抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容.">
+  <script id="hbeData" type="hbeData" data-hmacdigest="0e541eea3a74d597f20ae7498b421592710b01dac7443e6b5674e27825121fe3">d370c5caa6f82aab46a5e5036abddd95f3748a1f868670e6c92a5d7157303714555794d1e8593b3200afee48d526c32cf6d2539a053be8345bb623863bfe1ef2bc8e6db1fbdc25d588cb61293da0bdd77db069d154eea9ea2f1771f1d34f939d7e0769969105c1f234ba7356adfbe8f5ef110ab25a3b9ea73c0daf629cb9aced546006b3d672c9d7f6d9d1b71489d82749339c43ab1b327a53a9d53332da10731315764ce57f49394e9e6ff86f79cde334be8cc792b836571e7bea675e8752986d8779f311f125d2092957417c564bab3227a7ed6223a42bad4df3ae867a1a3b2f382685780c8c43b2ba9e143d846ce52294c8b817e2243c2b18629f3c1c7797ae077d37b6c6e03769f02697bd451518fbfeee78870790707019b5df0194393462de29b9059ec19fc48bcb4075571e0567cefd3c99aab303511266feead761bb67b8d2c7985906c309f5b09861292822f2e4219c4636231590f1edecc4fbc3b2ea41ad8bc133db2eaad3f08b728177a1dd3260d119e80609c639dd476ce0e27afd9d5e247f7918b8d6693c70d04de774feba7314797ae577f4bcac88854a7c50dd8802dc8f658a40b93eb0769dc010964137df00bd0a735f598f5edfb8a7fc010ebe94ca404ca07537f9df4283ebdbd64b09cee810b4f6c101e29fb9ae23d98aab1d75d24aa88c41b2550e9e5f57c1e5b203505df0569a4a143fff9e05fd0a0868bc68db320b1b839114cfc577fe3321b194438a3622fff8b1ed9f110be63c51110ee502247b015684154fe63f0e339998c546c926d941a97463820ef654f47b0cc07179609801acf6ad46d3da7a79520ae8fa4dd1812faeef848f47cea705d124ecfb3c1817cdfaa72b25d4b69857c7db3432509f3bc8509cb55d4dd1f5626a6e039ef3c561629d0540de2dbaead4e3d169f62333bd6f94e7ea72160a60b1153b0705d2bd92352cf6c83d7bb65595ebe86ee8e733c1b368fd8cfdbffdc92cefea7a496e83426cc37fa9e773d543554e8d5f46661decd84ce72efb83c1e870a41574d64e4a83a35e0b6aa36593c62f32d2560b4c990785affa9a3700c61c73c22bfbdf14a4041960ba3a0597a167644a7fab177fb5be96e754d94556641cf5fc68b0bef3817f7de13ebecef0e37585b9db4f6084a4226f4672466a8db96cadcb22a047206aef7e75c54064a2c0861c329f5ab3b070ad9726eacb836d96763e3e4a9db678bec9c01567c7eb4bba9425e1a46b6fbeb7f2fddaf23b60b211a3451a14ce7fe1ded0b3192360beb3603de01c335edcd10ae704f163b517dece0ff7a23aa5b6b14c87c07f2a7ba5de9a338135969483bc1aabbdef914dd4c42e5aa7498641598a05066ed51c45cf5098b8bdcfccc15aa9a5ebe160d6fe7235efc1377bfaf50080a65a22e23534bc1fb2b888ab0b3fade4942ab0871e4fbe08bde3f2c6582f8a7882e400d3b5b012c8698367f147ca2fc7bbff1b35c37a5ecb5fb9121e1edacdf2f76f490623c9a60ea1d08b69f48e4e9758990d1c8dfad5cebd39d80fb09108f79268de3d310e7c2bbf373a756c9a91d415015b4f952eaa268ff857fcbbe1b9892320f7e2fc5175f1385ffc98f1b86e1e91901db43f588abedf9c0acee49690a4880d6da92dbf78289d6fab8b915c35c9cdf0f2f96c6ddd6b02b0342a4887b1848d572a548ecacb9d82f76cfae18243898c54778fa0268799cda16f057161c12ac3510b7df7b186df37e3b45b750342444f9488306eca6f735524d52b65d2fbf6eb56cb48634f03321d83df4771dabf5202fdad82576687389d32dca204b60a30b17e9cd7f58b3c5c08ffd38732d72649dc71f4071e38be67c4ef2ad6dc2bc948c13706a0cd357e553fe09e7e07e90a5f911269222ecf746415b64fd592fc58314e511aa4750462d5ec47e7d7b8140a6b04f24d8e949f7ed6198483465ab1277f6b0b3a7acb20762b0dac8ba83d3226449f80d866431ca345e54a3d0f7be1db85fce92a8daced380b8cd55c0a9a99e74c3f906ab31981cd66cedaee389d8f1164ebfeb0915cb26d239ba8b188688e979c1ff4bc9cfe7efb97c7a1df305ec9c8ab70660811026de094c1615f1631742355a7d87d3a0db2d34fa8abf3174f88fe1257033c7eaf0c82097a8b9c7e5304ce4ed0eb09e2c4a78e39a9da805c1a4434fedad808f7d35bd441db7a1177262d6f990cde41ea0bff484e0ff9c252943246396303904aad4dc1218022f3505d20794592fff3dec2db4214dd97c8bed0ea8a4c86a82eda0bda8dcebbc8e6e3878b355fe33c01b160d2dceeedd21cbf4e9f47a46aa6b3adbe962f06eeb29e4486b7b5caaf4c1484992fe39d2891f0bc574828d11287e72257d6bb4dcf7e919b0ce27ed8aabe2fdb4bbf59e2dd4d01ec5d3609acd9e3672ffdc5af33fb3378ad315caac40b40cb5da8a89ad0ab933a3631cf13b343a7ffe75f003a515e821b69c38cc501b7a07fa03b366d1dc8d05f07fe76e0a8e0afc641ab44b2e1d89f2b681a5cbd85406b997444d7d2f8aab6df47899b3b986ffd699f26c5188108455c21d4150360c22494a6b161560008633ebf1aba5eaef7d6a0e3b63cc0e1dafa28c921e2f0b7fc42a18447860c81c725ed7f776ce6bae8a809ef981d5a89967f8e2501695ac2bd5c439aec2f120ed2486eb0b4135076f25b977ee9ad64a17ec67abd8f7240ad7a106d7b81df83eeceaf7e5d648dde3e5fc1c91172228ea2117576f7524304ee60a427b91459c80da6fd830f08b6b7e5d5266dac02ce7c46cc77dbbd833ceb8b1bcc82c2c70516c05b1dfe41029635a0927fe056af4b23c323b8f36b62222f9377d00faa37022dc0033a8bf1e96ec53d7a066839c3a2174c1d1e361ddeec6258c59a772d10743727f47a17702e247ad40ebe6a257f941fee51577474b26606818680ebf5e71afb25172ba61c38cc299021ce9f1a39ec4829fb7b0d0c8d0a6d5afe0ac317f3e26d5640328d51418bfd29c0c7bde10f010a25e40478b61d54b5d56c7fade3f58e9a00047526eba6bc16866b48109bdac5224f6a75717f8e81ab3024ffd8cd805c8736bd6671da3d13ecf2eb6adeb82ab1f7e3716271a2c64984835e8ae3ce3e54ed30b7e5c02e629a8788cad9c0d0074f6fea96d93c790f5e68bbbb86f015fadc2c1df1ded13e3fcbd7d70e5e98bd4ad176b5dbff4bfe1da2817b015e63de3a865287ec95009b10887c39d6ea8a5526d953b1fbf072214a0c628ed118bd0432f0015714ec1ce58995b9ef6bf1fca9c38c7f09c50e52d3a60b406aeb187348e66d92a77c64a7deba64317d96afd19699a51cc200ef4664e6811770e2340df96ba19bcbe43f23307207d74f6d219b7f21e09da18c8470c0eec7136cde8d0b8361d5b59d417e21fc6f3de533ad33fb651e4cf684af83746578f0fbde78d3f8cb3d9ac577daccd10c8b23f9d089ba08bbf81f1460eda2eb72762bfe4c89caaf94338aab07451a00afa507a59d731e5129069d5c33cdf4750d6eebccc46c8619bd5366769ab797d9a31f419200e784b400a7db6fed5bd7d68b585f387763d4a1fb49653b02fb2a1c4c4525b36a6a787f3e9f7cefe94eaa58b9f99cf5a8a6c45f53772c2f8247ac14680cce2f696fbdeaf3a9fe2905aa614d8626f0ddd11de8746aa338bc7def6edae0b49ec08b732ee0eb134275bbb951b94173f433ff52fce58ebdc55ce7fa2c86fee8a66e7e30b3836801ac287baf159471d8af0dc8b600338c5ca01cf7ec94f2a5729bd761bf8bbdea7d1eb96a1b0e64809f271a315642fc0782a50f563a5607c65cbab280e659a4eba732b437ef409eed41aa1ecd2547b8fa0d15fb45081d12454d713ea70bfb2a4786c3f9a117d8bf4eab98b0bb14da2aa0290c64ec2fe2e58f0422db947e1ae4a1a60b3a6e1e6ed6b8bf915bfb05d4160f33f44f1ac070a965cb55d7f580cc1dddb373dec6c6bd047e6fdd138e9ecf0b395fa0cf2da51e9ed2696f7ccf1aab6ef7aa534d0b34df2dfcfa18105c14e95cbbbff3988355e6618eb7139abe31a2e74d545ff906a29505fad8ee0802263feadbdfc6f4e56ff7283b8c35836f81a23fb3b01825e5ad1c3efa682065f2a172533afe2681bbdb81c89de2ffd5b8e65093a0a57cbb6c63cb179f5247150428c79a2bde67a8387966daceed85e9d13ed74b5095aa82d4f82c6bb27d96ea5718826e6615ee81132d3c47ccd61a11477dcd37ce19cf1059278b18c5ea4d7870963c86b8fcce0686c96a989e818f8b27ed901a5a58bac6148fc4ca86d5bd6799afef1f889f8943f497c852d777722e88216d6b846d4ecaf351fdf4c83b69af2db0c7210d9ebddb43e253d7a599b2fdec94902d58ebcb8c87fdfbd221d9ee73d0d0cf9171c89cc3b59476a4ca7cc6b533f09451e9c008ada4fbc570e044d1e06bd6268aeedcea9a8b944816051974a557cef47fff14e198267cf7c40e8135c43ff55eac77eb01bb0b5728044c5a4aec54f1e6ed6d8f1c4862dc2344047fe320c7ebc15c729fd51e647fbc802205bb5be2026045c5d05f73862e11c90920db4302d452f8698c3115c0f453281752a159f38cf0adb8cdf3bab0d21d24b6d6f192210ff8f113c4a735bd27ce11e99b361f27d52dd296e08bde0aac6caef2da46dab7891a3bd293f93f425238c38edd737bad04eedd480376bfcee7d5379b</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-xray">
+      <input class="hbe hbe-input-field hbe-input-field-xray" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-xray" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-xray">Ops！这篇文章博主似乎不想透露！</span>
+      </label>
+      <svg class="hbe hbe-graphic hbe-graphic-xray" width="300%" height="100%" viewBox="0 0 1200 60" preserveAspectRatio="none">
+        <path d="M0,56.5c0,0,298.666,0,399.333,0C448.336,56.5,513.994,46,597,46c77.327,0,135,10.5,200.999,10.5c95.996,0,402.001,0,402.001,0"></path>
+        <path d="M0,2.5c0,0,298.666,0,399.333,0C448.336,2.5,513.994,13,597,13c77.327,0,135-10.5,200.999-10.5c95.996,0,402.001,0,402.001,0"></path>
+      </svg>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      <categories>
+        <category>diary</category>
+      </categories>
+      <tags>
+        <tag>diary</tag>
       </tags>
   </entry>
   <entry>
@@ -443,35 +443,56 @@ A[方形] --&gt;B(圆角)
 <td align="center">随机数种子。生成每张图片时的随机种子，这个种子是用来作为确定扩散初始状态的基础。不懂的话，用随机的即可。</td>
 </tr>
 </tbody></table>
-<h2 id="env-build"><a href="#env-build" class="headerlink" title="env build"></a>env build</h2><p>click here <span class="github-emoji"><span>👉</span><img src="https://github.githubassets.com/images/icons/emoji/unicode/1f449.png?v8" aria-hidden="true" onerror="this.parent.classList.add('github-emoji-fallback')"></span> <a href="https://github.com/AUTOMATIC1111/stable-diffusion-webui">official guidance of source code</a></p>
+<h2 id="env-build-windows"><a href="#env-build-windows" class="headerlink" title="env build - windows"></a>env build - windows</h2><p>click here <span class="github-emoji"><span>👉</span><img src="https://github.githubassets.com/images/icons/emoji/unicode/1f449.png?v8" aria-hidden="true" onerror="this.parent.classList.add('github-emoji-fallback')"></span> <a href="https://github.com/AUTOMATIC1111/stable-diffusion-webui">official guidance of source code</a></p>
 <ul>
-<li><p>本地环境搭建webui</p>
+<li>写在前面的tips<br><strong>请确保显卡驱动更新+ 更改pip源 + git配置，这样安装过程才会一帆风顺</strong><ul>
+<li><code>更新venv目录下的 pip版本</code>或<code>pip下载库connect timeout</code>常见问题:<br>  <code>-i https://pypi.tuna.tsinghua.edu.cn/simple</code><br>  或 修改<code>pip.ini</code> (<code>C:\Users\name\AppData\Roaming\pip\pip.ini</code>)：  <figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">[global]</span><br><span class="line">	index-url = https://pypi.tuna.tsinghua.edu.cn/simple</span><br></pre></td></tr></tbody></table></figure></li>
+<li>git添加代理<ul>
+<li>飞机场用户 <ol>
+<li>到飞机场设置中查看本地监听端口 </li>
+<li><code>git config --global http.proxy socks5://127.0.0.1:[port] #git全局设置</code></li>
+</ol>
+</li>
+<li>VPN用户<ol>
+<li>端口是配置vpn是设置的本地监听端口</li>
+<li><code>git config --global http.https://github.com.proxy socks5://127.0.0.1:[port] #专门给github设置</code></li>
+</ol>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
 <ol>
-<li><strong>windows:</strong><br>  <span class="github-emoji"><span>👉</span><img src="https://github.githubassets.com/images/icons/emoji/unicode/1f449.png?v8" aria-hidden="true" onerror="this.parent.classList.add('github-emoji-fallback')"></span> <a href="https://nerdschalk.com/install-stable-diffusion-windows/">详细的指南(包括支持AMD显卡)</a><br>  manually install：  <figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">#prepare `python3.10.6(更新的版本不支持torch)+git`</span><br><span class="line">git clone https://github.com/AUTOMATIC1111/stable-diffusion-webui.git</span><br><span class="line">#run webui-user.bat  #不需要管理员权限运行</span><br></pre></td></tr></tbody></table></figure></li>
+<li>全自动安装包 <span class="github-emoji"><span>👉</span><img src="https://github.githubassets.com/images/icons/emoji/unicode/1f449.png?v8" aria-hidden="true" onerror="this.parent.classList.add('github-emoji-fallback')"></span> <a href="https://nerdschalk.com/install-stable-diffusion-windows/">详细的指南(包括支持AMD显卡)</a>  </li>
+<li>manually install： (是先犯错，再总结的) <figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line"># prepare `python3.10.6(更新的版本不支持torch)+git`</span><br><span class="line">git clone https://github.com/AUTOMATIC1111/stable-diffusion-webui.git</span><br><span class="line"># 更改pip源 + git配置代理（如果没有使用vpn，按照下述，修改目录下launch.py）</span><br><span class="line"># 修改 webui-user.bat :  set COMMANDLINE_ARGS=--xformers</span><br><span class="line"># run webui-user.bat  #不需要管理员权限运行</span><br><span class="line"># 重新安装basisr</span><br><span class="line"># run webui-user.bat</span><br><span class="line"># 等待下载好模型</span><br></pre></td></tr></tbody></table></figure></li>
+<li>完成安装! 本地浏览器进入 <code>localhost:7860</code> 或<code>127.0.0.1:7860</code><br><img src="/stable-diffusion/finish_install.png" alt="安装完成"></li>
 </ol>
+<h3 id="Trouble-Shooting"><a href="#Trouble-Shooting" class="headerlink" title="Trouble Shooting"></a><strong>Trouble Shooting</strong></h3><ul>
+<li><p><code>Torch is not able to use GPU</code></p>
 <ul>
-<li>安装失败： <code>Torch is not able to use GPU</code><ul>
-<li>尝试更新显卡驱动<br>  官网下载最新驱动 <span class="github-emoji"><span>👉</span><img src="https://github.githubassets.com/images/icons/emoji/unicode/1f449.png?v8" aria-hidden="true" onerror="this.parent.classList.add('github-emoji-fallback')"></span> <a href="https://www.nvidia.in/Download/index.aspx?lang=en">链接</a><br>  解压后开始安装  </li>
+<li>尝试更新显卡驱动<br>  官网下载最新驱动 <span class="github-emoji"><span>👉</span><img src="https://github.githubassets.com/images/icons/emoji/unicode/1f449.png?v8" aria-hidden="true" onerror="this.parent.classList.add('github-emoji-fallback')"></span> <a href="https://www.nvidia.in/Download/index.aspx?lang=en">链接</a>    </li>
 <li>更新后删除或重命名stable-diffusion/venv目录</li>
-<li>重新执行webui-user.bat<br>  <code>更新venv目录下的 pip版本</code>或<code>pip下载库connect timeout</code>常见问题:<br>  <code>-i https://pypi.tuna.tsinghua.edu.cn/simple</code></li>
+<li>重新执行webui-user.bat</li>
 </ul>
 </li>
-<li><code>RuntimeError: Couldn't install gfpgan.</code><ul>
-<li>方法1 ： <span class="github-emoji"><span>👉</span><img src="https://github.githubassets.com/images/icons/emoji/unicode/1f449.png?v8" aria-hidden="true" onerror="this.parent.classList.add('github-emoji-fallback')"></span> <a href="https://github.com/CompVis/stable-diffusion/issues/506#issuecomment-1438585062">resulotion</a></li>
+<li><p><code>RuntimeError: Couldn't install gfpgan.</code><br>如果一开始遇到pip install慢或者失败问题，建议按上述修改<code>pip.ini</code>。<br>根本原因是与github连接网络不稳定，小飞机虽然有点用，但全局模式用处不大，可能会成功，但是龟速+失败多，还是建议以下方式：  </p>
+<ul>
+<li>方法1 ： <span class="github-emoji"><span>👉</span><img src="https://github.githubassets.com/images/icons/emoji/unicode/1f449.png?v8" aria-hidden="true" onerror="this.parent.classList.add('github-emoji-fallback')"></span> <a href="https://github.com/CompVis/stable-diffusion/issues/506#issuecomment-1438585062">resulotion</a><br>  将launch.py 中 <code>https://github.com/</code>替换为 <code>https://ghproxy.com/https://github.com/</code></li>
 <li>方法2 ： 给git添加代理</li>
-<li>方法3 ： 更换pip源： 更改pip.ini(<code>C:\Users\name\AppData\Roaming\pip\pip.ini</code>)  <figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">[global]</span><br><span class="line">	index-url = https://pypi.tuna.tsinghua.edu.cn/simple</span><br></pre></td></tr></tbody></table></figure>
-  重新运行 webui-user.bat （等待很长时间，可能电脑太菜~ ）</li>
 </ul>
 </li>
-</ul>
-<ol start="2">
-<li><strong>linux:</strong>  <figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">sudo apt install wget git python3 python3-venv</span><br><span class="line">bash &lt;(wget -qO- https://raw.githubusercontent.com/AUTOMATIC1111/stable-diffusion-webui/master/webui.sh)</span><br><span class="line">sh webui.sh</span><br><span class="line">#check webui-user.sh for options</span><br></pre></td></tr></tbody></table></figure></li>
-</ol>
+<li><p><code>No module 'xformers'. Proceeding without it.</code><br>缺啥补啥，在webui-user.bat里 <code>set COMMANDLINE_ARGS=--xformers</code><br>(我这里缺 xformers) ,看launch.py 里确实有对这个库的检查和下载。<br>实在不明白为啥会出现这种错误。</p>
 </li>
-<li><p><strong>如何在服务器上通过接口调用服务</strong></p>
+<li><p><code>ModuleNotFoundError: No module named 'basicsr.version'</code><br><span class="github-emoji"><span>👉</span><img src="https://github.githubassets.com/images/icons/emoji/unicode/1f449.png?v8" aria-hidden="true" onerror="this.parent.classList.add('github-emoji-fallback')"></span><a href="https://github.com/AUTOMATIC1111/stable-diffusion-webui/issues/1598#issuecomment-1501010130">solution</a><br>重新安装basisr</p>
+</li>
+<li><p>打开后输入prompts时网页右上角显示: <code>Something went wrong Expecting value: line 1 column 1 (char 0)</code>,且运行出错<br><span class="github-emoji"><span>👉</span><img src="https://github.githubassets.com/images/icons/emoji/unicode/1f449.png?v8" aria-hidden="true" onerror="this.parent.classList.add('github-emoji-fallback')"></span><a href="https://github.com/AUTOMATIC1111/stable-diffusion-webui/issues/9132#issuecomment-1488840066">solution</a><br><code>set COMMANDLINE_ARGS=--xformers --no-gradio-queue</code></p>
 </li>
 </ul>
-<h2 id="use-case"><a href="#use-case" class="headerlink" title="use-case"></a>use-case</h2><p>影响图像效果的因素： <code>参数，模型，prompt</code></p>
+<h2 id="env-build-linux"><a href="#env-build-linux" class="headerlink" title="env build - linux"></a>env build - linux</h2><figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">sudo apt install wget git python3 python3-venv</span><br><span class="line">bash &lt;(wget -qO- https://raw.githubusercontent.com/AUTOMATIC1111/stable-diffusion-webui/master/webui.sh)</span><br><span class="line">sh webui.sh</span><br><span class="line">#check webui-user.sh for options</span><br></pre></td></tr></tbody></table></figure>
+
+<h2 id="env-build-服务器上通过接口调用"><a href="#env-build-服务器上通过接口调用" class="headerlink" title="env build - 服务器上通过接口调用"></a>env build - 服务器上通过接口调用</h2><h2 id="use-case"><a href="#use-case" class="headerlink" title="use-case"></a>use-case</h2><p><img src="/stable-diffusion/aweful_picture.png" alt="垃圾的图像效果"><br>上面图片就是我刚进入网页时随便输入一段话然后生成的结果. 简直…不堪入目 <span class="github-emoji"><span>😱</span><img src="https://github.githubassets.com/images/icons/emoji/unicode/1f631.png?v8" aria-hidden="true" onerror="this.parent.classList.add('github-emoji-fallback')"></span> <span class="github-emoji"><span>😱</span><img src="https://github.githubassets.com/images/icons/emoji/unicode/1f631.png?v8" aria-hidden="true" onerror="this.parent.classList.add('github-emoji-fallback')"></span><span class="github-emoji"><span>😱</span><img src="https://github.githubassets.com/images/icons/emoji/unicode/1f631.png?v8" aria-hidden="true" onerror="this.parent.classList.add('github-emoji-fallback')"></span><span class="github-emoji"><span>😱</span><img src="https://github.githubassets.com/images/icons/emoji/unicode/1f631.png?v8" aria-hidden="true" onerror="this.parent.classList.add('github-emoji-fallback')"></span>!!!!</p>
+<p>如何进行改善呢?<br>影响图像效果的因素： <code>参数，模型，prompt</code></p>
 <ul>
 <li><p>text2img</p>
 </li>
