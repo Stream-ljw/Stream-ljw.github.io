@@ -50,10 +50,13 @@ click here :point_right: [official guidance of source code](https://github.com/A
 	:point_right: [详细的指南(包括支持AMD显卡)](https://nerdschalk.com/install-stable-diffusion-windows/)  
 	manually install：
 	```	
+	建议先看下面的trouble shooting， 显卡驱动更新+ 更改pip源 + git配置，这样安装过程才会一帆风顺
 		#prepare `python3.10.6(更新的版本不支持torch)+git`
 		git clone https://github.com/AUTOMATIC1111/stable-diffusion-webui.git
 		#run webui-user.bat  #不需要管理员权限运行
 	```
+	
+	**Trouble Shooting** ： 
 	- 安装失败： `Torch is not able to use GPU`
 		+ 尝试更新显卡驱动
 			官网下载最新驱动 :point_right: [链接](https://www.nvidia.in/Download/index.aspx?lang=en)  
@@ -61,16 +64,24 @@ click here :point_right: [official guidance of source code](https://github.com/A
 		+ 更新后删除或重命名stable-diffusion/venv目录
 		+ 重新执行webui-user.bat
 			`更新venv目录下的 pip版本`或`pip下载库connect timeout`常见问题:  
-			` -i https://pypi.tuna.tsinghua.edu.cn/simple `
+			` -i https://pypi.tuna.tsinghua.edu.cn/simple `   
+			或 修改`pip.ini` (`C:\Users\name\AppData\Roaming\pip\pip.ini`)：
+			```
+			[global]
+				index-url = https://pypi.tuna.tsinghua.edu.cn/simple
+			```
+
 	- `RuntimeError: Couldn't install gfpgan.`
+	如果一开始遇到pip install慢或者失败问题，建议按上述修改`pip.ini`。
+	根本原因是与github连接网络不稳定，小飞机虽然有点用，但全局模式用处不大，可能会成功，但是龟速+失败多，还是建议以下方式：  
 		+ 方法1 ： :point_right: [resulotion](https://github.com/CompVis/stable-diffusion/issues/506#issuecomment-1438585062)
-		+ 方法2 ： 给git添加代理
-		+ 方法3 ： 更换pip源： 更改pip.ini(`C:\Users\name\AppData\Roaming\pip\pip.ini`)
-		```
-		[global]
-			index-url = https://pypi.tuna.tsinghua.edu.cn/simple
-		```
-		重新运行 webui-user.bat （等待很长时间，可能电脑太菜~ ）
+		将lunch.py 中 `https://github.com/`替换为 `https://ghproxy.com/https://github.com/`
+		+ 方法2 ： 给git添加代理(飞机场用户暂时尚未成功)
+	
+	- 所有都安装好，下载好之后出现 ：`No Module Found`
+	缺啥补啥，在webui-user.bat里 `set COMMANDLINE_ARGS=--xformers`  
+	(我这里缺 xformers) ,可能是之前下载中漏了，因为看launch.py 里确实有对这个库的检查和下载。
+
 	2. **linux:**
 	```
 		sudo apt install wget git python3 python3-venv
