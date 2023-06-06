@@ -51,6 +51,13 @@ printf("#streamFlag# test content \n");
 
 **问题分析:** 
 1. 接口appRemoteServiceRun()中加打印跟踪流程  
+	跟踪下来，发现testcontent无法打印出来时，appRemoteServiceRun里面 Semphre_pend() 加锁函数没有执行。
+2. 根据上述分析，分析一下加锁函数没有执行：  
+	appRemoteServiceRun被初始化好了之后就会被很多其他地方调用，因为它是其他核跟mcu20通信的接口。  
+	诊断的函数上电之后初始化完成之后就开始调用该接口。几乎同时会调用，而且循环调用，速度极快。  
 
+**结论：**  
+> appRemoteServiceRun被诊断接口抢占，诊断接口会直接进入死循环，无法释放锁，所以一直没法继续执行下去。
+> 跟猜测的 加不加printf 无关。加了之后经过测试显示依然无法继续执行。所以猜测就是错误的
 
 {% cq %} 学区房是阶级的象征 {% endcq %}

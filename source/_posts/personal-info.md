@@ -8,7 +8,17 @@ categories: diary
 ---
 
 工作总结：
-1. can
-2. ipc
-3. pinmux
-4. camera
+OS:
+- rtos
+- ipc
+- pinmux
+
+外设
+- can协议
+- camera （mipi）
+	+ csi-2 协议
+	+ DPHY
+	+ CPHY
+	+ MAXIM serdes
+	+ TI serdes
+- i2c 协议
