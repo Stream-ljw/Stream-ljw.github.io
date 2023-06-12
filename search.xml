@@ -101,6 +101,37 @@ A[方形] --&gt;B(圆角)
       </tags>
   </entry>
   <entry>
+    <title>Qemu</title>
+    <url>/QEMU/</url>
+    <content><![CDATA[<h1 id="Bg"><a href="#Bg" class="headerlink" title="Bg"></a>Bg</h1><p>qemu模拟optee</p>
+<h1 id="what’s-qemu"><a href="#what’s-qemu" class="headerlink" title="what’s qemu"></a>what’s qemu</h1><h2 id="what-it-can-do"><a href="#what-it-can-do" class="headerlink" title="what it can do"></a>what it can do</h2><h1 id="optee"><a href="#optee" class="headerlink" title="optee"></a>optee</h1><h1 id="reference"><a href="#reference" class="headerlink" title="reference"></a><strong>reference</strong></h1><p><span class="github-emoji"><span>👉</span><img src="https://github.githubassets.com/images/icons/emoji/unicode/1f449.png?v8" aria-hidden="true" onerror="this.parent.classList.add('github-emoji-fallback')"></span> <a href="https://www.cnblogs.com/sewain/p/14206365.html">业内人士对qemu的介绍</a></p>
+]]></content>
+      <categories>
+        <category>tech</category>
+      </categories>
+      <tags>
+        <tag>qemu</tag>
+        <tag>optee</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Doc工具</title>
+    <url>/doc/</url>
+    <content><![CDATA[<p>markdown在网页上使用兼容性强，语法简单。</p>
+<p>在更复杂的使用场景里面需要RST，也就是 SPHINX和Doxygen<br>比如公司的项目文档。需要描述内容的更多。</p>
+<h1 id="1-sphinx"><a href="#1-sphinx" class="headerlink" title="1. sphinx"></a>1. sphinx</h1><h1 id="2-Doxygen"><a href="#2-Doxygen" class="headerlink" title="2. Doxygen"></a>2. Doxygen</h1><blockquote class="blockquote-center">
+<p>规则是工具可以被真正使用的前提</p>
+
+</blockquote>]]></content>
+      <categories>
+        <category>tool</category>
+      </categories>
+      <tags>
+        <tag>sphinx</tag>
+        <tag>doxygen</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>hexo blog SEO configure</title>
     <url>/hexo-blog-SEO-configure/</url>
     <content><![CDATA[<h1 id="SEO"><a href="#SEO" class="headerlink" title="SEO"></a>SEO</h1><p>SEO(Search Engine Optimization) 针对搜索引擎的优化。<br>意义是让我们的博客能被通过搜索引擎查询相关问题的人更容易看到浏览。(换句话说，没有这方面需求的人可以忽略)  </p>
@@ -132,23 +163,6 @@ A[方形] --&gt;B(圆角)
         <tag>next</tag>
         <tag>SEO</tag>
         <tag>next-plugin</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Doc工具</title>
-    <url>/doc/</url>
-    <content><![CDATA[<p>markdown在网页上使用兼容性强，语法简单。</p>
-<p>在更复杂的使用场景里面需要RST，也就是 SPHINX和Doxygen<br>比如公司的项目文档。需要描述内容的更多。</p>
-<h1 id="1-sphinx"><a href="#1-sphinx" class="headerlink" title="1. sphinx"></a>1. sphinx</h1><h1 id="2-Doxygen"><a href="#2-Doxygen" class="headerlink" title="2. Doxygen"></a>2. Doxygen</h1><blockquote class="blockquote-center">
-<p>规则是工具可以被真正使用的前提</p>
-
-</blockquote>]]></content>
-      <categories>
-        <category>tool</category>
-      </categories>
-      <tags>
-        <tag>sphinx</tag>
-        <tag>doxygen</tag>
       </tags>
   </entry>
   <entry>
@@ -391,6 +405,11 @@ A[方形] --&gt;B(圆角)
 <h1 id="不同平台互联，传输文件开始"><a href="#不同平台互联，传输文件开始" class="headerlink" title="不同平台互联，传输文件开始"></a>不同平台互联，传输文件开始</h1><p>windows跟手机传输文件，只能通过第三方软件的文件传输功能，手机发送文件到文件传输，windows打开软件文件传输接收文件，然后另存问到windows<br>这样很烦， iphone的 隔空传送其实任何平台都应该支持。</p>
 <h1 id="针对小公司的云存储平台"><a href="#针对小公司的云存储平台" class="headerlink" title="针对小公司的云存储平台"></a>针对小公司的云存储平台</h1><p>bg：小公司缺乏技术人员，文件保存杂乱，可追溯性差， 公司的积累事倍功半。<br>客户信息，交易记录，经验积累等生产资料。这些丢失对于一个公司的损失很惨重。<br>我认为任何正常的小公司需要一个存储重要文件的地方。还可以有效的分类管理，方便查找和预览。</p>
 <h1 id="通识知识娱乐化"><a href="#通识知识娱乐化" class="headerlink" title="通识知识娱乐化"></a>通识知识娱乐化</h1><p>受启发于 freecodecamp.org 该组织致力于将编程知识模块化，做成可实操可视的形式，大大提高了学习兴趣和效率。<br>将大学教材里面的 数学，物理各种理科知识用生动的形式展现，方便学习。<br>这种形式不局限于 动画，视频，游戏，模拟界面，重在让学习者学的过程轻松，激发兴趣，记忆深刻。<br>知识内容可以延伸到从幼儿园，和小学教材开始。积攒人气和投资。<br>把死板的知识变得生动。刺激教育改革。</p>
+<h1 id="低延迟无线传输方案提供商"><a href="#低延迟无线传输方案提供商" class="headerlink" title="低延迟无线传输方案提供商"></a>低延迟无线传输方案提供商</h1><ul>
+<li>2.4G 的无线传输 ： 耳机，鼠标，键盘等外设。。。</li>
+<li>短距离其他方式的传输： 网络传输，</li>
+<li>一个接收器，支持多个外设的传输。</li>
+</ul>
 <blockquote class="blockquote-center">
 <p><strong>思考具有局限性</strong><br>你认为的正确只是在你了解的知识体系中的正确</p>
 
