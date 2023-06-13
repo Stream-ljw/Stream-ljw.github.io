@@ -106,7 +106,8 @@ theme: next
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repo: https://github.com/Stream-ljw/stream-ljw.github.io
+  #repo: https://github.com/Stream-ljw/stream-ljw.github.io
+  repo: git@github.com:Stream-ljw/stream-ljw.github.io.git
   branch: gh-pages
 
 
