@@ -126,9 +126,18 @@ stable-diffusion支持生成gradio链接, 目的是可以在其他设备也可�
 
 如何进行改善呢?    
 影响图像效果的因素： `参数，模型，prompt`
+先来熟悉stable-diffusion-webui上面的一些模式
 - text2img
 
 - text+img2img
+:point_right:[几种模式的解释](https://blog.51cto.com/tinygeeker/6185988)  
+以下仅作为巩固记录：  
+参数 | 解释
+  -  |  -
+resize mode | 依此是：`拉抻`，`裁剪`，`填充`，`仅调整大小`，缩放模式指的是当原图和要生成的图的宽和高不一致的时候，选择的缩放模式，一般选择裁剪，如果原图和生成图的宽高一致的时候，选择任意均可
+
+一些工具，可能以后会用到： 
+- :point_right:[controlNet 工具](https://vocus.cc/article/640ee135fd8978000155ef23)  
 
 ---------
 # 应用--换装预览
@@ -136,26 +145,26 @@ stable-diffusion支持生成gradio链接, 目的是可以在其他设备也可�
 ## Scenario 1：
 淘宝商家给出衣服图片，用ai绘出穿着衣服的人物模型，支持各种场景和人物姿势.  
 :point_right:[**AI models**样例](https://www.zmo.ai/aimodels/)
-### Details
+- Details
 1. 随机模特模型生成
 2. 提供的照片衣服模型结合
 
 ## Scenario 2：
 消费者网购衣服，需要预览选中的衣服的效果，不同场合，不同姿势。
-### Details
+- Details
 1. 消费者人物模型生成
 2. 选取衣服模型提取
 
 ## Thread
+如何生成不同的models？（训练，）
+生成的models如何与图片中的衣服结合？
+
 1. client
 选择衣服，选择预览人物
 2. server
 根据所选衣服和预览人物，生成提示词，填入后调接口进行生成
-
 3. 生成提示词精准度
 4. 提高生成速度
-
-
 
 # Implement
 (待续)
