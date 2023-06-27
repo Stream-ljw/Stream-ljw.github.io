@@ -41,3 +41,7 @@ ACK的过程是怎样的？ SDA被释放，此时SCL没有被释放， 那么SDA
 - :point_right: [i2c挂死分析和解决方法](https://www.jianshu.com/p/95f53ca2724e)
 - :point_right: [i2c spec 翻译](https://zhuanlan.zhihu.com/p/149364473)
 - :point_right: [原文链接](https://www.nxp.com.cn/docs/en/user-guide/UM10204.pdf)
+
+
+
+{% cq %}**新闻已死**  {% endcq %}

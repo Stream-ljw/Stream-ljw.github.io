@@ -14,10 +14,10 @@ categories: tech
 好奇到底是如何做到的。  
 
 # QR BTF
-这个项目叫 [QR-BTF](https://qrbtf.com/) :left_point:点击进入官网。
+这个项目叫 [QR-BTF](https://qrbtf.com/) :point_left:点击进入官网。
 网站风格也很有意思。
 
-其实很早就有生成个性化二维码的产品了： [Go!](https://classic.qrbtf.com/)
+其实很早就有生成个性化二维码的产品了： [QR-BTF-classic](https://classic.qrbtf.com/)
 
 根据README介绍安装后：
 ```
@@ -27,19 +27,25 @@ npm install
 npm audit fix --force
 npm start
 ```
-结果最终效果竟然是它的本地的官网： [Go!](https://classic.qrbtf.com/)
+结果最终效果竟然是它的本地的官网： [QR-BTF-classic](https://classic.qrbtf.com/)
 好吧，感兴趣的去体验一下。
 
 # QR-code
 二维码是如何现实一个链接的？二维码怎么通过扫描得到结果？  
 以及 如何实现该项目中的AI生成好看的二维码？  
 这才是本次探究的重点。
+
 ## 二维码介绍
-
-
-## 扫描获得二维码
 
 ## 生成更好看的二维码
 
+## 目标检测：识别二维码
+
+
 
 # **reference**
+
+  
+
+{% cq %}**流程是由做过事情的人分享出来的，不能是没做的总结出来**  
+初创公司 流程不能繁琐，而是直观简洁{% endcq %}
