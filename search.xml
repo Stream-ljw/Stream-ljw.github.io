@@ -1,27 +1,66 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>QR-code</title>
-    <url>/QR-code/</url>
-    <content><![CDATA[<h1 id="Bg"><a href="#Bg" class="headerlink" title="Bg"></a>Bg</h1><p>最近看到一篇帖子，<a href="https://mp.weixin.qq.com/s/KBS5ybzq3DI3eifNs08fNA">优雅的二维码</a><br>不同于我们日常看到的那种，非常的有意思。  </p>
-<p>好奇到底是如何做到的。  </p>
-<h1 id="QR-BTF"><a href="#QR-BTF" class="headerlink" title="QR BTF"></a>QR BTF</h1><p>这个项目叫 <a href="https://qrbtf.com/">QR-BTF</a> <span class="github-emoji"><span>👈</span><img src="https://github.githubassets.com/images/icons/emoji/unicode/1f448.png?v8" aria-hidden="true" onerror="this.parent.classList.add('github-emoji-fallback')"></span>点击进入官网。<br>网站风格也很有意思。</p>
-<p>其实很早就有生成个性化二维码的产品了： <a href="https://classic.qrbtf.com/">QR-BTF-classic</a></p>
-<p>根据README介绍安装后：</p>
-<figure class="highlight bash"><table><tbody><tr><td class="code"><pre><span class="line">git <span class="built_in">clone</span> https://github.com/ciaochaos/qrbtf.git</span><br><span class="line"><span class="built_in">cd</span> qrbtf</span><br><span class="line">npm install</span><br><span class="line">npm audit fix --force</span><br><span class="line">npm start</span><br></pre></td></tr></tbody></table></figure>
-
-<p>结果最终效果竟然是它的本地的官网： <a href="https://classic.qrbtf.com/">QR-BTF-classic</a><br>好吧，感兴趣的去体验一下。</p>
-<h1 id="QR-code"><a href="#QR-code" class="headerlink" title="QR-code"></a>QR-code</h1><p>二维码是如何现实一个链接的？二维码怎么通过扫描得到结果？<br>以及 如何实现该项目中的AI生成好看的二维码？<br>这才是本次探究的重点。</p>
-<h2 id="二维码介绍"><a href="#二维码介绍" class="headerlink" title="二维码介绍"></a>二维码介绍</h2><h2 id="生成更好看的二维码"><a href="#生成更好看的二维码" class="headerlink" title="生成更好看的二维码"></a>生成更好看的二维码</h2><h2 id="目标检测：识别二维码"><a href="#目标检测：识别二维码" class="headerlink" title="目标检测：识别二维码"></a>目标检测：识别二维码</h2><h1 id="reference"><a href="#reference" class="headerlink" title="reference"></a><strong>reference</strong></h1><blockquote class="blockquote-center">
-<p><strong>流程是由做过事情的人分享出来的，不能是没做的总结出来</strong><br>初创公司 流程不能繁琐，而是直观简洁</p>
-
-</blockquote>]]></content>
+    <title>For Life</title>
+    <url>/Thinking&amp;Experience/</url>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Warning！！请停止窥探隐私行为！！您的IP已经被记录！！" data-whm="抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容.">
+  <script id="hbeData" type="hbeData" data-hmacdigest="5fcc126c1117c067b9eb7fa8db830999cf158cbf3b4cce818d32ea52aee10285">d370c5caa6f82aab46a5e5036abddd95f3748a1f868670e6c92a5d7157303714555794d1e8593b3200afee48d526c32cf6d2539a053be8345bb623863bfe1ef2bc8e6db1fbdc25d588cb61293da0bdd77db069d154eea9ea2f1771f1d34f939d132cd07a4de316991cf6f3acaa0568fcb619a20d8aa644e2ab1e0b6a5c2ee52a2135163afdae434b83a24ec668d23721b5d004dcb42d2b285dd476a9fc3ac4b5ed7a4e2e1eb2749ee792ccff2b58aae0e4eb2bee35baecd60d14c8ef577e3ce7bcab8039a47d027018526fd358f92e1dad8670cbbf59d83fc552487827d027c303e5b93910ce97ccc5e5cce67b0a209645f5b2377b7d5978f1d437edce560e569dcc9b072543eaf78253c787d28bfd81081e9d7e257f9a83df7366245f00c456f90c82181e00507b2622a87e37dd91a5b07b994b03b938aa94f9b486e717576e67a218e96681a5a8965854de702e77dac80d5bdcc3c3b96be2f2226bf9e7b622635d57518cf2dff9e200773751064a0cf11dc43365caa395440a121a447cecaa611511dc4f082716d591a9e897011c99146ba87db87d7f188cd62d25ccdc17606ccea794c81a6c40c9ca6b4bb9330c8bb098e7212ec96af65817af3a6ad94a8c2e3807656275fe0689181f9ea2ff58d244e05992197d4b9bf678dbbc84134c03edde72ee09d1e4aa9d11ae1d4ffda0af805d27a16b137547faf0d9eb1f146a5c89d89a2b967dc70c4521bb70410cf9368c6c9b22db7cacd09793f57bed8160e7b9949532b4a80278b49bc150dd1f0a471243cf9d6c5810ce6deb69f767ddc9cb083697f3fc0769959cd6388ceaea98e62f17e05cb0b33ac6aafb11e9daa71a1a13881ed2d6a011db30765cab1a9b0ad567325852097d17ea135b0222627df957457f611a3bbd76089c5764871ec4fcc3c78ea215ce210725447e5cd675a7b882b94261ad1d88e6428e7552137f544fc63db238a3035fbc12be4953e8f614487b731d640d68cfeec6f592b373d3b53a612e2d55dfa9d85e0fcddecee4b01a02c83338ab0590c089c0e73ca1f4a49454c0d8245d4374c5805b76e3a10bc468edaa1f1e63a6b56a5c4eb55528573b8eee49cd8cbba360148f999796615a6be2311fc2715189a435cee2858a41ff506d2cf95d0d945b77339bb1c3fe610fafc7992c01c8ba18d06d4e448ca1bada8afc34c7ebafe4cb47f1a8bd3356c360d51ef9b44f118e5321d925428669a50480c7f87b63021573b1a044b2dc7a67a4dcebe0e8a717300caeb8acc85d350b4939120be86b559893d6bdb04b30e88e2ef9a326e51c4cc6022273cf76fcc6b45222ab0cc38892940f8e7ffb201068598d4f3ca4a29c7b0e55e80332493f1af5cc2d7bd8be499755860a823dbc5a64a989cc436a5bee54f4a1a5123e904d701b3b8a327d0b410a3a9034cae6d2e04197588c51d7cd8b85f8868986575f2815c201f352f0df68c2cfc8428c5f611a10f93f49fdfe250d7db12d70e15a5503f655256d948f918b8bb439eb2b04b0bc051ecb9a32cb0a6b0f7ad8b08dd3c2293d42a29717c1841128288dc9387461f09423d4c8a39ce2dfbe57e5e198672d45c11832c3e935c204b48c941bcf7da6c89349e796a4935f70876256d36d126e3dbee110337a78d528f78a8ed96c23fb7596c2bde5ae8302f14703bff57c7219241649c59d4048886c76a9668111a82c4bc43fbc3482bb27814e61c4c7f27832f3c19886e448f8e374071cdcb8df5085ef84fd5802b7bbc0d586afde9fab6c26e98ab37107110aba302f2788d4107646b0779c6eea0329931e9aaa2445de24b51ef1f3fab57cd8e5d7188494c1cfc77253515185e74f5f3e27ddba3c90b8d7e4bb7fa1cdd74e88c43f44eb2635dbca4c62b2a467952e6ece08c94969d9c69329efe81eadf363f5da696a76637650c9815a47107f2293efd6fe87653ab3422a32b0e4bc4db2eb8e8617396b356c24261d4e70b950c74e4a91c8f9044a64cf11e18e20db9332ddc1c6ec73341e06a312a89311add6fcc23dc38d724542bb5e2e78c4512c8dae4945bb455851356abd0580f59cd87695cd891bd5e980df2e33b547a68ac850563ee1d588a63faf06dab65796cc089396777deae2ef2e15e62e8e8110dbd561d8588a9c3870366e361a3fb0690fd0ec602269c3c6bab9e2b339d84b8314a7658fed07169f8258a3ee46d423a2a2740bf6fcd627ae830b5ff1ff04163e10e98cfb02fd99ac1c9161b3bae497c6208c2d1ff549a31486b4cfc85fd6f492803e1be9ad9d1da54855dd2fbb7bd5dfb63dec8c380136c8643d5406b895042c82bf761ba6ab908b67387503f1ade6dd6d7217d9b72c8be7c9011e1b23658ae3b4ee8faa2f0d62ccae53b749b2deed06afb08dd166a9a17000caf27555a9cc421f5d05c4d403a9ad5c808726e0cc6c5e5a79eeafd00ff4b6c0ef7ad18da460ce003f9a3fcae7ba88d5c2f0b0f4b23724650668bc753c4f9f4cf31677f503805754282727435befde74a1233e6f54a917b1d5e417917affe06a8cff175a568fdbc44a1b69474ac37a5d9855d9386dc6b5d854c9abc9448507c79100bf6a6488569b21d656bb0a1b1cdb6418aca4fa48a892a1e8db9748188bed55bcd82bdc536cb767e41502b1fe73ebcedd32c1c49889029e3fbdfb295f54059a13b3b2a7bb8718390eaac267978a531f91df0617cdf50c0a5540f5e555e06edee156aee9039880f1d052d1cf5315bee086328550f490731611cefbea9aef8c83672e732b3861fc0522d44a4e7d799fa900c38620f16414a3296d3839e7581dbdcf3808de5d8333d5270cfcd05cd6e47ec5633d3658be53ba7d54a5f69d88326fcdb7c7e430bf21c6952a11815a3b60f8d47bbf5ecf5799ad2d2c591a6c3f8c36961302eb3f119a4f1219d349b856be847ba674c2733069252baa029968c8657472ec74da02aa23ca9103b20676ef7bf05f42a297839f147f5a5cb851d4d7a22529f95702ef455763b461dae1c139b496e835b9a2a08b1e018c4a834d76dcb3e89d32c373ba88035555bfb20a902d50cf9c7013ac9c8fbfb23b6bd9ee1f595b8de0c630dcefe5335f97865ef66d83ba3d93e0ddb276f79f1ba69993f212174e517616885e51c564e66655ca2eed3440cfec5d60327530aaf93cfb9dfef6d341e8b4e77d8403a2815444c79dfcc4fb86fb97a5e91a3263433c0bac4f5c6a34bc61a3ad7675bae6e9d90e2608b75ae3b6869df372c092beca8e15a62d8808b3fded164389035585da331c70ed732ac087e15fa9d2b36585c6e1e6f4d874182b61c62a300f71e280aa3fc03182825aa54dcb872dee7c776644d7df96c527ed3ec935e77a96524e3e1b883be101c2a14f41f6804133f57834665e7f0ad67745502cdc31491243f550f8492e0ef1906a6b19a8d913d7775aa81f7aac29ad2c0860faf594e12fd86eee68c47847aa2492e0a49cd120cb0a2996ab8964be14efb0f2e59b802dcc493fad9e7c7bd50fdcd253898f241751d91682354a236766e619b9d9a9423332444d400b5cf6b1d4bdb659766153a9ece9484309223718b47ed0da2e1e0e72fb54b92a268188d30f8382b0d22dbced59ce913924669d7b7f1efae13a19ba089bd7e64febb4ecdf457e6be5b3b98f404d11e80c78769a78f67963dbfd4620f8a9d33bac3e90d4786d5896a96161edc7439029f13c4ae04cfe542affea7fb76ec7e32c2cb69d81a6e4bcd03854f9a0f578c0f23b98388caf92c5f3a365e2d1688ec7cfae52d8ac1e15dca10d9352ffed844ae2008435c73e3b66e531cec13ca8f8fefaf1fe60556e6b5b974ea343bad9abf91e3b008047ed4baed65fbfce926eb9face8afbcff3fd2a6d690b97ae26b3fce6ac11d23fab56041936adaf4941ca6777740f714bb1227cd04535735baa406f0a322b49aea720b7658e277ef4ec7121aa381232a7e5656273efc2fce1643a5c6d1df9b6d0e9961b0e9a2a77733c73648bd6ca19134b21df181d7c849e9cd878d3aaeb60fca9e5c6e2f014066dae9d604c69910f7f2e107329ebc410c44b47255577cbe7a667fe3359c2c2f1e0911e2b288a664aa2c57e3088c9359043049dd4b11b449c2aa915a5bb6143514fd401a94e8edd86c7edd8abad7cac744648768b8c2895b4b5ec8d519f629329ae162be47a5487b312fef5c81080477eb906cc83b49aa6419b6451e026c3993dff7bbe0d650728716274b95944cce94a683069ac8dbe0ec318d3b14b8f508baf4023200cdcb3d1db53596f24fc8f356bcd04a9523871004d55baccebd1c551ea9a276d862ed6d663f12076d33c2e8ca7cd09679807f557b273e44d87a5fae6445dc411636f5be828b1664cfba540e5e2c3332ffa3f8f572320297f307afeeec88c5b9c30a1ac95e06f7dcfbc45dba908506a8d7c4ffd6058ca38aa745ea4b60f66d1289b349ab0d8a60b00ef7b659f383c2769fe9c497c68432e0e4945f0f1a9d9c83388d373658d4b6f5364c8e74cd0a000e379f677e2b9319758e23400a86b621c07f35419eb0bf8ea417333963a528a6fa30f88a59b96e3d4dd27f385efea63303f277ed77a8195991bdc5dcea3a7a2e7b9434142e2eed56909c9e9a8d6bc744539ccfdfa9ebdf8be9baee4212eb995a374ec0fbd5ec4d87976416bca328421a59bd29f50f0ee2b5fd3193e73d7ef8a512ab5975dfac0253169eee3299369fbd05d8503ea66b38c791b8775bf7c0c5a3b41cd0e83fa49f8b84cbad7bc73a8b08f228bb92e15df5e32d09e387fbed3700f629fc81a2e9642197a2e718f9c2357f00b353343475a6c7b34ff929e089d8a2c609f92fcba0e92d737369d904f2ba8dfb3d6dc8739c3706d5c297697ba614aa22de7e01378e3c22da13f48d301997c26ec549d44affb719f14b48a7498af06011fbd2ca54ba47f514ab0d8b27bf616553a4d70243c3834c9adc49e1db7277c60bd37947ceac32e96893b34f944433aa659824a1151be18e1edc9bd1dc0a43d1750d9efcd284eec35824046159f766301e55165ccdc40f3bd021e47fde4fc4a8771d6840aefec28ca6d57f701650ac0b9196dc68841f173ad4184cd08d16f00b269d2e780947d86fe764f7973</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-xray">
+      <input class="hbe hbe-input-field hbe-input-field-xray" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-xray" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-xray">Ops！这篇文章博主似乎不想透露！</span>
+      </label>
+      <svg class="hbe hbe-graphic hbe-graphic-xray" width="300%" height="100%" viewBox="0 0 1200 60" preserveAspectRatio="none">
+        <path d="M0,56.5c0,0,298.666,0,399.333,0C448.336,56.5,513.994,46,597,46c77.327,0,135,10.5,200.999,10.5c95.996,0,402.001,0,402.001,0"></path>
+        <path d="M0,2.5c0,0,298.666,0,399.333,0C448.336,2.5,513.994,13,597,13c77.327,0,135-10.5,200.999-10.5c95.996,0,402.001,0,402.001,0"></path>
+      </svg>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
       <categories>
-        <category>tech</category>
+        <category>diary</category>
       </categories>
       <tags>
-        <tag>QR-code</tag>
-        <tag>aigc</tag>
+        <tag>diary</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Blog-revision</title>
+    <url>/Blog-revision/</url>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Warning！！请停止窥探隐私行为！！您的IP已经被记录！！" data-whm="抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容.">
+  <script id="hbeData" type="hbeData" data-hmacdigest="a26c278eecd2fab172fa1b2158d5a42025538a27987570d782c3e15572e97644">d370c5caa6f82aab46a5e5036abddd9543c4ce41c602d3efdf5140155f25e5ed217cf306aa2dc947e0d47ccc5d85555a2b8c09ae4a6fe79563e460e9ee59a9a704bc416d7dc14e0a6910ff36f822306a2b79727cc7ca91de70531260bde17e8223c099c637156dc2576b226090141f69e11d07e666314d3dab18a6055e8fe65e9fdc918187330101ed9c6c8fb3f6f08761543237cd5f4698bcb15ad89da858543b2dacf97c91acec85ed32a4d7f2d1eb0b2976d61c0a2fda15abccdaee98eb24f9d6eeb43e813a36106b4e51e270bd06a086a24a274d9e190392dc446cc35922a36e2c1d1ebe3467eb2e864a3e961ecd9dd91fc2febdb9568055245dd1f5b18e15c8bc6fab695b0064358e2eec35625cc8b9b462bfbb7be3e00fd273919ebb717fc2c2402d32649ba1a89e9e023e8f852cbde1983e661d4331fd7f202014caa51f84685de4116330c7e5bfd48b10cf7299113557e78606cb11cbe9710772dc12fb82ff41b6f2f4fd1140e7cc1573b2b494fce8dadb2e3a762ccf0cab543633fb3d1d5f592f5f0b6adfc2e5886bb4c856de8cb75164e10417c60d699a5b5da487b798a7e4275659544273ef0b0e0eadc120e67ca2d0233957e6357b674e4a591640bebdf1df6cde106725148b988419407d20a273799b77def6c9519c3c7a0913f0e6d0288a9e3bc81475e69738dfa2d3a795126cf31413b923ed48f30dcdc138c2eb419d1f4816098e6eeccdd423653eb12c39eaeea2a3a727c2d834b8e4aa7e5bcfff07790f0a48db32d871ec3621063ce1b80f7ae5cfed336e3bb869fae1118d081828dc15e6eb9f83102331b868e530aa561e1483f22031382a540c0c545b6ae559e6d0eac5e71b1abe8effd96f9f0a591ff8ea326575641a54ccdb201457dbdb4227627c31bcc8019234703b2ca735ce7b9c97222a3df040069355bc8c5a80b0e48d5a0266e270fa4a86d0c20b4d5ff6afcc084041dfdc569187dbdd2b52016e1743208a88ef10e25d3a77264694b30f7beb2c355fb3d7b0b04053742e81748c024046da9549dde0c85e72030c4d457fe26ed6892fc4991c037bdbc3e85a526a3246d9748814f38e8e52ae1d9eef594f0063030ad14da6882be8ad2a05f5ae5436676caddca98f3e487207ade5529a88b6f025f895986fd01cdbb01cd073</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-xray">
+      <input class="hbe hbe-input-field hbe-input-field-xray" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-xray" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-xray">Ops！这篇文章博主似乎不想透露！</span>
+      </label>
+      <svg class="hbe hbe-graphic hbe-graphic-xray" width="300%" height="100%" viewBox="0 0 1200 60" preserveAspectRatio="none">
+        <path d="M0,56.5c0,0,298.666,0,399.333,0C448.336,56.5,513.994,46,597,46c77.327,0,135,10.5,200.999,10.5c95.996,0,402.001,0,402.001,0"></path>
+        <path d="M0,2.5c0,0,298.666,0,399.333,0C448.336,2.5,513.994,13,597,13c77.327,0,135-10.5,200.999-10.5c95.996,0,402.001,0,402.001,0"></path>
+      </svg>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      <tags>
+        <tag>diary</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>csgo-cfg</title>
+    <url>/csgo-cfg/</url>
+    <content><![CDATA[<h1 id="stream"><a href="#stream" class="headerlink" title="stream"></a>stream</h1><p>云存储个人csgo的配置，方便随时复制应用：</p>
+<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">cl_crosshair_drawoutline "0"</span><br><span class="line">cl_crosshair_dynamic_maxdist_splitratio "0.300000"</span><br><span class="line">cl_crosshair_dynamic_splitalpha_innermod "1"</span><br><span class="line">cl_crosshair_dynamic_splitalpha_outermod "0.5"</span><br><span class="line">cl_crosshair_dynamic_splitdist "7"</span><br><span class="line">cl_crosshair_friendly_warning "1"</span><br><span class="line">cl_crosshair_outlinethickness "1.000000"</span><br><span class="line">cl_crosshair_sniper_show_normal_inaccuracy "0"</span><br><span class="line">cl_crosshair_sniper_width "1"</span><br><span class="line">cl_crosshair_t "0"</span><br><span class="line">cl_crosshairalpha "250"</span><br><span class="line">cl_crosshaircolor "1"</span><br><span class="line">cl_crosshaircolor_b "144"</span><br><span class="line">cl_crosshaircolor_g "195"</span><br><span class="line">cl_crosshaircolor_r "27"</span><br><span class="line">cl_crosshairdot "0"</span><br><span class="line">cl_crosshairgap "-2"</span><br><span class="line">cl_crosshairgap_useweaponvalue "0"</span><br><span class="line">cl_crosshairsize "2"</span><br><span class="line">cl_crosshairstyle "4"</span><br><span class="line">cl_crosshairthickness "0.5"</span><br><span class="line">cl_crosshairusealpha "1"</span><br><span class="line">cl_fixedcrosshairgap "3"</span><br><span class="line">cl_viewmodel_shift_left_amt "1.5"</span><br><span class="line">cl_viewmodel_shift_right_amt "0.75"</span><br><span class="line">viewmodel_fov "60"</span><br><span class="line">viewmodel_offset_x "0"</span><br><span class="line">viewmodel_offset_y "1"</span><br><span class="line">viewmodel_offset_z "-2"</span><br><span class="line">viewmodel_presetpos "0"</span><br><span class="line">viewmodel_recoil "0"</span><br><span class="line">cl_bob_lower_amt "21"</span><br><span class="line">cl_bobamt_lat "0.33"</span><br><span class="line">cl_bobamt_vert "0.14"</span><br><span class="line">cl_bobcycle "0.980000"</span><br><span class="line">cl_hud_background_alpha "0.5"</span><br><span class="line">cl_hud_bomb_under_radar "1"</span><br><span class="line">cl_hud_color "0"</span><br><span class="line">cl_hud_healthammo_style "0"</span><br><span class="line">cl_hud_playercount_pos "0"</span><br><span class="line">cl_hud_playercount_showcount "0"</span><br><span class="line">cl_hud_radar_scale "1.1"</span><br><span class="line">hud_scaling "0.950000"</span><br><span class="line">hud_showtargetid "1"</span><br><span class="line">cl_righthand "0"</span><br><span class="line">cl_color "2"</span><br><span class="line">cl_radar_always_centered "0"</span><br><span class="line">cl_radar_icon_scale_min "0.7"</span><br><span class="line">cl_radar_rotate "1"</span><br><span class="line">cl_radar_scale "0.3"</span><br><span class="line">cl_radar_square_with_scoreboard "1"</span><br></pre></td></tr></tbody></table></figure>
+]]></content>
+      <categories>
+        <category>game</category>
+      </categories>
+      <tags>
+        <tag>csgo</tag>
+        <tag>cfg</tag>
       </tags>
   </entry>
   <entry>
@@ -97,91 +136,6 @@ A[方形] --&gt;B(圆角)
       </categories>
       <tags>
         <tag>markdown</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>hexo blog SEO configure</title>
-    <url>/hexo-blog-SEO-configure/</url>
-    <content><![CDATA[<h1 id="SEO"><a href="#SEO" class="headerlink" title="SEO"></a>SEO</h1><p>SEO(Search Engine Optimization) 针对搜索引擎的优化。<br>意义是让我们的博客能被通过搜索引擎查询相关问题的人更容易看到浏览。(换句话说，没有这方面需求的人可以忽略)  </p>
-<p>我没有相关的需求，玩的就是一个收藏。毕竟写博客主要目的是技术积累，以及和朋友的谈资  : )<br>至于博客里面甚至留了bitcoin的打赏二维码，相信我，那只是为了好玩。 : )  </p>
-<p>出于对技术的热爱角度，也来学习一下，万一以后能用到呢。所以没有和hexo博客搭建写在一起，而是单独另起一篇细细的看下，有用的记录下。<br>如果你有缘看到了，那就一起学习下有哪些方式吧。</p>
-<h2 id="添加搜索引擎的认证"><a href="#添加搜索引擎的认证" class="headerlink" title="添加搜索引擎的认证"></a>添加搜索引擎的认证</h2><h2 id="sitemap"><a href="#sitemap" class="headerlink" title="sitemap"></a>sitemap</h2><h2 id="优化目录结构"><a href="#优化目录结构" class="headerlink" title="优化目录结构"></a>优化目录结构</h2><p>修改站点配置文件<code>_config.yml--&gt; permalink</code></p>
-<figure class="highlight text"><table><tbody><tr><td class="code"><pre><span class="line">permalink: :year:month:day/:title/</span><br></pre></td></tr></tbody></table></figure>
-
-<p>or</p>
-<figure class="highlight text"><table><tbody><tr><td class="code"><pre><span class="line">permalink: :title.html</span><br></pre></td></tr></tbody></table></figure>
-
-<p>从而改变博客的目录结构</p>
-<h2 id="代码压缩"><a href="#代码压缩" class="headerlink" title="代码压缩"></a>代码压缩</h2><p>网页的代码存在大量空白符，压缩代码可以提高网站被访问速度。</p>
-<p>安装插件： <code>npm install hexo-neat --save</code>  </p>
-<p>修改<em>站点配置文件</em>：</p>
-<figure class="highlight text"><table><tbody><tr><td class="code"><pre><span class="line"># 开启压缩</span><br><span class="line">neat_enable: true</span><br><span class="line">neat_html:</span><br><span class="line">  enable: true</span><br><span class="line">  exclude:</span><br><span class="line">neat_css:</span><br><span class="line">  enable: true</span><br><span class="line">  exclude:</span><br><span class="line">    - '**/*.min.css'</span><br><span class="line">neat_js:</span><br><span class="line">  enable: true</span><br><span class="line">  mangle: true</span><br><span class="line">  output:</span><br><span class="line">  compress:</span><br><span class="line">  exclude:</span><br><span class="line">    - '**/*.min.js'</span><br><span class="line">    - '**/index.js'</span><br></pre></td></tr></tbody></table></figure>
-
-<h1 id="reference"><a href="#reference" class="headerlink" title="reference"></a><strong>reference</strong></h1><ul>
-<li>知乎： <a href="https://zhuanlan.zhihu.com/p/344927945">hexo博客高级优化</a>  </li>
-<li>NexT： <a href="https://theme-next.js.org/docs/theme-settings/seo">SEO|NexT</a></li>
-</ul>
-<blockquote class="blockquote-center">
-<p>永远拥抱开放，拥抱自由，where we stands as who we are</p>
-
-</blockquote>
-]]></content>
-      <categories>
-        <category>tool</category>
-      </categories>
-      <tags>
-        <tag>hexo</tag>
-        <tag>next</tag>
-        <tag>SEO</tag>
-        <tag>next-plugin</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>i2c-简记</title>
-    <url>/i2c-note/</url>
-    <content><![CDATA[<h1 id="i2c的特点"><a href="#i2c的特点" class="headerlink" title="i2c的特点"></a>i2c的特点</h1><p>精简版，但遇到问题时从特征上分析可能看不出原因，多用来回顾</p>
-<h2 id="结构"><a href="#结构" class="headerlink" title="结构"></a>结构</h2><ul>
-<li>两根线，SDA(data) + SCL (clock)</li>
-<li>多主多从串行同步通信总线</li>
-<li>上拉电阻 （空闲时为高电平）</li>
-<li>线与机制</li>
-<li>上升沿采样，下降沿变化<ol>
-<li>SDA在SCL为低电平时才能改变</li>
-<li>SDA在SCL为高电平时保持，用于读取数据</li>
-<li><strong>START</strong>标志– SCL为高时，SDA由<strong>高</strong>变<strong>低</strong></li>
-<li><strong>STOP</strong>标志 – SCL为高时，SDA由<strong>低</strong>变<strong>高</strong></li>
-</ol>
-</li>
-</ul>
-<h2 id="通信"><a href="#通信" class="headerlink" title="通信"></a>通信</h2><ul>
-<li>Start &amp; Stop<ol>
-<li>如果产生重复起始条件(Sr)而不产生停止条件，总线会一直处于busy。</li>
-<li>一般Start&amp; Stop 由 主机产生。</li>
-</ol>
-</li>
-</ul>
-<p>线与 和 多主<br>如何保证主机或从机发送数据时，其他从机或主机不会抢断？<br>ACK的过程是怎样的？ SDA被释放，此时SCL没有被释放， 那么SDA线的决定权为什么会来到从机？ 从机如何判断需要可以ACK<br>时间同步？  clock stretching</p>
-<ul>
-<li><p><strong>read</strong></p>
-</li>
-<li><p><strong>write</strong></p>
-</li>
-</ul>
-<h1 id="i2c-spec-note"><a href="#i2c-spec-note" class="headerlink" title="i2c spec note"></a>i2c spec note</h1><h1 id="reference"><a href="#reference" class="headerlink" title="reference"></a><strong>reference</strong></h1><ul>
-<li><span class="github-emoji"><span>👉</span><img src="https://github.githubassets.com/images/icons/emoji/unicode/1f449.png?v8" aria-hidden="true" onerror="this.parent.classList.add('github-emoji-fallback')"></span> <a href="https://www.jianshu.com/p/95f53ca2724e">i2c挂死分析和解决方法</a></li>
-<li><span class="github-emoji"><span>👉</span><img src="https://github.githubassets.com/images/icons/emoji/unicode/1f449.png?v8" aria-hidden="true" onerror="this.parent.classList.add('github-emoji-fallback')"></span> <a href="https://zhuanlan.zhihu.com/p/149364473">i2c spec 翻译</a></li>
-<li><span class="github-emoji"><span>👉</span><img src="https://github.githubassets.com/images/icons/emoji/unicode/1f449.png?v8" aria-hidden="true" onerror="this.parent.classList.add('github-emoji-fallback')"></span> <a href="https://www.nxp.com.cn/docs/en/user-guide/UM10204.pdf">原文链接</a></li>
-</ul>
-<blockquote class="blockquote-center">
-<p><strong>新闻已死</strong>  </p>
-
-</blockquote>
-]]></content>
-      <categories>
-        <category>tech</category>
-      </categories>
-      <tags>
-        <tag>i2c</tag>
       </tags>
   </entry>
   <entry>
@@ -307,77 +261,6 @@ A[方形] --&gt;B(圆角)
       </categories>
       <tags>
         <tag>hexo</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>csgo-cfg</title>
-    <url>/csgo-cfg/</url>
-    <content><![CDATA[<h1 id="stream"><a href="#stream" class="headerlink" title="stream"></a>stream</h1><p>云存储个人csgo的配置，方便随时复制应用：</p>
-<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">cl_crosshair_drawoutline "0"</span><br><span class="line">cl_crosshair_dynamic_maxdist_splitratio "0.300000"</span><br><span class="line">cl_crosshair_dynamic_splitalpha_innermod "1"</span><br><span class="line">cl_crosshair_dynamic_splitalpha_outermod "0.5"</span><br><span class="line">cl_crosshair_dynamic_splitdist "7"</span><br><span class="line">cl_crosshair_friendly_warning "1"</span><br><span class="line">cl_crosshair_outlinethickness "1.000000"</span><br><span class="line">cl_crosshair_sniper_show_normal_inaccuracy "0"</span><br><span class="line">cl_crosshair_sniper_width "1"</span><br><span class="line">cl_crosshair_t "0"</span><br><span class="line">cl_crosshairalpha "250"</span><br><span class="line">cl_crosshaircolor "1"</span><br><span class="line">cl_crosshaircolor_b "144"</span><br><span class="line">cl_crosshaircolor_g "195"</span><br><span class="line">cl_crosshaircolor_r "27"</span><br><span class="line">cl_crosshairdot "0"</span><br><span class="line">cl_crosshairgap "-2"</span><br><span class="line">cl_crosshairgap_useweaponvalue "0"</span><br><span class="line">cl_crosshairsize "2"</span><br><span class="line">cl_crosshairstyle "4"</span><br><span class="line">cl_crosshairthickness "0.5"</span><br><span class="line">cl_crosshairusealpha "1"</span><br><span class="line">cl_fixedcrosshairgap "3"</span><br><span class="line">cl_viewmodel_shift_left_amt "1.5"</span><br><span class="line">cl_viewmodel_shift_right_amt "0.75"</span><br><span class="line">viewmodel_fov "60"</span><br><span class="line">viewmodel_offset_x "0"</span><br><span class="line">viewmodel_offset_y "1"</span><br><span class="line">viewmodel_offset_z "-2"</span><br><span class="line">viewmodel_presetpos "0"</span><br><span class="line">viewmodel_recoil "0"</span><br><span class="line">cl_bob_lower_amt "21"</span><br><span class="line">cl_bobamt_lat "0.33"</span><br><span class="line">cl_bobamt_vert "0.14"</span><br><span class="line">cl_bobcycle "0.980000"</span><br><span class="line">cl_hud_background_alpha "0.5"</span><br><span class="line">cl_hud_bomb_under_radar "1"</span><br><span class="line">cl_hud_color "0"</span><br><span class="line">cl_hud_healthammo_style "0"</span><br><span class="line">cl_hud_playercount_pos "0"</span><br><span class="line">cl_hud_playercount_showcount "0"</span><br><span class="line">cl_hud_radar_scale "1.1"</span><br><span class="line">hud_scaling "0.950000"</span><br><span class="line">hud_showtargetid "1"</span><br><span class="line">cl_righthand "0"</span><br><span class="line">cl_color "2"</span><br><span class="line">cl_radar_always_centered "0"</span><br><span class="line">cl_radar_icon_scale_min "0.7"</span><br><span class="line">cl_radar_rotate "1"</span><br><span class="line">cl_radar_scale "0.3"</span><br><span class="line">cl_radar_square_with_scoreboard "1"</span><br></pre></td></tr></tbody></table></figure>
-]]></content>
-      <categories>
-        <category>game</category>
-      </categories>
-      <tags>
-        <tag>csgo</tag>
-        <tag>cfg</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Doc工具</title>
-    <url>/docTool-usage/</url>
-    <content><![CDATA[<p>markdown在网页上使用兼容性强，语法简单。</p>
-<p>在更复杂的使用场景里面需要RST，也就是 SPHINX和Doxygen<br>比如公司的项目文档。需要描述内容的更多。</p>
-<h2 id="1-sphinx"><a href="#1-sphinx" class="headerlink" title="1. sphinx"></a>1. sphinx</h2><h2 id="2-Doxygen"><a href="#2-Doxygen" class="headerlink" title="2. Doxygen"></a>2. Doxygen</h2><blockquote class="blockquote-center">
-<p>规则是工具可以被真正使用的前提</p>
-
-</blockquote>
-]]></content>
-      <categories>
-        <category>tool</category>
-      </categories>
-      <tags>
-        <tag>sphinx</tag>
-        <tag>doxygen</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Ideas</title>
-    <url>/ideas/</url>
-    <content><![CDATA[<h2 id="智能红绿灯"><a href="#智能红绿灯" class="headerlink" title="智能红绿灯"></a>智能红绿灯</h2><ul>
-<li>多车道识别</li>
-<li>车辆识别—用于变灯判断</li>
-<li>多路口红绿灯连接—用于潮汐车道。</li>
-</ul>
-<h2 id="车车互联"><a href="#车车互联" class="headerlink" title="车车互联"></a>车车互联</h2><p>车车娱乐系统<br>场景： 提前预警； 信息互通</p>
-<h2 id="密码管理平台"><a href="#密码管理平台" class="headerlink" title="密码管理平台"></a>密码管理平台</h2><ol>
-<li><p>通过手机号码掌管所有已注册的应用或平台</p>
-</li>
-<li><p>隐私管理， 手机号码多一层加密，对应用或平台进行隐藏</p>
-</li>
-<li><p>记录所有平台的密码, 支持一键修改</p>
-</li>
-<li><p><strong>如何更好的记住密码，方便查询密码</strong></p>
-</li>
-</ol>
-<h2 id="不同平台互联，传输文件开始"><a href="#不同平台互联，传输文件开始" class="headerlink" title="不同平台互联，传输文件开始"></a>不同平台互联，传输文件开始</h2><p>windows跟手机传输文件，只能通过第三方软件的文件传输功能，手机发送文件到文件传输，windows打开软件文件传输接收文件，然后另存问到windows<br>这样很烦， iphone的 隔空传送其实任何平台都应该支持。</p>
-<h2 id="针对小公司的云存储平台"><a href="#针对小公司的云存储平台" class="headerlink" title="针对小公司的云存储平台"></a>针对小公司的云存储平台</h2><p>bg：小公司缺乏技术人员，文件保存杂乱，可追溯性差， 公司的积累事倍功半。<br>客户信息，交易记录，经验积累等生产资料。这些丢失对于一个公司的损失很惨重。<br>我认为任何正常的小公司需要一个存储重要文件的地方。还可以有效的分类管理，方便查找和预览。</p>
-<h2 id="通识知识娱乐化"><a href="#通识知识娱乐化" class="headerlink" title="通识知识娱乐化"></a>通识知识娱乐化</h2><p>受启发于 freecodecamp.org 该组织致力于将编程知识模块化，做成可实操可视的形式，大大提高了学习兴趣和效率。<br>将大学教材里面的 数学，物理各种理科知识用生动的形式展现，方便学习。<br>这种形式不局限于 动画，视频，游戏，模拟界面，重在让学习者学的过程轻松，激发兴趣，记忆深刻。<br>知识内容可以延伸到从幼儿园，和小学教材开始。积攒人气和投资。<br>把死板的知识变得生动。刺激教育改革。</p>
-<ul>
-<li>知识培训系统框架： 支持文本，gif，互动视频媒介操作，编译器&amp; 编辑器。</li>
-</ul>
-<h2 id="AR-产品"><a href="#AR-产品" class="headerlink" title="AR 产品"></a>AR 产品</h2><p>终极目标，希望能把AR真的落实到实际应用。让人们用的起，用的便捷。<br>比如，如同普通眼镜带头显功能，带扫描功能，带存储和回放功能。</p>
-<p>2023-6-6： apple vision pro实际上已经实现以上功能，望周知~ 但是价格太贵</p>
-<blockquote class="blockquote-center">
-<p><strong>思考具有局限性</strong><br>你认为的正确只是在你了解的知识体系中的正确</p>
-
-</blockquote>
-]]></content>
-      <categories>
-        <category>daily_note</category>
-      </categories>
-      <tags>
-        <tag>ideas</tag>
       </tags>
   </entry>
   <entry>
@@ -592,29 +475,79 @@ A[方形] --&gt;B(圆角)
       </tags>
   </entry>
   <entry>
-    <title>For Life</title>
-    <url>/note/</url>
-    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Warning！！请停止窥探隐私行为！！您的IP已经被记录！！" data-whm="抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容.">
-  <script id="hbeData" type="hbeData" data-hmacdigest="5fcc126c1117c067b9eb7fa8db830999cf158cbf3b4cce818d32ea52aee10285">d370c5caa6f82aab46a5e5036abddd95f3748a1f868670e6c92a5d7157303714555794d1e8593b3200afee48d526c32cf6d2539a053be8345bb623863bfe1ef2bc8e6db1fbdc25d588cb61293da0bdd77db069d154eea9ea2f1771f1d34f939d132cd07a4de316991cf6f3acaa0568fcb619a20d8aa644e2ab1e0b6a5c2ee52a2135163afdae434b83a24ec668d23721b5d004dcb42d2b285dd476a9fc3ac4b5ed7a4e2e1eb2749ee792ccff2b58aae0e4eb2bee35baecd60d14c8ef577e3ce7bcab8039a47d027018526fd358f92e1dad8670cbbf59d83fc552487827d027c303e5b93910ce97ccc5e5cce67b0a209645f5b2377b7d5978f1d437edce560e569dcc9b072543eaf78253c787d28bfd81081e9d7e257f9a83df7366245f00c456f90c82181e00507b2622a87e37dd91a5b07b994b03b938aa94f9b486e717576e67a218e96681a5a8965854de702e77dac80d5bdcc3c3b96be2f2226bf9e7b622635d57518cf2dff9e200773751064a0cf11dc43365caa395440a121a447cecaa611511dc4f082716d591a9e897011c99146ba87db87d7f188cd62d25ccdc17606ccea794c81a6c40c9ca6b4bb9330c8bb098e7212ec96af65817af3a6ad94a8c2e3807656275fe0689181f9ea2ff58d244e05992197d4b9bf678dbbc84134c03edde72ee09d1e4aa9d11ae1d4ffda0af805d27a16b137547faf0d9eb1f146a5c89d89a2b967dc70c4521bb70410cf9368c6c9b22db7cacd09793f57bed8160e7b9949532b4a80278b49bc150dd1f0a471243cf9d6c5810ce6deb69f767ddc9cb083697f3fc0769959cd6388ceaea98e62f17e05cb0b33ac6aafb11e9daa71a1a13881ed2d6a011db30765cab1a9b0ad567325852097d17ea135b0222627df957457f611a3bbd76089c5764871ec4fcc3c78ea215ce210725447e5cd675a7b882b94261ad1d88e6428e7552137f544fc63db238a3035fbc12be4953e8f614487b731d640d68cfeec6f592b373d3b53a612e2d55dfa9d85e0fcddecee4b01a02c83338ab0590c089c0e73ca1f4a49454c0d8245d4374c5805b76e3a10bc468edaa1f1e63a6b56a5c4eb55528573b8eee49cd8cbba360148f999796615a6be2311fc2715189a435cee2858a41ff506d2cf95d0d945b77339bb1c3fe610fafc7992c01c8ba18d06d4e448ca1bada8afc34c7ebafe4cb47f1a8bd3356c360d51ef9b44f118e5321d925428669a50480c7f87b63021573b1a044b2dc7a67a4dcebe0e8a717300caeb8acc85d350b4939120be86b559893d6bdb04b30e88e2ef9a326e51c4cc6022273cf76fcc6b45222ab0cc38892940f8e7ffb201068598d4f3ca4a29c7b0e55e80332493f1af5cc2d7bd8be499755860a823dbc5a64a989cc436a5bee54f4a1a5123e904d701b3b8a327d0b410a3a9034cae6d2e04197588c51d7cd8b85f8868986575f2815c201f352f0df68c2cfc8428c5f611a10f93f49fdfe250d7db12d70e15a5503f655256d948f918b8bb439eb2b04b0bc051ecb9a32cb0a6b0f7ad8b08dd3c2293d42a29717c1841128288dc9387461f09423d4c8a39ce2dfbe57e5e198672d45c11832c3e935c204b48c941bcf7da6c89349e796a4935f70876256d36d126e3dbee110337a78d528f78a8ed96c23fb7596c2bde5ae8302f14703bff57c7219241649c59d4048886c76a9668111a82c4bc43fbc3482bb27814e61c4c7f27832f3c19886e448f8e374071cdcb8df5085ef84fd5802b7bbc0d586afde9fab6c26e98ab37107110aba302f2788d4107646b0779c6eea0329931e9aaa2445de24b51ef1f3fab57cd8e5d7188494c1cfc77253515185e74f5f3e27ddba3c90b8d7e4bb7fa1cdd74e88c43f44eb2635dbca4c62b2a467952e6ece08c94969d9c69329efe81eadf363f5da696a76637650c9815a47107f2293efd6fe87653ab3422a32b0e4bc4db2eb8e8617396b356c24261d4e70b950c74e4a91c8f9044a64cf11e18e20db9332ddc1c6ec73341e06a312a89311add6fcc23dc38d724542bb5e2e78c4512c8dae4945bb455851356abd0580f59cd87695cd891bd5e980df2e33b547a68ac850563ee1d588a63faf06dab65796cc089396777deae2ef2e15e62e8e8110dbd561d8588a9c3870366e361a3fb0690fd0ec602269c3c6bab9e2b339d84b8314a7658fed07169f8258a3ee46d423a2a2740bf6fcd627ae830b5ff1ff04163e10e98cfb02fd99ac1c9161b3bae497c6208c2d1ff549a31486b4cfc85fd6f492803e1be9ad9d1da54855dd2fbb7bd5dfb63dec8c380136c8643d5406b895042c82bf761ba6ab908b67387503f1ade6dd6d7217d9b72c8be7c9011e1b23658ae3b4ee8faa2f0d62ccae53b749b2deed06afb08dd166a9a17000caf27555a9cc421f5d05c4d403a9ad5c808726e0cc6c5e5a79eeafd00ff4b6c0ef7ad18da460ce003f9a3fcae7ba88d5c2f0b0f4b23724650668bc753c4f9f4cf31677f503805754282727435befde74a1233e6f54a917b1d5e417917affe06a8cff175a568fdbc44a1b69474ac37a5d9855d9386dc6b5d854c9abc9448507c79100bf6a6488569b21d656bb0a1b1cdb6418aca4fa48a892a1e8db9748188bed55bcd82bdc536cb767e41502b1fe73ebcedd32c1c49889029e3fbdfb295f54059a13b3b2a7bb8718390eaac267978a531f91df0617cdf50c0a5540f5e555e06edee156aee9039880f1d052d1cf5315bee086328550f490731611cefbea9aef8c83672e732b3861fc0522d44a4e7d799fa900c38620f16414a3296d3839e7581dbdcf3808de5d8333d5270cfcd05cd6e47ec5633d3658be53ba7d54a5f69d88326fcdb7c7e430bf21c6952a11815a3b60f8d47bbf5ecf5799ad2d2c591a6c3f8c36961302eb3f119a4f1219d349b856be847ba674c2733069252baa029968c8657472ec74da02aa23ca9103b20676ef7bf05f42a297839f147f5a5cb851d4d7a22529f95702ef455763b461dae1c139b496e835b9a2a08b1e018c4a834d76dcb3e89d32c373ba88035555bfb20a902d50cf9c7013ac9c8fbfb23b6bd9ee1f595b8de0c630dcefe5335f97865ef66d83ba3d93e0ddb276f79f1ba69993f212174e517616885e51c564e66655ca2eed3440cfec5d60327530aaf93cfb9dfef6d341e8b4e77d8403a2815444c79dfcc4fb86fb97a5e91a3263433c0bac4f5c6a34bc61a3ad7675bae6e9d90e2608b75ae3b6869df372c092beca8e15a62d8808b3fded164389035585da331c70ed732ac087e15fa9d2b36585c6e1e6f4d874182b61c62a300f71e280aa3fc03182825aa54dcb872dee7c776644d7df96c527ed3ec935e77a96524e3e1b883be101c2a14f41f6804133f57834665e7f0ad67745502cdc31491243f550f8492e0ef1906a6b19a8d913d7775aa81f7aac29ad2c0860faf594e12fd86eee68c47847aa2492e0a49cd120cb0a2996ab8964be14efb0f2e59b802dcc493fad9e7c7bd50fdcd253898f241751d91682354a236766e619b9d9a9423332444d400b5cf6b1d4bdb659766153a9ece9484309223718b47ed0da2e1e0e72fb54b92a268188d30f8382b0d22dbced59ce913924669d7b7f1efae13a19ba089bd7e64febb4ecdf457e6be5b3b98f404d11e80c78769a78f67963dbfd4620f8a9d33bac3e90d4786d5896a96161edc7439029f13c4ae04cfe542affea7fb76ec7e32c2cb69d81a6e4bcd03854f9a0f578c0f23b98388caf92c5f3a365e2d1688ec7cfae52d8ac1e15dca10d9352ffed844ae2008435c73e3b66e531cec13ca8f8fefaf1fe60556e6b5b974ea343bad9abf91e3b008047ed4baed65fbfce926eb9face8afbcff3fd2a6d690b97ae26b3fce6ac11d23fab56041936adaf4941ca6777740f714bb1227cd04535735baa406f0a322b49aea720b7658e277ef4ec7121aa381232a7e5656273efc2fce1643a5c6d1df9b6d0e9961b0e9a2a77733c73648bd6ca19134b21df181d7c849e9cd878d3aaeb60fca9e5c6e2f014066dae9d604c69910f7f2e107329ebc410c44b47255577cbe7a667fe3359c2c2f1e0911e2b288a664aa2c57e3088c9359043049dd4b11b449c2aa915a5bb6143514fd401a94e8edd86c7edd8abad7cac744648768b8c2895b4b5ec8d519f629329ae162be47a5487b312fef5c81080477eb906cc83b49aa6419b6451e026c3993dff7bbe0d650728716274b95944cce94a683069ac8dbe0ec318d3b14b8f508baf4023200cdcb3d1db53596f24fc8f356bcd04a9523871004d55baccebd1c551ea9a276d862ed6d663f12076d33c2e8ca7cd09679807f557b273e44d87a5fae6445dc411636f5be828b1664cfba540e5e2c3332ffa3f8f572320297f307afeeec88c5b9c30a1ac95e06f7dcfbc45dba908506a8d7c4ffd6058ca38aa745ea4b60f66d1289b349ab0d8a60b00ef7b659f383c2769fe9c497c68432e0e4945f0f1a9d9c83388d373658d4b6f5364c8e74cd0a000e379f677e2b9319758e23400a86b621c07f35419eb0bf8ea417333963a528a6fa30f88a59b96e3d4dd27f385efea63303f277ed77a8195991bdc5dcea3a7a2e7b9434142e2eed56909c9e9a8d6bc744539ccfdfa9ebdf8be9baee4212eb995a374ec0fbd5ec4d87976416bca328421a59bd29f50f0ee2b5fd3193e73d7ef8a512ab5975dfac0253169eee3299369fbd05d8503ea66b38c791b8775bf7c0c5a3b41cd0e83fa49f8b84cbad7bc73a8b08f228bb92e15df5e32d09e387fbed3700f629fc81a2e9642197a2e718f9c2357f00b353343475a6c7b34ff929e089d8a2c609f92fcba0e92d737369d904f2ba8dfb3d6dc8739c3706d5c297697ba614aa22de7e01378e3c22da13f48d301997c26ec549d44affb719f14b48a7498af06011fbd2ca54ba47f514ab0d8b27bf616553a4d70243c3834c9adc49e1db7277c60bd37947ceac32e96893b34f944433aa659824a1151be18e1edc9bd1dc0a43d1750d9efcd284eec35824046159f766301e55165ccdc40f3bd021e47fde4fc4a8771d6840aefec28ca6d57f701650ac0b9196dc68841f173ad4184cd08d16f00b269d2e780947d86fe764f7973</script>
-  <div class="hbe hbe-content">
-    <div class="hbe hbe-input hbe-input-xray">
-      <input class="hbe hbe-input-field hbe-input-field-xray" type="password" id="hbePass">
-      <label class="hbe hbe-input-label hbe-input-label-xray" for="hbePass">
-        <span class="hbe hbe-input-label-content hbe-input-label-content-xray">Ops！这篇文章博主似乎不想透露！</span>
-      </label>
-      <svg class="hbe hbe-graphic hbe-graphic-xray" width="300%" height="100%" viewBox="0 0 1200 60" preserveAspectRatio="none">
-        <path d="M0,56.5c0,0,298.666,0,399.333,0C448.336,56.5,513.994,46,597,46c77.327,0,135,10.5,200.999,10.5c95.996,0,402.001,0,402.001,0"></path>
-        <path d="M0,2.5c0,0,298.666,0,399.333,0C448.336,2.5,513.994,13,597,13c77.327,0,135-10.5,200.999-10.5c95.996,0,402.001,0,402.001,0"></path>
-      </svg>
-    </div>
-  </div>
-</div>
-<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+    <title>Ideas</title>
+    <url>/ideas/</url>
+    <content><![CDATA[<h2 id="智能红绿灯"><a href="#智能红绿灯" class="headerlink" title="智能红绿灯"></a>智能红绿灯</h2><ul>
+<li>多车道识别</li>
+<li>车辆识别—用于变灯判断</li>
+<li>多路口红绿灯连接—用于潮汐车道。</li>
+</ul>
+<h2 id="车车互联"><a href="#车车互联" class="headerlink" title="车车互联"></a>车车互联</h2><p>车车娱乐系统<br>场景： 提前预警； 信息互通</p>
+<h2 id="密码管理平台"><a href="#密码管理平台" class="headerlink" title="密码管理平台"></a>密码管理平台</h2><ol>
+<li><p>通过手机号码掌管所有已注册的应用或平台</p>
+</li>
+<li><p>隐私管理， 手机号码多一层加密，对应用或平台进行隐藏</p>
+</li>
+<li><p>记录所有平台的密码, 支持一键修改</p>
+</li>
+<li><p><strong>如何更好的记住密码，方便查询密码</strong></p>
+</li>
+</ol>
+<h2 id="不同平台互联，传输文件开始"><a href="#不同平台互联，传输文件开始" class="headerlink" title="不同平台互联，传输文件开始"></a>不同平台互联，传输文件开始</h2><p>windows跟手机传输文件，只能通过第三方软件的文件传输功能，手机发送文件到文件传输，windows打开软件文件传输接收文件，然后另存问到windows<br>这样很烦， iphone的 隔空传送其实任何平台都应该支持。</p>
+<h2 id="针对小公司的云存储平台"><a href="#针对小公司的云存储平台" class="headerlink" title="针对小公司的云存储平台"></a>针对小公司的云存储平台</h2><p>bg：小公司缺乏技术人员，文件保存杂乱，可追溯性差， 公司的积累事倍功半。<br>客户信息，交易记录，经验积累等生产资料。这些丢失对于一个公司的损失很惨重。<br>我认为任何正常的小公司需要一个存储重要文件的地方。还可以有效的分类管理，方便查找和预览。</p>
+<h2 id="通识知识娱乐化"><a href="#通识知识娱乐化" class="headerlink" title="通识知识娱乐化"></a>通识知识娱乐化</h2><p>受启发于 freecodecamp.org 该组织致力于将编程知识模块化，做成可实操可视的形式，大大提高了学习兴趣和效率。<br>将大学教材里面的 数学，物理各种理科知识用生动的形式展现，方便学习。<br>这种形式不局限于 动画，视频，游戏，模拟界面，重在让学习者学的过程轻松，激发兴趣，记忆深刻。<br>知识内容可以延伸到从幼儿园，和小学教材开始。积攒人气和投资。<br>把死板的知识变得生动。刺激教育改革。</p>
+<ul>
+<li>知识培训系统框架： 支持文本，gif，互动视频媒介操作，编译器&amp; 编辑器。</li>
+</ul>
+<h2 id="AR-产品"><a href="#AR-产品" class="headerlink" title="AR 产品"></a>AR 产品</h2><p>终极目标，希望能把AR真的落实到实际应用。让人们用的起，用的便捷。<br>比如，如同普通眼镜带头显功能，带扫描功能，带存储和回放功能。</p>
+<p>2023-6-6： apple vision pro实际上已经实现以上功能，望周知~ 但是价格太贵</p>
+<blockquote class="blockquote-center">
+<p><strong>思考具有局限性</strong><br>你认为的正确只是在你了解的知识体系中的正确</p>
+
+</blockquote>
+]]></content>
       <categories>
-        <category>diary</category>
+        <category>daily_note</category>
       </categories>
       <tags>
-        <tag>diary</tag>
+        <tag>ideas</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>hexo blog SEO configure</title>
+    <url>/hexo-blog-SEO-configure/</url>
+    <content><![CDATA[<h1 id="SEO"><a href="#SEO" class="headerlink" title="SEO"></a>SEO</h1><p>SEO(Search Engine Optimization) 针对搜索引擎的优化。<br>意义是让我们的博客能被通过搜索引擎查询相关问题的人更容易看到浏览。(换句话说，没有这方面需求的人可以忽略)  </p>
+<p>我没有相关的需求，玩的就是一个收藏。毕竟写博客主要目的是技术积累，以及和朋友的谈资  : )<br>至于博客里面甚至留了bitcoin的打赏二维码，相信我，那只是为了好玩。 : )  </p>
+<p>出于对技术的热爱角度，也来学习一下，万一以后能用到呢。所以没有和hexo博客搭建写在一起，而是单独另起一篇细细的看下，有用的记录下。<br>如果你有缘看到了，那就一起学习下有哪些方式吧。</p>
+<h2 id="添加搜索引擎的认证"><a href="#添加搜索引擎的认证" class="headerlink" title="添加搜索引擎的认证"></a>添加搜索引擎的认证</h2><h2 id="sitemap"><a href="#sitemap" class="headerlink" title="sitemap"></a>sitemap</h2><h2 id="优化目录结构"><a href="#优化目录结构" class="headerlink" title="优化目录结构"></a>优化目录结构</h2><p>修改站点配置文件<code>_config.yml--&gt; permalink</code></p>
+<figure class="highlight text"><table><tbody><tr><td class="code"><pre><span class="line">permalink: :year:month:day/:title/</span><br></pre></td></tr></tbody></table></figure>
+
+<p>or</p>
+<figure class="highlight text"><table><tbody><tr><td class="code"><pre><span class="line">permalink: :title.html</span><br></pre></td></tr></tbody></table></figure>
+
+<p>从而改变博客的目录结构</p>
+<h2 id="代码压缩"><a href="#代码压缩" class="headerlink" title="代码压缩"></a>代码压缩</h2><p>网页的代码存在大量空白符，压缩代码可以提高网站被访问速度。</p>
+<p>安装插件： <code>npm install hexo-neat --save</code>  </p>
+<p>修改<em>站点配置文件</em>：</p>
+<figure class="highlight text"><table><tbody><tr><td class="code"><pre><span class="line"># 开启压缩</span><br><span class="line">neat_enable: true</span><br><span class="line">neat_html:</span><br><span class="line">  enable: true</span><br><span class="line">  exclude:</span><br><span class="line">neat_css:</span><br><span class="line">  enable: true</span><br><span class="line">  exclude:</span><br><span class="line">    - '**/*.min.css'</span><br><span class="line">neat_js:</span><br><span class="line">  enable: true</span><br><span class="line">  mangle: true</span><br><span class="line">  output:</span><br><span class="line">  compress:</span><br><span class="line">  exclude:</span><br><span class="line">    - '**/*.min.js'</span><br><span class="line">    - '**/index.js'</span><br></pre></td></tr></tbody></table></figure>
+
+<h1 id="reference"><a href="#reference" class="headerlink" title="reference"></a><strong>reference</strong></h1><ul>
+<li>知乎： <a href="https://zhuanlan.zhihu.com/p/344927945">hexo博客高级优化</a>  </li>
+<li>NexT： <a href="https://theme-next.js.org/docs/theme-settings/seo">SEO|NexT</a></li>
+</ul>
+<blockquote class="blockquote-center">
+<p>永远拥抱开放，拥抱自由，where we stands as who we are</p>
+
+</blockquote>
+]]></content>
+      <categories>
+        <category>tool</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+        <tag>next</tag>
+        <tag>SEO</tag>
+        <tag>next-plugin</tag>
       </tags>
   </entry>
 </search>
