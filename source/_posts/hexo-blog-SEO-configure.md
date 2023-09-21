@@ -29,21 +29,28 @@ SEO(Search Engine Optimization) 针对搜索引擎的优化。
 ## 优化目录结构
 
 修改站点配置文件`_config.yml--> permalink`
-```
+
+```text
 permalink: :year:month:day/:title/
 ```
+
 or
-```
+
+```text
 permalink: :title.html
 ```
+
 从而改变博客的目录结构
+
 ## 代码压缩
+
 网页的代码存在大量空白符，压缩代码可以提高网站被访问速度。
 
 安装插件： `npm install hexo-neat --save`  
 
 修改*站点配置文件*：
-```
+
+```text
 # 开启压缩
 neat_enable: true
 neat_html:
@@ -67,6 +74,5 @@ neat_js:
 
 - 知乎： [hexo博客高级优化](https://zhuanlan.zhihu.com/p/344927945)  
 - NexT： [SEO|NexT](https://theme-next.js.org/docs/theme-settings/seo)
-
 
 {% cq %}永远拥抱开放，拥抱自由，where we stands as who we are{% endcq %}

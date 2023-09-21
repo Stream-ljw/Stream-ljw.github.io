@@ -11,6 +11,7 @@ categories: tool
 看了教程也是头疼，做下来感觉就是”难不会，会不难“。
 简单来说就是hexo+ github pages，hexo需要用到nodejs+npm，github pages需要用到git。
 先无脑跟着教程做一遍，再去体会
+
 # hexo + github pages
 
 ## hexo
@@ -133,8 +134,10 @@ theme 主题一直是hexo的亮点。找到适合自己的主题，体面，酷�
 所以还是从万人敬仰的NexT开始记录吧。
 
 ## NexT
+
 - 修改字体大小到0.9：我觉得默认的hexo博客标题字体都偏大，看着很不舒服.0.9我觉得正好。故调整了global字段
-```
+
+```text
 font:
   #enable: false
   enable: true   #改为true应用修改
@@ -144,7 +147,8 @@ font:
     family: Lato
     size: 0.9  # 改变值
 ```
-- `scheme` ：　
+
+- `scheme` ：
 Gemini， NexT还提供四种页面布局可选，比较中意的是第四种，Gemini。
 或许后面页面功能玩的熟练了，搭配其他的也可以。
 - `menu`
@@ -152,12 +156,14 @@ Gemini， NexT还提供四种页面布局可选，比较中意的是第四种，
 其余的about，schedule， sitemap， comonweal，还没定义。就不放上去了。但是tags 和categories还是不能用。
 
 - `social link` : github + email
-- `categories`和`tag`，/tags/ & /categories/ 里面的index.md内 type 字段值要和 _config.yml设置的保持一致。 
+- `categories`和`tag`，/tags/ & /categories/ 里面的index.md内 type 字段值要和 _config.yml设置的保持一致。
 - 首页内容折叠`excerpt`： hexo7.8版本以上支持自动截图摘要功能，需要以下安装` npm install hexo-excerpt --save `
+
 > `--save`的作用主要是将安装的插件记录到 package-lock.json & package.json中
 > 在新的仓库中执行npm install 其实就是读取或生成package-lock.json& package.json 安装仓库的原有的环境里面的插件。
 然后更改站点配置：
-```
+
+```json
 excerpt:
   depth: 10
   excerpt_excludes: []
@@ -166,16 +172,20 @@ excerpt:
  ```
 
 - `local_search` : blog内容搜索，感觉这个功能主要给博客主自己用 安装：`npm install hexo-generator-searchdb --save`  
+
 然后更改站点配置：
-```
+
+```text
 search:
   path: search.xml
   field: post
   content: true
   format: html
 ```
+
 在主题配置中启用：
-```
+
+```text
 local_search:
   enable: true
 ```
@@ -186,8 +196,10 @@ For more info: [Tag Plugins introduc](https://theme-next.js.org/docs/tag-plugins
 
 - `emoji`:  通过shortcode使用表情， hexo默认的markdown渲染器hexo-render-marked不支持渲染emoji  
 可以通过更改支持的渲染器来解决。但是我不想大动干戈，本着emoji能用就行的心态，装个插件:   ` npm install hexo-filter-github-emojis --save `
+
 修改站点配置文件：
-```
+
+```text
 githubEmojis:
   enable: true
   className: github-emoji
@@ -195,6 +207,7 @@ githubEmojis:
   styles:
   customEmojis:
 ```
+
 - `flowchart/mermaid` ： 在next主题配置文件中找到mermaid 字段，enable 改为true
 尽量使用mermaid ，似乎flowchart语法，在手机上浏览网页会让页面错误。
 
@@ -202,14 +215,17 @@ githubEmojis:
 注意： 插入图片时应该使用 post_floder_name/image_name.type 路径来引用图片。 插入图片不需要安装其他任何插件，不显示就是路径设置错误  
 
 - 文章置顶：:point_right: [reference](https://github.com/im0o/hexo-generator-index-custom/blob/master/README_zh.md)
-```
+
+```bash
 npm uninstall hexo-generator-index
 npm install hexo-generator-index-custom --save
 ```
+
 站点配置文件中的index_generator部分不需要改，完全兼容！
 在文章开头添加 sticky 或 top 参数， 其值可以是 true（置顶） 或者 数字，数据越大，越排在前面。
 hide参数可以隐藏文章
-```
+
+```text
 ---
 title: Ideas
 date: 2020-05-06 09:59:10
@@ -218,16 +234,16 @@ categories: daily_note
 top: true
 ---
 ```
+
 ----------
 (end)
 
-
 # **reference**
+
 在使用NexT中参考了很多前辈的配置过程，在此感谢！
 hexo官方文档： [主要是选择主题](https://hexo.io/themes/)
 NexT官方参考文档： [Getting Started](https://theme-next.js.org/docs/getting-started/)  
 比较全的主题功能配置： [点此前往查看](https://www.meijindong.com/posts/3688165485.html)
 hexo提供的plugins： [插件一览，要啥找啥](https://hexo.io/plugins/)
-
 
 {% cq %}集中力量办大事无法调动积极性，只会滋生投机份子{% endcq %}
