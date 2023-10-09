@@ -1,7 +1,6 @@
 ---
 title: Blog-revision
 date: 2023-09-21 11:26:29
-tags: diary
 top: true
 ---
 
