@@ -10,85 +10,9 @@
 <li>2023-9-21： 调整了所有博客内容中的markdown语法问题。</li>
 <li>2023-9-21： 删除了git-note，i2c-note，docTools，QR-code，rtos-issue等内容。因为内容不完整，全部移到gitbook中，需要后续补齐后更新。</li>
 <li>2023-9-21:  删除了History文档，因为hexo并不方便持续更新。作为点滴记录还是本地先写，然后有空再一起同步到hexo-blog中。关于现在的History内容本意是记录一些自己觉得重要的事件。</li>
+<li>2023-10-20： 添加powershell外观优化过程 powershell-docoration</li>
 </ul>
 ]]></content>
-  </entry>
-  <entry>
-    <title>csgo-cfg</title>
-    <url>/csgo-cfg/</url>
-    <content><![CDATA[<h1 id="stream"><a href="#stream" class="headerlink" title="stream"></a>stream</h1><p>云存储个人csgo的配置，方便随时复制应用：</p>
-<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">cl_crosshair_drawoutline "0"</span><br><span class="line">cl_crosshair_dynamic_maxdist_splitratio "0.300000"</span><br><span class="line">cl_crosshair_dynamic_splitalpha_innermod "1"</span><br><span class="line">cl_crosshair_dynamic_splitalpha_outermod "0.5"</span><br><span class="line">cl_crosshair_dynamic_splitdist "7"</span><br><span class="line">cl_crosshair_friendly_warning "1"</span><br><span class="line">cl_crosshair_outlinethickness "1.000000"</span><br><span class="line">cl_crosshair_sniper_show_normal_inaccuracy "0"</span><br><span class="line">cl_crosshair_sniper_width "1"</span><br><span class="line">cl_crosshair_t "0"</span><br><span class="line">cl_crosshairalpha "250"</span><br><span class="line">cl_crosshaircolor "1"</span><br><span class="line">cl_crosshaircolor_b "144"</span><br><span class="line">cl_crosshaircolor_g "195"</span><br><span class="line">cl_crosshaircolor_r "27"</span><br><span class="line">cl_crosshairdot "0"</span><br><span class="line">cl_crosshairgap "-2"</span><br><span class="line">cl_crosshairgap_useweaponvalue "0"</span><br><span class="line">cl_crosshairsize "2"</span><br><span class="line">cl_crosshairstyle "4"</span><br><span class="line">cl_crosshairthickness "0.5"</span><br><span class="line">cl_crosshairusealpha "1"</span><br><span class="line">cl_fixedcrosshairgap "3"</span><br><span class="line">cl_viewmodel_shift_left_amt "1.5"</span><br><span class="line">cl_viewmodel_shift_right_amt "0.75"</span><br><span class="line">viewmodel_fov "60"</span><br><span class="line">viewmodel_offset_x "0"</span><br><span class="line">viewmodel_offset_y "1"</span><br><span class="line">viewmodel_offset_z "-2"</span><br><span class="line">viewmodel_presetpos "0"</span><br><span class="line">viewmodel_recoil "0"</span><br><span class="line">cl_bob_lower_amt "21"</span><br><span class="line">cl_bobamt_lat "0.33"</span><br><span class="line">cl_bobamt_vert "0.14"</span><br><span class="line">cl_bobcycle "0.980000"</span><br><span class="line">cl_hud_background_alpha "0.5"</span><br><span class="line">cl_hud_bomb_under_radar "1"</span><br><span class="line">cl_hud_color "0"</span><br><span class="line">cl_hud_healthammo_style "0"</span><br><span class="line">cl_hud_playercount_pos "0"</span><br><span class="line">cl_hud_playercount_showcount "0"</span><br><span class="line">cl_hud_radar_scale "1.1"</span><br><span class="line">hud_scaling "0.950000"</span><br><span class="line">hud_showtargetid "1"</span><br><span class="line">cl_righthand "0"</span><br><span class="line">cl_color "2"</span><br><span class="line">cl_radar_always_centered "0"</span><br><span class="line">cl_radar_icon_scale_min "0.7"</span><br><span class="line">cl_radar_rotate "1"</span><br><span class="line">cl_radar_scale "0.3"</span><br><span class="line">cl_radar_square_with_scoreboard "1"</span><br></pre></td></tr></tbody></table></figure>
-]]></content>
-      <categories>
-        <category>game</category>
-      </categories>
-      <tags>
-        <tag>csgo</tag>
-        <tag>cfg</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>hexo blog SEO configure</title>
-    <url>/hexo-blog-SEO-configure/</url>
-    <content><![CDATA[<h1 id="SEO"><a href="#SEO" class="headerlink" title="SEO"></a>SEO</h1><p>SEO(Search Engine Optimization) 针对搜索引擎的优化。<br>意义是让我们的博客能被通过搜索引擎查询相关问题的人更容易看到浏览。(换句话说，没有这方面需求的人可以忽略)  </p>
-<p>我没有相关的需求，玩的就是一个收藏。毕竟写博客主要目的是技术积累，以及和朋友的谈资  : )<br>至于博客里面甚至留了bitcoin的打赏二维码，相信我，那只是为了好玩。 : )  </p>
-<p>出于对技术的热爱角度，也来学习一下，万一以后能用到呢。所以没有和hexo博客搭建写在一起，而是单独另起一篇细细的看下，有用的记录下。<br>如果你有缘看到了，那就一起学习下有哪些方式吧。</p>
-<h2 id="添加搜索引擎的认证"><a href="#添加搜索引擎的认证" class="headerlink" title="添加搜索引擎的认证"></a>添加搜索引擎的认证</h2><h2 id="sitemap"><a href="#sitemap" class="headerlink" title="sitemap"></a>sitemap</h2><h2 id="优化目录结构"><a href="#优化目录结构" class="headerlink" title="优化目录结构"></a>优化目录结构</h2><p>修改站点配置文件<code>_config.yml--&gt; permalink</code></p>
-<figure class="highlight text"><table><tbody><tr><td class="code"><pre><span class="line">permalink: :year:month:day/:title/</span><br></pre></td></tr></tbody></table></figure>
-
-<p>or</p>
-<figure class="highlight text"><table><tbody><tr><td class="code"><pre><span class="line">permalink: :title.html</span><br></pre></td></tr></tbody></table></figure>
-
-<p>从而改变博客的目录结构</p>
-<h2 id="代码压缩"><a href="#代码压缩" class="headerlink" title="代码压缩"></a>代码压缩</h2><p>网页的代码存在大量空白符，压缩代码可以提高网站被访问速度。</p>
-<p>安装插件： <code>npm install hexo-neat --save</code>  </p>
-<p>修改<em>站点配置文件</em>：</p>
-<figure class="highlight text"><table><tbody><tr><td class="code"><pre><span class="line"># 开启压缩</span><br><span class="line">neat_enable: true</span><br><span class="line">neat_html:</span><br><span class="line">  enable: true</span><br><span class="line">  exclude:</span><br><span class="line">neat_css:</span><br><span class="line">  enable: true</span><br><span class="line">  exclude:</span><br><span class="line">    - '**/*.min.css'</span><br><span class="line">neat_js:</span><br><span class="line">  enable: true</span><br><span class="line">  mangle: true</span><br><span class="line">  output:</span><br><span class="line">  compress:</span><br><span class="line">  exclude:</span><br><span class="line">    - '**/*.min.js'</span><br><span class="line">    - '**/index.js'</span><br></pre></td></tr></tbody></table></figure>
-
-<h1 id="reference"><a href="#reference" class="headerlink" title="reference"></a><strong>reference</strong></h1><ul>
-<li>知乎： <a href="https://zhuanlan.zhihu.com/p/344927945">hexo博客高级优化</a>  </li>
-<li>NexT： <a href="https://theme-next.js.org/docs/theme-settings/seo">SEO|NexT</a></li>
-</ul>
-<blockquote class="blockquote-center">
-<p>永远拥抱开放，拥抱自由，where we stands as who we are</p>
-
-</blockquote>
-]]></content>
-      <categories>
-        <category>tool</category>
-      </categories>
-      <tags>
-        <tag>hexo</tag>
-        <tag>next</tag>
-        <tag>SEO</tag>
-        <tag>next-plugin</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>For Life</title>
-    <url>/Thinking&amp;Experience/</url>
-    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Warning！！请停止窥探隐私行为！！您的IP已经被记录！！" data-whm="抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容.">
-  <script id="hbeData" type="hbeData" data-hmacdigest="2926ca8fe0d22975a01ce16dc70372d81c0daeba042ccc608cf5cf14f27ec0e0">d370c5caa6f82aab46a5e5036abddd95f3748a1f868670e6c92a5d7157303714555794d1e8593b3200afee48d526c32cf6d2539a053be8345bb623863bfe1ef2bc8e6db1fbdc25d588cb61293da0bdd77db069d154eea9ea2f1771f1d34f939d132cd07a4de316991cf6f3acaa0568fcb619a20d8aa644e2ab1e0b6a5c2ee52a2135163afdae434b83a24ec668d23721b5d004dcb42d2b285dd476a9fc3ac4b5ed7a4e2e1eb2749ee792ccff2b58aae0e4eb2bee35baecd60d14c8ef577e3ce7bcab8039a47d027018526fd358f92e1dad8670cbbf59d83fc552487827d027c303e5b93910ce97ccc5e5cce67b0a209645f5b2377b7d5978f1d437edce560e569dcc9b072543eaf78253c787d28bfd81081e9d7e257f9a83df7366245f00c456f90c82181e00507b2622a87e37dd91a5b07b994b03b938aa94f9b486e717576e67a218e96681a5a8965854de702e77dac80d5bdcc3c3b96be2f2226bf9e7b622635d57518cf2dff9e200773751064a0cf11dc43365caa395440a121a447cecaa611511dc4f082716d591a9e897011c99146ba87db87d7f188cd62d25ccdc17606ccea794c81a6c40c9ca6b4bb9330c8bb098e7212ec96af65817af3a6ad94a8c2e3807656275fe0689181f9ea2ff58d244e05992197d4b9bf678dbbc84134c03edde72ee09d1e4aa9d11ae1d4ffda0af805d27a16b137547faf0d9eb1f146a5c89d89a2b967dc70c4521bb70410cf9368c6c9b22db7cacd09793f57bed8160e7b9949532b4a80278b49bc150dd1f0a471243cf9d6c5810ce6deb69f767ddc9cb083697f3fc0769959cd6388ceaea98e62f17e05cb0b33ac6aafb11e9daa71a1a13881ed2d6a011db30765cab1a9b0ad567325852097d17ea135b0222627df957457f611a3bbd76089c5764871ec4fcc3c78ea215ce210725447e5cd675a7b8829f033da3b2e958155f142202ae666739d08d7a6df195fc73a59979d63c831945898f143faf36a21f1892a034c827164800c0c46da2cf54c83adf2dfd410f2f4ebc998bd0c6251d040846f8827e28a66577a43fdf654b1cd38fc047f0a84bd9774e61ffbfd0d7b59e3f5b7e05b4a7e4194250f3400082e146e22be9e81f006d8a59b84a9036c5a03eb7eda8439e8e2a1c29a7add5b0f9e03831ec997b2bb4a358644cc02d9224746b6540fdb85c0e87aa9aea7a5400a3d8a27398124a3fc4531f14b9f0b2783f7ff6cfac661588a12e684ce38b590250e8fbf34bb145065455c699748a32071f139a77cfe690119181924413aead840bbea9aaadcfb618f564d899aa1d9072716003fbb05c80770436b5f893be096e812e06f47914999cec101271ca6170db381532aaf80356b1dcdcda640f18cc743ff8ec2ed0b40f1bdad0fa2d52d1fd2f103323dbbcdefc492da89110259776a26794ac9778fec0c20ef66ebfb79bfef1c28fe9fb5fe7082831344790a093532a1030839f7acd999127036f5c7066ae8db931e20dce3fd5ab267e6efc6fa702c934fa879b22f5918177afb03355531906705760f92a8e2389c0a5fead6c78fcf66929f867b0302d579759d58581d2eeeb059e85d32387147a070fa7da2cfccbb01f8328438fe2a57d588f719406988d6deaf04d9c3ce00eb98787b54df0d4a5686c375649c0f5dd229d33bd7b7ac57850345f2a314470f630630b1d569637ea813bd9cd055f8455d26c7cf80a2a71cc4e7fb3e54775f1a266a1c33a9f50170d67630894b56565c1bcc759579cd1a5da4301eab50a9ecc949bc066b907f5a2bd2db6021e6d165b9d2dc35fb96717ebae03cd35a2ab3f76192d992eca01057f4488aeab83aabf55c850ba2b8a8c1e32681b4a15718d699e0dda6f6cd2787441c0c16a10038e82a29a39d19b35bc7425ce5676fa66b30aa927317b50a1e2fd84ad0e865b500c06754b7c8d9b800ed565b2930fe1dee14741113daa7f9795fa76d982b454c127da14ff6d1e0dfe59df7708d42cdb5c4a0652be4c03b7a3022dcd67b2cd716d4c8f6354135319b92a513ce2f040285bd2dbfe326b122c7ea7c8f36a9e675541bb10367926ff680eea9916f2f1dc8e71905103f9323c83506c1a234ca3b3fb8f6324e75ce77bf5065c79fa7a8d1f4c15b2a220407fb8d09053b2089be65979c65528603019605a034890f3e6ebd8ecd24958381c031ce3aa5aa37f5d7235508712ce52a8c06c89ce7bb82e8b39d2e0b0688701316a1946716bd9dddb2b1044d49dad5b401d1b0ac95c0bd60685a4151c84375321feebfabf06d7ba54d7054e0ffac6c2e5f016f5b55001383a16d7616c05d066758436fbbf58e00713962ac990a353facae0c1c69b507841ad508911b9939b60274aec161feda77762972d35980a6267c10a27f8e60e5fdc30130e31725aa1c051770121fc10217860ed2d4dde355a856818dd2d1523a8498408f5c608ebfb9ec54041c8d1134cb629f7180c9ef1588158012943b0c3b472169cf9075eef0b0f8d9790e0fa2964d07c2ac7d0cfd0cd66f08ece6552081af9a08b63a48117009398e3c89629e72c00e41c2d9ab3df8d0ca3abda03d4c22579c0d640790fd90eaff20371972cc00a7b37c59d6f7029136dba83867360251e75e7827bed1b54e46b997ea6d4a899c6fb91285207a5fa5c8763729e8589a92a42edff4b2047075026f630eb0fd855081e57354ead606b3f0f609c08d487eec1ae8445d10bd6e4d144781da3fa8bf91f4f1b90b8d94bf50a0f6da78be8d3ee6af4cc8e5a52e0d63a4fae92458a149d02cfe71bc05fd2877789bb33ebf41ef91d685ee803ee4061d429f478775951f3f49575fed904877a3c912762470a5baa4022d1da77a85677da666383b7f808ded9cc772bac3f4adb8686fd77528d562196952f05a5458675d62eb234ca2cd9642acecebca255dbae55b488192511fcdca8f89595822378ff0ee808e50fcd599a94de8dd3d31c685c665dfa214478816f00cede22bd0c617d3306572fe08d0705c5f9a20d00defa8415328a4abd12d7ccbeaf2db2122769b92e1a3c4263df3114aceadeb49806f90c31ec7a2c11efd82f51049f225812b94b8e6ab7e5bf47c0670f81b934524e055dc02806e783d0d126ec3f048232469c2d81d70159df8ed2a4e042ea037d9cf14f5469bdbb56d32a25c2d7785a9a763ebf9fb99bf6814818ae7c2ac51a0a9f48a8b64599f435c1f2cf4642cc542b603d73bb6f7d6ae986b2f923914f062e65f0b2101d8c668dceed3026117e2f07eabf92491103679d1ab066105fc58756366d55bb170657a5e5e80d97ebe5a106f76c840e8c05378ee008e5e95b6e3e69cb02bd0dc3e38b8d109b7ee816fd77288923f6fbd41664975013c04a16baf38b8f75cd6245dae7740799e3a71bbff9d51b715dd7c85ef3b0d77d2589f146f29c2c91aae7baaeb4e37ab5fcdc54afcdf06943d104ddb7b08a8722a8fb5bf57c56affc9586c17d3c5956ddcc96eae8022d8d0e8549bd772160f347223f0e0a0ad741b8646bc1b02f0966e0bae1da5e3d94352acca17160d136a67fe7f237197388026b9e39724f93b7602d0667dbbcea06d273c69f7846321af35988114b559fc2de1dc74bf6028159fd2613359a8901871d24d2bbb59ff5246e418b14552e15da575633e6a067d7d79b4ef77ce058adc34bce86e139ab58f6aaa1dd2279238674003d071cccf73a4feb912f3430ad68b66e522e1fc79f99550888bcb4853ced942558c4d43c8f912c27ee4188995c2b93e608c26269cec6c595a0d34fb4d4018a09107f834ff1f42624125d8650c9002c2f56dc6fd8646b53389b7e19b5b310d603193b95372c22df6a67a7300edf1ba4ca9ad9fda3922d2422160d259bd7257186148182efdb23a1f72cf88d8711bd0fe8cef38dfdc6a012eb8a587d44b979300dd08cafcde971ca7c7cbb4a7ee1dcc41544ecd4a336ca27b513033d4b7fb8485c8b988a8d60f69102534c29867f75183c7a5bfa4bc2eaf1e179a356b0858b326eee1a5877846bdfc737843c8dce27e864af57ad672bbb3579b1fb8de29fcf196cd193b62c7fc894b0e9290d94776eb2a2077d42d73a4693c657fb5ebefe2888a9c0883d3dbcfcbbf4e37cbf7475233df7102d274c28f2bf5149d854834b5be3c639e5e65abf2ee231b4bc18c91ff98370d9234123b549112ef83894719414a24e6c7655de58a79abc8ebdc1d6cd03900d30b776560dfb4bbfca08314078028706d4c9220a5f0604cb21da1fa256c387c7de021557f6c7a865953e4a76c44affdb28c1bd38ceef920131c71e538bc0f1f070c41631d2074fc4449c4750b203d4dffdd878d3447464b4bb42f6821f2814597a4c10331e67eb754f744e0ffd3eb2e3be6a524f308fa81a2941c0ff82968af7d4f797a346aeb065a3a5e6ac66454831cf2be424c55d3a8326c1856f6320528bc7887bcefb314edfd26760d7787ea698f16211b21412460e754e9b69d50a7c09708541fe951e9570855eac865cbbec987eb1f4bea9a057a8413efbc81987260d9f04fad1c01c0da782ad666160ac911b4c712a721189b104fdbd6a725a3533d47dba1fe0143c99da3ef3d92f6d0449d637501d4689a6b0bf4e40d2c91fb0dd9e5afd1ae2dc9d7a28cf0a665a1371406459700be66441705c5b579d9388b584e129d4236e334fcbe376823aac0e0e590dca00f90757446897fe0c5a656ae7622ebcb3f7edcc5504e9c0803b0c1586043102ce64ee9928aa24fe90dbfdb4bef2fbe02dabe89b974d06d3cd0d026cdd77249ee0b584558d21f4d69059db08318374a8cd0c7747f7700d91b06caa237745e4ba694b9bf29670e43a2c38f6b86f39d0ccc7468b3e713303cb240482cf4804e14e65fc1d5be9f7b817c0823ba197aaa1e94509fb52b0bf1c4c089d5cd7553b02fb217d711ba53408b6d8f739c8001da049a749df599b94daf8ddfa6b4c6bac6ef51b8e9387227891accf89264165cfe7f282f75fa1b28a310b3b8a04cf0e87c424612d94cc6c55445ab564189172117f89c28fda8e78bb24d576ecf7be323ba22f6a3bdae4c96aa2b4f9606088540dbf63b71daf2b37c93f77</script>
-  <div class="hbe hbe-content">
-    <div class="hbe hbe-input hbe-input-xray">
-      <input class="hbe hbe-input-field hbe-input-field-xray" type="password" id="hbePass">
-      <label class="hbe hbe-input-label hbe-input-label-xray" for="hbePass">
-        <span class="hbe hbe-input-label-content hbe-input-label-content-xray">Ops！这篇文章博主似乎不想透露！</span>
-      </label>
-      <svg class="hbe hbe-graphic hbe-graphic-xray" width="300%" height="100%" viewBox="0 0 1200 60" preserveAspectRatio="none">
-        <path d="M0,56.5c0,0,298.666,0,399.333,0C448.336,56.5,513.994,46,597,46c77.327,0,135,10.5,200.999,10.5c95.996,0,402.001,0,402.001,0"></path>
-        <path d="M0,2.5c0,0,298.666,0,399.333,0C448.336,2.5,513.994,13,597,13c77.327,0,135-10.5,200.999-10.5c95.996,0,402.001,0,402.001,0"></path>
-      </svg>
-    </div>
-  </div>
-</div>
-<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
-      <categories>
-        <category>diary</category>
-      </categories>
-      <tags>
-        <tag>diary</tag>
-      </tags>
   </entry>
   <entry>
     <title>Markdown basical syntax</title>
@@ -163,6 +87,162 @@ A[方形] --&gt;B(圆角)
       </categories>
       <tags>
         <tag>markdown</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>IPC</title>
+    <url>/IPC/</url>
+    <content><![CDATA[<h1 id="IPC-简介"><a href="#IPC-简介" class="headerlink" title="IPC 简介"></a>IPC 简介</h1><p>IPC which is referred to “inter-processor communication” is a means of collaboration that software runs on diffrent CPUs communicate with each other.  </p>
+<p>IPC(inter-processor communication) 旨在解决不同CPU之间软件的通信问题。</p>
+<p>实现方式针对linux和rtos主要分为两大部分：</p>
+<ol>
+<li>PDK IPC LLD driver for RTOS, this consists of RPMSG, VRING and HW Mailbox driver.</li>
+<li>Linux kernel IPC driver suite for Linux, this consists of RPMSG CHAR, RPMSG, VRING and HW Mailbox driver.</li>
+</ol>
+<p>对应的结构如下：</p>
+<table>
+<thead>
+<tr>
+<th align="center">IPC SW layer</th>
+<th align="left">Decription</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">application</td>
+<td align="left">发送接收IPC消息</td>
+</tr>
+<tr>
+<td align="center">RPMSG CHAR</td>
+<td align="left">[ONLY in LINUX] 提供给应用调用的用户态接口</td>
+</tr>
+<tr>
+<td align="center">RPMSG</td>
+<td align="left">SW protocol and interface 用来在目标CPU上的endpoints交换信息</td>
+</tr>
+<tr>
+<td align="center">VRING</td>
+<td align="left">基于 SW queue 实现的 shared memory，用来暂存两个CPU通信时的消息</td>
+</tr>
+<tr>
+<td align="center">HW mailbox</td>
+<td align="left">硬件机制，用来在两个CPUS之间通信时发送中断提醒</td>
+</tr>
+</tbody></table>
+<p>下面详细讲解。</p>
+<h1 id="通信框架"><a href="#通信框架" class="headerlink" title="通信框架"></a>通信框架</h1><p><img src="/IPC/RPMSG_VRING_DATA_FLOW.png" alt="RPMSG_VRING_DATA_FLOW"><br>rpmsg–&gt; endpoint –&gt; vring&amp; mailbox –&gt; endpoint –&gt; rpmsg</p>
+<h2 id="endpoint"><a href="#endpoint" class="headerlink" title="endpoint"></a>endpoint</h2><p>tiovx_rpmsg_port_id = APP_IPC_TIOVX_RPMSG_PORT_ID(14)<br>RPMessage_announce<br>appIpcCreateRpmsgRxTask<br>service name , interrupt name</p>
+<h2 id="RPMSG-CHAR"><a href="#RPMSG-CHAR" class="headerlink" title="RPMSG CHAR"></a>RPMSG CHAR</h2><p>linux –&gt; mcu<br>appIpcCreateTxCh</p>
+<h2 id="RPMSG"><a href="#RPMSG" class="headerlink" title="RPMSG"></a>RPMSG</h2><p>mcu –&gt; linux</p>
+<h2 id="VRING"><a href="#VRING" class="headerlink" title="VRING"></a>VRING</h2><p>shared memory</p>
+<h2 id="HW-mailbox"><a href="#HW-mailbox" class="headerlink" title="HW mailbox"></a>HW mailbox</h2><p><img src="/IPC/MAILBOX_INTEGRATION.png" alt="mailbox integration"></p>
+<p><img src="/IPC/HW_MAILBOX_QUEUES.png" alt="HW_MAILBOX_QUEUES"></p>
+<ul>
+<li><p>why linux can communicate with five cores ?<br>mcu10 , mcu20,mcu21, c7x1,c7x2</p>
+</li>
+<li><p>send sequence</p>
+</li>
+</ul>
+<p>user mannul<br><img src="/IPC/MAILBOX_INTERAL_BLOCK_DIAGRAM.png" alt="mailbox interal block diagram"></p>
+<p><img src="/IPC/example_of_communication.png" alt="example of communication"></p>
+<h1 id="代码结构"><a href="#代码结构" class="headerlink" title="代码结构"></a>代码结构</h1><figure class="highlight c"><table><tbody><tr><td class="code"><pre><span class="line"><span class="comment">/** \brief CPU ID */</span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> APP_IPC_CPU_MPU1_0  ( 0u)</span></span><br><span class="line"><span class="comment">/** \brief CPU ID */</span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> APP_IPC_CPU_MCU1_0  ( 1u)</span></span><br><span class="line"><span class="comment">/** \brief CPU ID */</span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> APP_IPC_CPU_MCU1_1  ( 2u)</span></span><br><span class="line"><span class="comment">/** \brief CPU ID */</span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> APP_IPC_CPU_MCU2_0  ( 3u)</span></span><br><span class="line"><span class="comment">/** \brief CPU ID */</span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> APP_IPC_CPU_MCU2_1  ( 4u)</span></span><br><span class="line"><span class="comment">/** \brief CPU ID */</span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> APP_IPC_CPU_MCU3_0  ( 5u)</span></span><br><span class="line"><span class="comment">/** \brief CPU ID */</span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> APP_IPC_CPU_MCU3_1  ( 6u)</span></span><br><span class="line"><span class="comment">/** \brief CPU ID */</span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> APP_IPC_CPU_C7x_1   ( 7u)</span></span><br><span class="line"><span class="comment">/** \brief CPU ID */</span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> APP_IPC_CPU_C7x_2   ( 8u)</span></span><br><span class="line"><span class="comment">/** \brief Max CPU ID */</span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> APP_IPC_CPU_MAX     ( 9u)</span></span><br><span class="line"><span class="comment">/** \brief Invalid CPU ID */</span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> APP_IPC_CPU_INVALID (0xFFu)</span></span><br></pre></td></tr></tbody></table></figure>
+
+<p>app_cfg.h  enable/disable control</p>
+<figure class="highlight c"><table><tbody><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">define</span> ENABLE_IPC_MPU1_0</span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> ENABLE_IPC_MCU1_0</span></span><br><span class="line"><span class="comment">//#define ENABLE_IPC_MCU1_1</span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> ENABLE_IPC_MCU2_0</span></span><br><span class="line"><span class="comment">// #define ENABLE_IPC_MCU2_1</span></span><br><span class="line"><span class="comment">//#define ENABLE_IPC_MCU3_0</span></span><br><span class="line"><span class="comment">//#define ENABLE_IPC_MCU3_1</span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> ENABLE_IPC_C7x_1</span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> ENABLE_IPC_C7x_2</span></span><br></pre></td></tr></tbody></table></figure>
+
+<p>运行之后：<br><img src="/IPC/enabled_cpu_by_default.png" alt="enabled_cpu_by_default"><br>ipc_for_linux</p>
+<h2 id="ipc-for-rtos"><a href="#ipc-for-rtos" class="headerlink" title="ipc_for_rtos"></a>ipc_for_rtos</h2><h1 id="实现内容"><a href="#实现内容" class="headerlink" title="实现内容"></a>实现内容</h1><h2 id="RPMessage-send"><a href="#RPMessage-send" class="headerlink" title="RPMessage_send()"></a>RPMessage_send()</h2><p>RPMessage_recv()</p>
+<p>RPMessage_announce<br>appIpcCreateRpmsgRxTask</p>
+<h2 id="endpoint-1"><a href="#endpoint-1" class="headerlink" title="endpoint"></a>endpoint</h2><p>流程<br>与mailbox联动</p>
+<h1 id="reference"><a href="#reference" class="headerlink" title="reference"></a>reference</h1><ul>
+<li><a href="https://software-dl.ti.com/jacinto7/esd/processor-sdk-rtos-jacinto7/latest/exports/docs/psdk_rtos/docs/user_guide/developer_notes_ipc.html">RTOS USER-GUIDE: 8.4.Developing IPC applications</a></li>
+<li><a href="https://software-dl.ti.com/jacinto7/esd/processor-sdk-rtos-jacinto7/latest/exports/docs/pdk_jacinto_09_00_00_45/docs/apiguide/j721e/html/group__DRV__IPC__CFG__MODULE.html">PDK API Guide for J721E - IPC Driver</a></li>
+<li>User Mannul - mailbox</li>
+<li>rtos code - IPC module</li>
+</ul>
+]]></content>
+      <categories>
+        <category>TDA4</category>
+      </categories>
+      <tags>
+        <tag>TDA4</tag>
+        <tag>IPC</tag>
+        <tag>mailbox</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>hexo blog SEO configure</title>
+    <url>/hexo-blog-SEO-configure/</url>
+    <content><![CDATA[<h1 id="SEO"><a href="#SEO" class="headerlink" title="SEO"></a>SEO</h1><p>SEO(Search Engine Optimization) 针对搜索引擎的优化。<br>意义是让我们的博客能被通过搜索引擎查询相关问题的人更容易看到浏览。(换句话说，没有这方面需求的人可以忽略)  </p>
+<p>我没有相关的需求，玩的就是一个收藏。毕竟写博客主要目的是技术积累，以及和朋友的谈资  : )<br>至于博客里面甚至留了bitcoin的打赏二维码，相信我，那只是为了好玩。 : )  </p>
+<p>出于对技术的热爱角度，也来学习一下，万一以后能用到呢。所以没有和hexo博客搭建写在一起，而是单独另起一篇细细的看下，有用的记录下。<br>如果你有缘看到了，那就一起学习下有哪些方式吧。</p>
+<h2 id="添加搜索引擎的认证"><a href="#添加搜索引擎的认证" class="headerlink" title="添加搜索引擎的认证"></a>添加搜索引擎的认证</h2><h2 id="sitemap"><a href="#sitemap" class="headerlink" title="sitemap"></a>sitemap</h2><h2 id="优化目录结构"><a href="#优化目录结构" class="headerlink" title="优化目录结构"></a>优化目录结构</h2><p>修改站点配置文件<code>_config.yml--&gt; permalink</code></p>
+<figure class="highlight text"><table><tbody><tr><td class="code"><pre><span class="line">permalink: :year:month:day/:title/</span><br></pre></td></tr></tbody></table></figure>
+
+<p>or</p>
+<figure class="highlight text"><table><tbody><tr><td class="code"><pre><span class="line">permalink: :title.html</span><br></pre></td></tr></tbody></table></figure>
+
+<p>从而改变博客的目录结构</p>
+<h2 id="代码压缩"><a href="#代码压缩" class="headerlink" title="代码压缩"></a>代码压缩</h2><p>网页的代码存在大量空白符，压缩代码可以提高网站被访问速度。</p>
+<p>安装插件： <code>npm install hexo-neat --save</code>  </p>
+<p>修改<em>站点配置文件</em>：</p>
+<figure class="highlight text"><table><tbody><tr><td class="code"><pre><span class="line"># 开启压缩</span><br><span class="line">neat_enable: true</span><br><span class="line">neat_html:</span><br><span class="line">  enable: true</span><br><span class="line">  exclude:</span><br><span class="line">neat_css:</span><br><span class="line">  enable: true</span><br><span class="line">  exclude:</span><br><span class="line">    - '**/*.min.css'</span><br><span class="line">neat_js:</span><br><span class="line">  enable: true</span><br><span class="line">  mangle: true</span><br><span class="line">  output:</span><br><span class="line">  compress:</span><br><span class="line">  exclude:</span><br><span class="line">    - '**/*.min.js'</span><br><span class="line">    - '**/index.js'</span><br></pre></td></tr></tbody></table></figure>
+
+<h1 id="reference"><a href="#reference" class="headerlink" title="reference"></a><strong>reference</strong></h1><ul>
+<li>知乎： <a href="https://zhuanlan.zhihu.com/p/344927945">hexo博客高级优化</a>  </li>
+<li>NexT： <a href="https://theme-next.js.org/docs/theme-settings/seo">SEO|NexT</a></li>
+</ul>
+<blockquote class="blockquote-center">
+<p>永远拥抱开放，拥抱自由，where we stands as who we are</p>
+
+</blockquote>
+]]></content>
+      <categories>
+        <category>tool</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+        <tag>next</tag>
+        <tag>SEO</tag>
+        <tag>next-plugin</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Ideas</title>
+    <url>/ideas/</url>
+    <content><![CDATA[<h2 id="智能红绿灯"><a href="#智能红绿灯" class="headerlink" title="智能红绿灯"></a>智能红绿灯</h2><ul>
+<li>多车道识别</li>
+<li>车辆识别—用于变灯判断</li>
+<li>多路口红绿灯连接—用于潮汐车道。</li>
+</ul>
+<h2 id="车车互联"><a href="#车车互联" class="headerlink" title="车车互联"></a>车车互联</h2><p>车车娱乐系统<br>场景： 提前预警； 信息互通</p>
+<h2 id="密码管理平台"><a href="#密码管理平台" class="headerlink" title="密码管理平台"></a>密码管理平台</h2><ol>
+<li><p>通过手机号码掌管所有已注册的应用或平台</p>
+</li>
+<li><p>隐私管理， 手机号码多一层加密，对应用或平台进行隐藏</p>
+</li>
+<li><p>记录所有平台的密码, 支持一键修改</p>
+</li>
+<li><p><strong>如何更好的记住密码，方便查询密码</strong></p>
+</li>
+</ol>
+<h2 id="不同平台互联，传输文件开始"><a href="#不同平台互联，传输文件开始" class="headerlink" title="不同平台互联，传输文件开始"></a>不同平台互联，传输文件开始</h2><p>windows跟手机传输文件，只能通过第三方软件的文件传输功能，手机发送文件到文件传输，windows打开软件文件传输接收文件，然后另存问到windows<br>这样很烦， iphone的 隔空传送其实任何平台都应该支持。</p>
+<h2 id="针对小公司的云存储平台"><a href="#针对小公司的云存储平台" class="headerlink" title="针对小公司的云存储平台"></a>针对小公司的云存储平台</h2><p>bg：小公司缺乏技术人员，文件保存杂乱，可追溯性差， 公司的积累事倍功半。<br>客户信息，交易记录，经验积累等生产资料。这些丢失对于一个公司的损失很惨重。<br>我认为任何正常的小公司需要一个存储重要文件的地方。还可以有效的分类管理，方便查找和预览。</p>
+<h2 id="通识知识娱乐化"><a href="#通识知识娱乐化" class="headerlink" title="通识知识娱乐化"></a>通识知识娱乐化</h2><p>受启发于 freecodecamp.org 该组织致力于将编程知识模块化，做成可实操可视的形式，大大提高了学习兴趣和效率。<br>将大学教材里面的 数学，物理各种理科知识用生动的形式展现，方便学习。<br>这种形式不局限于 动画，视频，游戏，模拟界面，重在让学习者学的过程轻松，激发兴趣，记忆深刻。<br>知识内容可以延伸到从幼儿园，和小学教材开始。积攒人气和投资。<br>把死板的知识变得生动。刺激教育改革。</p>
+<ul>
+<li>知识培训系统框架： 支持文本，gif，互动视频媒介操作，编译器&amp; 编辑器。</li>
+</ul>
+<h2 id="AR-产品"><a href="#AR-产品" class="headerlink" title="AR 产品"></a>AR 产品</h2><p>终极目标，希望能把AR真的落实到实际应用。让人们用的起，用的便捷。<br>比如，如同普通眼镜带头显功能，带扫描功能，带存储和回放功能。</p>
+<p>2023-6-6： apple vision pro实际上已经实现以上功能，望周知~ 但是价格太贵</p>
+<blockquote class="blockquote-center">
+<p><strong>思考具有局限性</strong><br>你认为的正确只是在你了解的知识体系中的正确</p>
+
+</blockquote>
+]]></content>
+      <categories>
+        <category>daily_note</category>
+      </categories>
+      <tags>
+        <tag>ideas</tag>
       </tags>
   </entry>
   <entry>
@@ -288,6 +368,106 @@ A[方形] --&gt;B(圆角)
       </categories>
       <tags>
         <tag>hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>powershell-decoration</title>
+    <url>/powershell-decoration/</url>
+    <content><![CDATA[<h1 id="powershell-美化方案"><a href="#powershell-美化方案" class="headerlink" title="powershell 美化方案"></a>powershell 美化方案</h1><p>powershell是windows系统自带的命令行解释器，相比于默认的cmd，有着更友好的输入体验。<br>但是对于经常使用的日常来说，powershell还是没有linux-shell那般很好的交互感和外观。</p>
+<p>所以今天花了点时间美化一下。<br>widnows版本： win10</p>
+<p><img src="/powershell-decoration/preview.png" alt="最终效果图 - 主题是 robbyrussell "></p>
+<h2 id="更换powershell7"><a href="#更换powershell7" class="headerlink" title="更换powershell7"></a>更换powershell7</h2><hr>
+<p>powershell plus进阶版，甚至支持显示历史记录命令的功能，比powershell（以下称 <strong>“posh”</strong> ）又是上一个台阶。主要是还可以可以DIY。  </p>
+<blockquote>
+<p>微软商店也有一款windows terminal，类似于win11系统里自带的cmd。只支持在设置里改配色，不支持插件改，同样不能更改主题。<br>自带的默认的cmd就不说了，懂得都懂。</p>
+</blockquote>
+<ol>
+<li>所以在接下来美化开始之前，先安装PowerShell-7.3.8-win-x64.msi：<a href="https://github.com/PowerShell/PowerShell/releases">点此进入github仓库</a></li>
+</ol>
+<h2 id="更改配色-Colortool"><a href="#更改配色-Colortool" class="headerlink" title="更改配色 - Colortool"></a>更改配色 - Colortool</h2><hr>
+<p><span class="github-emoji"><span>👉</span><img src="https://github.githubassets.com/images/icons/emoji/unicode/1f449.png?v8" aria-hidden="true" onerror="this.parent.classList.add('github-emoji-fallback')"></span> <a href="https://github.com/microsoft/terminal/tree/1904.29002">官方README</a></p>
+<ol>
+<li><strong>安装 - win10</strong></li>
+</ol>
+<p><a href="https://github.com/microsoft/terminal/releases/tag/1904.29002">下载压缩包，然后解压</a>  </p>
+<blockquote>
+<p>解压缩的目录下面打开命令行（或者把解压缩的目录加入到 PATH 环境变量中）</p>
+</blockquote>
+<ol start="2">
+<li><strong>使用</strong></li>
+</ol>
+<p>配色库：<a href="https://github.com/mbadolato/iTerm2-Color-Schemes">iTerm2-Color-Schemes</a></p>
+<p>下载 iTerm2-Color-Schemes/schemes/ 目录下的*.itermclors 配色文件 至 <code>colortool/schemes/</code> 目录下</p>
+<p>通过 <code>Colortool.exe -s</code> 就可以列出所有的包含新增的主题列表了。</p>
+<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line"># 更改主题</span><br><span class="line">Colortool.exe -b &lt;Theme&gt;</span><br><span class="line"># 将主题设置为默认主题</span><br><span class="line">Colortool.exe -d &lt;Theme&gt; </span><br></pre></td></tr></tbody></table></figure>
+
+<blockquote>
+<p>在colortool/schemes/ 目录下，我们可以看到，同样支持 .ini 格式的主题文件</p>
+</blockquote>
+<h2 id="更改主题-Oh-my-posh"><a href="#更改主题-Oh-my-posh" class="headerlink" title="更改主题 - Oh-my-posh"></a>更改主题 - Oh-my-posh</h2><hr>
+<ol>
+<li>打开posh7 输入如下命令来安装 <strong>Oh-my-posh</strong> ：</li>
+</ol>
+<figure class="highlight powershell"><table><tbody><tr><td class="code"><pre><span class="line"><span class="built_in">Set-ExecutionPolicy</span> Bypass <span class="literal">-Scope</span> <span class="keyword">Process</span> <span class="literal">-Force</span>; <span class="built_in">Invoke-Expression</span> ((<span class="built_in">New-Object</span> System.Net.WebClient).DownloadString(<span class="string">'https://ohmyposh.dev/install.ps1'</span>))</span><br></pre></td></tr></tbody></table></figure>
+
+<ol start="2">
+<li>更改配置文件以达到每次打开posh都生效：（没有则会跳出来新建的弹窗，点击创建即可）</li>
+</ol>
+<figure class="highlight powershell"><table><tbody><tr><td class="code"><pre><span class="line">notepad <span class="variable">$PROFILE</span></span><br></pre></td></tr></tbody></table></figure>
+
+<ol start="3">
+<li>增加一行：</li>
+</ol>
+<figure class="highlight powershell"><table><tbody><tr><td class="code"><pre><span class="line"><span class="comment"># 将命令中的 &lt;Theme&gt; 替换为你想要更换的主题名称</span></span><br><span class="line"><span class="built_in">oh</span><span class="literal">-my-posh</span> init pwsh <span class="literal">--config</span> <span class="string">'C:/Users/Posh/&lt;Theme&gt;.omp.json'</span> | <span class="built_in">Invoke-Expression</span></span><br></pre></td></tr></tbody></table></figure>
+
+<p>获取Oh-my-posh支持的主题 ： <code>Get-PoshThemes</code> 这个命令会罗列很多很多主题</p>
+<p>通过以上方式部署的主题已经默认支持git的显示了。<br>如果没有显示可以通过以下方式安装`Git-posh`` : </p>
+<figure class="highlight powershell"><table><tbody><tr><td class="code"><pre><span class="line"><span class="built_in">Install-Module</span> posh<span class="literal">-git</span> <span class="literal">-Scope</span> CurrentUser </span><br></pre></td></tr></tbody></table></figure>
+<div class="note warning"><p>通过 <code>Install-Module oh-my-posh -Scope CurrentUser</code> 安装 Oh-my-posh , 2023-10-19 亲测已经不适用<br>但不代表Oh-my-posh不支持powershell了， 最新请参照<a href="https://ohmyposh.dev/docs/installation/windows"><strong>官方文档</strong></a>进行windows安装</p>
+</div>
+
+<h2 id="更换字体"><a href="#更换字体" class="headerlink" title="更换字体"></a>更换字体</h2><hr>
+<ul>
+<li>简单</li>
+</ul>
+<p>右击状态栏–&gt; 属性 –&gt; 字体</p>
+<ul>
+<li>添加字体<br>（暂无需求，有需求再更新）</li>
+</ul>
+<h1 id="reference"><a href="#reference" class="headerlink" title="reference"></a>reference</h1><hr>
+<ul>
+<li><a href="https://github.com/microsoft/terminal/tree/1904.29002">Colortool.exe README</a></li>
+<li><a href="https://ohmyposh.dev/docs/themes">Oh-my-posh 官方文档</a></li>
+</ul>
+]]></content>
+      <tags>
+        <tag>powershell</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>For Life</title>
+    <url>/Thinking&amp;Experience/</url>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Warning！！请停止窥探隐私行为！！您的IP已经被记录！！" data-whm="抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容.">
+  <script id="hbeData" type="hbeData" data-hmacdigest="2926ca8fe0d22975a01ce16dc70372d81c0daeba042ccc608cf5cf14f27ec0e0">d370c5caa6f82aab46a5e5036abddd95f3748a1f868670e6c92a5d7157303714555794d1e8593b3200afee48d526c32cf6d2539a053be8345bb623863bfe1ef2bc8e6db1fbdc25d588cb61293da0bdd77db069d154eea9ea2f1771f1d34f939d132cd07a4de316991cf6f3acaa0568fcb619a20d8aa644e2ab1e0b6a5c2ee52a2135163afdae434b83a24ec668d23721b5d004dcb42d2b285dd476a9fc3ac4b5ed7a4e2e1eb2749ee792ccff2b58aae0e4eb2bee35baecd60d14c8ef577e3ce7bcab8039a47d027018526fd358f92e1dad8670cbbf59d83fc552487827d027c303e5b93910ce97ccc5e5cce67b0a209645f5b2377b7d5978f1d437edce560e569dcc9b072543eaf78253c787d28bfd81081e9d7e257f9a83df7366245f00c456f90c82181e00507b2622a87e37dd91a5b07b994b03b938aa94f9b486e717576e67a218e96681a5a8965854de702e77dac80d5bdcc3c3b96be2f2226bf9e7b622635d57518cf2dff9e200773751064a0cf11dc43365caa395440a121a447cecaa611511dc4f082716d591a9e897011c99146ba87db87d7f188cd62d25ccdc17606ccea794c81a6c40c9ca6b4bb9330c8bb098e7212ec96af65817af3a6ad94a8c2e3807656275fe0689181f9ea2ff58d244e05992197d4b9bf678dbbc84134c03edde72ee09d1e4aa9d11ae1d4ffda0af805d27a16b137547faf0d9eb1f146a5c89d89a2b967dc70c4521bb70410cf9368c6c9b22db7cacd09793f57bed8160e7b9949532b4a80278b49bc150dd1f0a471243cf9d6c5810ce6deb69f767ddc9cb083697f3fc0769959cd6388ceaea98e62f17e05cb0b33ac6aafb11e9daa71a1a13881ed2d6a011db30765cab1a9b0ad567325852097d17ea135b0222627df957457f611a3bbd76089c5764871ec4fcc3c78ea215ce210725447e5cd675a7b8829f033da3b2e958155f142202ae666739d08d7a6df195fc73a59979d63c831945898f143faf36a21f1892a034c827164800c0c46da2cf54c83adf2dfd410f2f4ebc998bd0c6251d040846f8827e28a66577a43fdf654b1cd38fc047f0a84bd9774e61ffbfd0d7b59e3f5b7e05b4a7e4194250f3400082e146e22be9e81f006d8a59b84a9036c5a03eb7eda8439e8e2a1c29a7add5b0f9e03831ec997b2bb4a358644cc02d9224746b6540fdb85c0e87aa9aea7a5400a3d8a27398124a3fc4531f14b9f0b2783f7ff6cfac661588a12e684ce38b590250e8fbf34bb145065455c699748a32071f139a77cfe690119181924413aead840bbea9aaadcfb618f564d899aa1d9072716003fbb05c80770436b5f893be096e812e06f47914999cec101271ca6170db381532aaf80356b1dcdcda640f18cc743ff8ec2ed0b40f1bdad0fa2d52d1fd2f103323dbbcdefc492da89110259776a26794ac9778fec0c20ef66ebfb79bfef1c28fe9fb5fe7082831344790a093532a1030839f7acd999127036f5c7066ae8db931e20dce3fd5ab267e6efc6fa702c934fa879b22f5918177afb03355531906705760f92a8e2389c0a5fead6c78fcf66929f867b0302d579759d58581d2eeeb059e85d32387147a070fa7da2cfccbb01f8328438fe2a57d588f719406988d6deaf04d9c3ce00eb98787b54df0d4a5686c375649c0f5dd229d33bd7b7ac57850345f2a314470f630630b1d569637ea813bd9cd055f8455d26c7cf80a2a71cc4e7fb3e54775f1a266a1c33a9f50170d67630894b56565c1bcc759579cd1a5da4301eab50a9ecc949bc066b907f5a2bd2db6021e6d165b9d2dc35fb96717ebae03cd35a2ab3f76192d992eca01057f4488aeab83aabf55c850ba2b8a8c1e32681b4a15718d699e0dda6f6cd2787441c0c16a10038e82a29a39d19b35bc7425ce5676fa66b30aa927317b50a1e2fd84ad0e865b500c06754b7c8d9b800ed565b2930fe1dee14741113daa7f9795fa76d982b454c127da14ff6d1e0dfe59df7708d42cdb5c4a0652be4c03b7a3022dcd67b2cd716d4c8f6354135319b92a513ce2f040285bd2dbfe326b122c7ea7c8f36a9e675541bb10367926ff680eea9916f2f1dc8e71905103f9323c83506c1a234ca3b3fb8f6324e75ce77bf5065c79fa7a8d1f4c15b2a220407fb8d09053b2089be65979c65528603019605a034890f3e6ebd8ecd24958381c031ce3aa5aa37f5d7235508712ce52a8c06c89ce7bb82e8b39d2e0b0688701316a1946716bd9dddb2b1044d49dad5b401d1b0ac95c0bd60685a4151c84375321feebfabf06d7ba54d7054e0ffac6c2e5f016f5b55001383a16d7616c05d066758436fbbf58e00713962ac990a353facae0c1c69b507841ad508911b9939b60274aec161feda77762972d35980a6267c10a27f8e60e5fdc30130e31725aa1c051770121fc10217860ed2d4dde355a856818dd2d1523a8498408f5c608ebfb9ec54041c8d1134cb629f7180c9ef1588158012943b0c3b472169cf9075eef0b0f8d9790e0fa2964d07c2ac7d0cfd0cd66f08ece6552081af9a08b63a48117009398e3c89629e72c00e41c2d9ab3df8d0ca3abda03d4c22579c0d640790fd90eaff20371972cc00a7b37c59d6f7029136dba83867360251e75e7827bed1b54e46b997ea6d4a899c6fb91285207a5fa5c8763729e8589a92a42edff4b2047075026f630eb0fd855081e57354ead606b3f0f609c08d487eec1ae8445d10bd6e4d144781da3fa8bf91f4f1b90b8d94bf50a0f6da78be8d3ee6af4cc8e5a52e0d63a4fae92458a149d02cfe71bc05fd2877789bb33ebf41ef91d685ee803ee4061d429f478775951f3f49575fed904877a3c912762470a5baa4022d1da77a85677da666383b7f808ded9cc772bac3f4adb8686fd77528d562196952f05a5458675d62eb234ca2cd9642acecebca255dbae55b488192511fcdca8f89595822378ff0ee808e50fcd599a94de8dd3d31c685c665dfa214478816f00cede22bd0c617d3306572fe08d0705c5f9a20d00defa8415328a4abd12d7ccbeaf2db2122769b92e1a3c4263df3114aceadeb49806f90c31ec7a2c11efd82f51049f225812b94b8e6ab7e5bf47c0670f81b934524e055dc02806e783d0d126ec3f048232469c2d81d70159df8ed2a4e042ea037d9cf14f5469bdbb56d32a25c2d7785a9a763ebf9fb99bf6814818ae7c2ac51a0a9f48a8b64599f435c1f2cf4642cc542b603d73bb6f7d6ae986b2f923914f062e65f0b2101d8c668dceed3026117e2f07eabf92491103679d1ab066105fc58756366d55bb170657a5e5e80d97ebe5a106f76c840e8c05378ee008e5e95b6e3e69cb02bd0dc3e38b8d109b7ee816fd77288923f6fbd41664975013c04a16baf38b8f75cd6245dae7740799e3a71bbff9d51b715dd7c85ef3b0d77d2589f146f29c2c91aae7baaeb4e37ab5fcdc54afcdf06943d104ddb7b08a8722a8fb5bf57c56affc9586c17d3c5956ddcc96eae8022d8d0e8549bd772160f347223f0e0a0ad741b8646bc1b02f0966e0bae1da5e3d94352acca17160d136a67fe7f237197388026b9e39724f93b7602d0667dbbcea06d273c69f7846321af35988114b559fc2de1dc74bf6028159fd2613359a8901871d24d2bbb59ff5246e418b14552e15da575633e6a067d7d79b4ef77ce058adc34bce86e139ab58f6aaa1dd2279238674003d071cccf73a4feb912f3430ad68b66e522e1fc79f99550888bcb4853ced942558c4d43c8f912c27ee4188995c2b93e608c26269cec6c595a0d34fb4d4018a09107f834ff1f42624125d8650c9002c2f56dc6fd8646b53389b7e19b5b310d603193b95372c22df6a67a7300edf1ba4ca9ad9fda3922d2422160d259bd7257186148182efdb23a1f72cf88d8711bd0fe8cef38dfdc6a012eb8a587d44b979300dd08cafcde971ca7c7cbb4a7ee1dcc41544ecd4a336ca27b513033d4b7fb8485c8b988a8d60f69102534c29867f75183c7a5bfa4bc2eaf1e179a356b0858b326eee1a5877846bdfc737843c8dce27e864af57ad672bbb3579b1fb8de29fcf196cd193b62c7fc894b0e9290d94776eb2a2077d42d73a4693c657fb5ebefe2888a9c0883d3dbcfcbbf4e37cbf7475233df7102d274c28f2bf5149d854834b5be3c639e5e65abf2ee231b4bc18c91ff98370d9234123b549112ef83894719414a24e6c7655de58a79abc8ebdc1d6cd03900d30b776560dfb4bbfca08314078028706d4c9220a5f0604cb21da1fa256c387c7de021557f6c7a865953e4a76c44affdb28c1bd38ceef920131c71e538bc0f1f070c41631d2074fc4449c4750b203d4dffdd878d3447464b4bb42f6821f2814597a4c10331e67eb754f744e0ffd3eb2e3be6a524f308fa81a2941c0ff82968af7d4f797a346aeb065a3a5e6ac66454831cf2be424c55d3a8326c1856f6320528bc7887bcefb314edfd26760d7787ea698f16211b21412460e754e9b69d50a7c09708541fe951e9570855eac865cbbec987eb1f4bea9a057a8413efbc81987260d9f04fad1c01c0da782ad666160ac911b4c712a721189b104fdbd6a725a3533d47dba1fe0143c99da3ef3d92f6d0449d637501d4689a6b0bf4e40d2c91fb0dd9e5afd1ae2dc9d7a28cf0a665a1371406459700be66441705c5b579d9388b584e129d4236e334fcbe376823aac0e0e590dca00f90757446897fe0c5a656ae7622ebcb3f7edcc5504e9c0803b0c1586043102ce64ee9928aa24fe90dbfdb4bef2fbe02dabe89b974d06d3cd0d026cdd77249ee0b584558d21f4d69059db08318374a8cd0c7747f7700d91b06caa237745e4ba694b9bf29670e43a2c38f6b86f39d0ccc7468b3e713303cb240482cf4804e14e65fc1d5be9f7b817c0823ba197aaa1e94509fb52b0bf1c4c089d5cd7553b02fb217d711ba53408b6d8f739c8001da049a749df599b94daf8ddfa6b4c6bac6ef51b8e9387227891accf89264165cfe7f282f75fa1b28a310b3b8a04cf0e87c424612d94cc6c55445ab564189172117f89c28fda8e78bb24d576ecf7be323ba22f6a3bdae4c96aa2b4f9606088540dbf63b71daf2b37c93f77</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-xray">
+      <input class="hbe hbe-input-field hbe-input-field-xray" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-xray" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-xray">Ops！这篇文章博主似乎不想透露！</span>
+      </label>
+      <svg class="hbe hbe-graphic hbe-graphic-xray" width="300%" height="100%" viewBox="0 0 1200 60" preserveAspectRatio="none">
+        <path d="M0,56.5c0,0,298.666,0,399.333,0C448.336,56.5,513.994,46,597,46c77.327,0,135,10.5,200.999,10.5c95.996,0,402.001,0,402.001,0"></path>
+        <path d="M0,2.5c0,0,298.666,0,399.333,0C448.336,2.5,513.994,13,597,13c77.327,0,135-10.5,200.999-10.5c95.996,0,402.001,0,402.001,0"></path>
+      </svg>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      <categories>
+        <category>diary</category>
+      </categories>
+      <tags>
+        <tag>diary</tag>
       </tags>
   </entry>
   <entry>
@@ -499,45 +679,6 @@ A[方形] --&gt;B(圆角)
       <tags>
         <tag>ai绘画</tag>
         <tag>statble-diffusion</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Ideas</title>
-    <url>/ideas/</url>
-    <content><![CDATA[<h2 id="智能红绿灯"><a href="#智能红绿灯" class="headerlink" title="智能红绿灯"></a>智能红绿灯</h2><ul>
-<li>多车道识别</li>
-<li>车辆识别—用于变灯判断</li>
-<li>多路口红绿灯连接—用于潮汐车道。</li>
-</ul>
-<h2 id="车车互联"><a href="#车车互联" class="headerlink" title="车车互联"></a>车车互联</h2><p>车车娱乐系统<br>场景： 提前预警； 信息互通</p>
-<h2 id="密码管理平台"><a href="#密码管理平台" class="headerlink" title="密码管理平台"></a>密码管理平台</h2><ol>
-<li><p>通过手机号码掌管所有已注册的应用或平台</p>
-</li>
-<li><p>隐私管理， 手机号码多一层加密，对应用或平台进行隐藏</p>
-</li>
-<li><p>记录所有平台的密码, 支持一键修改</p>
-</li>
-<li><p><strong>如何更好的记住密码，方便查询密码</strong></p>
-</li>
-</ol>
-<h2 id="不同平台互联，传输文件开始"><a href="#不同平台互联，传输文件开始" class="headerlink" title="不同平台互联，传输文件开始"></a>不同平台互联，传输文件开始</h2><p>windows跟手机传输文件，只能通过第三方软件的文件传输功能，手机发送文件到文件传输，windows打开软件文件传输接收文件，然后另存问到windows<br>这样很烦， iphone的 隔空传送其实任何平台都应该支持。</p>
-<h2 id="针对小公司的云存储平台"><a href="#针对小公司的云存储平台" class="headerlink" title="针对小公司的云存储平台"></a>针对小公司的云存储平台</h2><p>bg：小公司缺乏技术人员，文件保存杂乱，可追溯性差， 公司的积累事倍功半。<br>客户信息，交易记录，经验积累等生产资料。这些丢失对于一个公司的损失很惨重。<br>我认为任何正常的小公司需要一个存储重要文件的地方。还可以有效的分类管理，方便查找和预览。</p>
-<h2 id="通识知识娱乐化"><a href="#通识知识娱乐化" class="headerlink" title="通识知识娱乐化"></a>通识知识娱乐化</h2><p>受启发于 freecodecamp.org 该组织致力于将编程知识模块化，做成可实操可视的形式，大大提高了学习兴趣和效率。<br>将大学教材里面的 数学，物理各种理科知识用生动的形式展现，方便学习。<br>这种形式不局限于 动画，视频，游戏，模拟界面，重在让学习者学的过程轻松，激发兴趣，记忆深刻。<br>知识内容可以延伸到从幼儿园，和小学教材开始。积攒人气和投资。<br>把死板的知识变得生动。刺激教育改革。</p>
-<ul>
-<li>知识培训系统框架： 支持文本，gif，互动视频媒介操作，编译器&amp; 编辑器。</li>
-</ul>
-<h2 id="AR-产品"><a href="#AR-产品" class="headerlink" title="AR 产品"></a>AR 产品</h2><p>终极目标，希望能把AR真的落实到实际应用。让人们用的起，用的便捷。<br>比如，如同普通眼镜带头显功能，带扫描功能，带存储和回放功能。</p>
-<p>2023-6-6： apple vision pro实际上已经实现以上功能，望周知~ 但是价格太贵</p>
-<blockquote class="blockquote-center">
-<p><strong>思考具有局限性</strong><br>你认为的正确只是在你了解的知识体系中的正确</p>
-
-</blockquote>
-]]></content>
-      <categories>
-        <category>daily_note</category>
-      </categories>
-      <tags>
-        <tag>ideas</tag>
       </tags>
   </entry>
 </search>
