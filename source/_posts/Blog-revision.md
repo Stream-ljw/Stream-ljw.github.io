@@ -13,3 +13,4 @@ top: true
 - 2023-9-21： 调整了所有博客内容中的markdown语法问题。
 - 2023-9-21： 删除了git-note，i2c-note，docTools，QR-code，rtos-issue等内容。因为内容不完整，全部移到gitbook中，需要后续补齐后更新。
 - 2023-9-21:  删除了History文档，因为hexo并不方便持续更新。作为点滴记录还是本地先写，然后有空再一起同步到hexo-blog中。关于现在的History内容本意是记录一些自己觉得重要的事件。
+- 2023-10-20： 添加powershell外观优化过程 powershell-docoration ; 删除了csgo-cfg，因为csgo已经离我们远去了。
